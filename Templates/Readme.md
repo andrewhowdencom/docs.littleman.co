@@ -12,8 +12,7 @@
 This project is intended to cover the gap found during {foo}
 
 ## Installation 
-1. Add the satis repository
-
+Add the satis repository
 
     {
        "repositories": [
@@ -24,7 +23,7 @@ This project is intended to cover the gap found during {foo}
        ]
     }
 
-2. Do a thing
+Do a thing
 
 ## Usage
 ### Example A
