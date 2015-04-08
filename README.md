@@ -1,4 +1,4 @@
-# Readme (Template)
+# Readme
 
 ## Project Outline
 ### Summary
