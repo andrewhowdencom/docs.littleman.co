@@ -1,15 +1,23 @@
 # Readme (Template)
 
 ## Project Outline
+### Project Goals
+1. This is a project goal
+
+This project is intended to cover the gap found during {foo}
+
 ### Summary
 | License    | Code Style |
 |------------|:----------:|
 | MIT        | Zend       |
 
-### Project Goals
-1. This is a project goal
 
-This project is intended to cover the gap found during {foo}
+### Compatibility
+Magento  Compatibility
+
+| 1.9 | 1.8 | 1.7 | 1.6 | 1.5 | 1.4 |
+|-----|:---:|:---:|:---:|:---:|:---:|
+|  Y  |  ?  |  ?  |  ?  |  ?  |  ?  |
 
 ## Installation 
 Add the satis repository
