@@ -1,4 +1,8 @@
-#System → Configuration 
+# System → Configuration 
+## Responsibilities
+1. House settings that will modify an extensions behaviour
+2. House any tests that will ensure an extension is working correctly
+
 ## Guidelines
 1. All Howdenio extensions should have a branded header at the top of the config settings with:
    - Where to submit an issue.
