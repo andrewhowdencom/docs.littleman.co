@@ -12,18 +12,29 @@
   - Lists
 
 ## SCSS
+
+### Whitespace
+ - All elements are responsible for the vertical whitespace directly below them, with the exception 
+   of the first element on the page
+
 ### Directory Structure
 
-| Sass |        |      |                 |
-|------|:-------|:----:|:----------------|
-|      | Styles |      |                 |
-|      |        | Core |                 |
-|      |        |      | _buttons.scss   |
-|      |        |      | _carousels.scss |
-|      |        |      | _forms.scss     |
-|      |        |      | _messages.scss  |
-|      |        |      | _modals.scss    |
-|      |        |      | _panels.scss    |
-|      |        |      | _utilities.scss |
-|      |        |      | _wells.scss     |
- 
+| Sass |             |       |                 |
+|------|:-----------:|:-----:|:----------------|
+|      | styles      |                         | 
+|      | _mixins                               |
+|      | _colors                               | 
+|      | _variables                            | 
+|      | _placeholders                         | 
+|                                              |
+|      | styles/     |       |                 |
+|      |             | core/ |                 |
+|      |             |       | _buttons.scss   |
+|      |             |       | _carousels.scss |
+|      |             |       | _forms.scss     |
+|      |             |       | _messages.scss  |
+|      |             |       | _modals.scss    |
+|      |             |       | _panels.scss    |
+|      |             |       | _utilities.scss |
+|      |             |       | _wells.scss     |
+|      |             |       |                 |  
