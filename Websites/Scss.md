@@ -11,6 +11,7 @@
 |      |        |      | _forms.scss     |
 |      |        |      | _messages.scss  |
 |      |        |      | _modals.scss    |
+|      |        |      | _loading.scss   |
 |      |        |      | _panels.scss    |
 |      |        |      | _utilities.scss |
 |      |        |      | _wells.scss     |
