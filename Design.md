@@ -32,6 +32,7 @@
 |      |             |       | _buttons.scss   |
 |      |             |       | _carousels.scss |
 |      |             |       | _forms.scss     |
+|      |             |       | _loading.scss   |
 |      |             |       | _messages.scss  |
 |      |             |       | _modals.scss    |
 |      |             |       | _panels.scss    |
