@@ -1,10 +1,11 @@
 # Logging
 
 ## General Logging Information 
-  - Level (Defined by RFC) 
-  - Code (Error Code) 
-  - URL
+  - Code (Error Code)
+  - File
+  - Level
   - Payload
+  - URL
   - UserID
   - Tags
 
