@@ -2,7 +2,7 @@
 
 ## Event Logging
 ### General Logging Information 
-  - Code (Error Code)
+  - Code (either numeric error code or exception type)
   - File
   - Level
   - Payload
