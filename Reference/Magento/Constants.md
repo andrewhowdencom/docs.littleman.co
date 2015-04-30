@@ -1,4 +1,7 @@
-| File |                                                     | Constant                               |
+# Magento Constants
+I have no idea from what version these came
+
+| File                                                        | Constant                               |
 |:-----------------------------------------------------------:|:--------------------------------------:|
 |./app/Mage.php: | const EDITION_COMMUNITY    = 'Community';|
 |./app/Mage.php: | const EDITION_ENTERPRISE   = 'Enterprise';|
