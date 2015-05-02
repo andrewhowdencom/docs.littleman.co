@@ -6,21 +6,22 @@
 |:---------:|:--------------:|
 | Case      | Lower case     |
 
-### Meta Log Information 
+### Meta Log Information
 | Field       | Description                          |
 |:-----------:|:------------------------------------:|
-| Environment | development, staging or production   | 
-| Type        | error, performance                   |
+| Environment | development, staging or production   |
+| Type        | event, error, performance            |
+| Format      | json, string, xml                    |
 
-### Base Event Information 
+### Base Event Information
 | Field       | Description                                                            |
 |:-----------:|:----------------------------------------------------------------------:|
 | Code        | 200                                                                    |
 | File        | index.php                                                              |
 | Level       | Emergency, Alert, Critical, Error, Warning, Notice, Information, Debug |
-| Payload     | This is an event                                                       | 
-| URL         | http://dev.howden.io                                                   | 
-| UserID      | 58                                                                     | 
+| Payload     | This is an event                                                       |
+| URL         | http://dev.howden.io                                                   |
+| UserID      | 58                                                                     |
 | Tags        | PHP, Magento                                                           |
 
 ### Error Event Information
@@ -41,6 +42,19 @@
  - Utilisation (or % usage)
  - Error Count
 
-# References
-- [1] - IEEE, (2015). SE-Radio Episode 225 Brendan Gregg on Systems Performance. Software Engineering Radio.
+## Code Samples
+ 
+### Nginx
+``` 
+    log_format json '{ "time": "$time_local", '
+        '"remote_addr": "$remote_addr", '
+        '"request_time": "$request_time", '
+        '"code": "$status", '
+        '"file": "$request_uri", '
+        '"level": "info", '
+        '"payload": "$request", '
+        '"request_method": "$request_method", '
+        '"http_user_agent": "$http_user_agent" }';
+```
+
 - [2] - Michael Bouvy, (2013). Ship logs to Logstash with Lumberjack / Logstash Forwarder. [online] Available at: http://michael.bouvy.net/blog/en/2013/12/06/use-lumberjack-logstash-forwarder-to-forward-logs-logstash/ [Accessed 2 May 2015].

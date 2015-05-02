@@ -3,12 +3,12 @@
 ## Templates
 
 ### Translations
-Work something like 
+Work something like
 
-``` 
+```
     <?php /** @var $this Mage_Paypal_Block_Standard_Form */ ?>
     <?php echo $this->__('A sensible default'); ?>
-``` 
+```
 
 The best-practice way to manage strings is with Magento's Translate calls. This means that, within the template, the strings should be
    1. Absolutely correct english (or, locale)
