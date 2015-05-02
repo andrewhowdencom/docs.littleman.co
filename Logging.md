@@ -7,19 +7,22 @@
 | Case      | Lower case     |
 
 ### General Logging Information
-  - Code (either numeric error code or exception type)
-  - Environment (development, staging, production)<sup>[2]</sup>
-  - File
-  - Level
-  - Payload
-  - URL
-  - UserID
-  - Tags
+| Field       | Description                                                              | 
+|:-----------:|:------------------------------------------------------------------------:|
+| Code        | 200, 300, 500, JavaException, BaseException                              |
+| Environment | developent, staging or production                                        | 
+| File        | index.php                                                                | 
+| Level       | Emergency, Alert, Critical, Error, Warning, Notice, Informational, Debug |
+| Payload     | This is an error message                                                 | 
+| URL         | http://dev.howden.io                                                     | 
+| UserID      | 58                                                                       |
+| Tags        | PHP                                                                      |
 
 ### Canonical Tags
 | Tag        | Alternatives   |
 |:----------:|:--------------:|
 | ECMAScript | Javascript, JS |
+| PHP        |                |
 
 ## Performance Logging
 
