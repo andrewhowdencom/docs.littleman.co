@@ -16,7 +16,12 @@ The multipliers are compounding, and multipled in the table order. **bold** deno
 | ({themes} / 2)x | Multiple copies of style    |
 | 1.2x            | **Client driven changes**   |
 
+## API
+### Contraindications
+  - Do not work on a feature that requires API connection until you have a duplicate or access to production data.
+
 ## Magento 
 ### Things to check // @todo: Replace with "Multipliers"
   1. There are no local overrides or rewrites for things you're planning to change (use n98-magerun to check)
+
 
