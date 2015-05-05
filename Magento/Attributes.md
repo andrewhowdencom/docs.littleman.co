@@ -14,14 +14,13 @@ All backend models inherit from ```Mage_Eav_Model_Entity_Attribute_Backend_Abstr
 Blank means the impact isn't known. 
 
 | Attribute               | Values                                                    |
-|                         | Description                                               |
 |:-----------------------:|:---------------------------------------------------------:|
-| Group                   |                                                           |
-| Input                   | ```boolean```                                             |
+| group                   |                                                           |
+| input                   | ```boolean```                                             |
 |                         | The type of input to display                              |
-| Type                    | ```int```                                                 |
+| type                    | ```int```                                                 |
 |                         |                                                           |
-| Label                   | Anything on the frontend                                  |
+| label                   | Anything on the frontend                                  |
 |                         |                                                           |
 | backend                 | ```catalog/product_attribute_backend_boolean```           |
 |                         |                                                           |
