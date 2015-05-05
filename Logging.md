@@ -12,6 +12,7 @@
 | Environment | development, staging or production   |
 | Type        | event, error, performance            |
 | Format      | json, string, xml                    |
+| Service     | howden.io, andrewhowden.com          |
 
 ### Base Event Information
 | Field       | Description                                                            |
