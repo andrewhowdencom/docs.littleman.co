@@ -6,22 +6,19 @@
 |:---------:|:--------------:|
 | Case      | Lower case     |
 
-### Meta Log Information
-| Field       | Description                          |
-|:-----------:|:------------------------------------:|
-| Environment | development, staging or production   |
-| Type        | event, error, performance            |
-| Format      | json, string, xml                    |
-| Service     | howden.io, andrewhowden.com          |
-
-### Base Event
+### Base Log Information
 | Field       | Description                                                            |
 |:-----------:|:----------------------------------------------------------------------:|
+| Environment | "development", "staging" or "production"                               |
+| Type        | event, error, performance, user                                        |
+| Format      | json, string, xml                                                      |
+| Service     | howden.io, andrewhowden.com                                            |
 | Code        | 200                                                                    |
-| File        | index.php                                                              |
-| Level       | Emergency, Alert, Critical, Error, Warning, Notice, Information, Debug |
-| Payload     | This is an event                                                       |
-| URL         | http://dev.howden.io                                                   |
+| File        | "index.php"                                                            |
+| Level       | emergency, alert, critical, error, warning, notice, information, debug |
+| Payload     | "This is an event"                                                     |
+| Package     | "Nginx", "Magento"
+| URL         | "http://dev.howden.io"                                                 |
 | UserID      | 58                                                                     |
 | Tags        | PHP, Magento                                                           |
 | Timestamp   | 2015-05-01 15:00:00                                                    |
@@ -54,9 +51,9 @@
  - Error Count
 
 ## Code Samples
- 
+
 ### Nginx
-``` 
+```
     log_format json '{ "time": "$time_local", '
         '"remote_addr": "$remote_addr", '
         '"request_time": "$request_time", '
