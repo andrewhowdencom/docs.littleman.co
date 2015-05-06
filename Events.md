@@ -32,9 +32,9 @@
 |:-----------:|:----------------------------------------------------------------------:|
 
 #### Standard Events
-#. Form Submission
-#. Form Validation Failure
-#. Button Click
+  #. Form Submission
+  #. Form Validation Failure
+  #. Button Click
 
 #### Canonical Tags
 | Tag        | Alternatives   |
