@@ -1,7 +1,7 @@
 # Logstash Forwarder
 
 ## Nginx
-See the [/Events](events) page for a description of these types.
+See the [events](/Events) page for a description of these types.
 
 ```
 {
