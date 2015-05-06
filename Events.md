@@ -24,12 +24,15 @@
 | URL         | http://dev.howden.io                                                   |
 | UserID      | 58                                                                     |
 | Tags        | PHP, Magento                                                           |
+| Timestamp   | 2015-05-01 15:00:00                                                    |
 
-### Error Even
-| Field       | Description                                                              |
-|:-----------:|:------------------------------------------------------------------------:|
+### Error Event
+| Field       | Description                                                            |
+|:-----------:|:----------------------------------------------------------------------:|
 
 ### User Interaction Event
+| Field       | Description                                                            |
+|:-----------:|:----------------------------------------------------------------------:|
 
 #### Standard Events
 #. Form Submission
