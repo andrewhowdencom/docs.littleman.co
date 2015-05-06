@@ -14,7 +14,7 @@
 | Format      | json, string, xml                    |
 | Service     | howden.io, andrewhowden.com          |
 
-### Base Event Information
+### Base Event
 | Field       | Description                                                            |
 |:-----------:|:----------------------------------------------------------------------:|
 | Code        | 200                                                                    |
@@ -25,9 +25,16 @@
 | UserID      | 58                                                                     |
 | Tags        | PHP, Magento                                                           |
 
-### Error Event Information
+### Error Even
 | Field       | Description                                                              |
 |:-----------:|:------------------------------------------------------------------------:|
+
+### User Interaction Event
+
+#### Standard Events
+#. Form Submission
+#. Form Validation Failure
+#. Button Click
 
 #### Canonical Tags
 | Tag        | Alternatives   |
