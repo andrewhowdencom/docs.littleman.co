@@ -2,26 +2,29 @@
 
 ## Event Logging
 ### Style
-| Structure | Guideline      |
-|:---------:|:--------------:|
-| Case      | Lower case     |
+| Structure | Guideline        |
+|:---------:|:----------------:|
+| Case      | ```snake_case``` |
 
 ### Base Log Information
-| Field       | Description                                                            |
-|:-----------:|:----------------------------------------------------------------------:|
-| Environment | "development", "staging" or "production"                               |
-| Type        | event, error, performance, user                                        |
-| Format      | json, string, xml                                                      |
-| Service     | howden.io, andrewhowden.com                                            |
-| Code        | 200                                                                    |
-| File        | "index.php"                                                            |
-| Level       | emergency, alert, critical, error, warning, notice, information, debug |
-| Payload     | "This is an event"                                                     |
-| Package     | "Nginx", "Magento"
-| URL         | "http://dev.howden.io"                                                 |
-| UserID      | 58                                                                     |
-| Tags        | PHP, Magento                                                           |
-| Timestamp   | 2015-05-01 15:00:00                                                    |
+| Field       | Description                                                                  |
+|:-----------:|:----------------------------------------------------------------------------:|
+| ```environment``` | "development", "staging" or "production"                               |
+| ```type```        | event, error, performance, user                                        |
+| ```format```      | json, string, xml                                                      |
+| ```service```     | howden.io, andrewhowden.com                                            |
+| ```code```        | 200                                                                    |
+| ```level```       | emergency, alert, critical, error, warning, notice, information, debug |
+| ```payload```     | "This is an event"                                                     |
+| ```package```     | "Nginx", "Magento"                                                     | 
+| ```user_id```     | 58                                                                     |
+| ```timestamp```   | 2015-05-01 15:00:00                                                    |
+
+### Web Event
+| Field            | Description                                                            |
+|:----------------:|:----------------------------------------------------------------------:|
+| ```url```        | http://howden.io/en/derp                                               | 
+| ```request_id``` | ```16fd2706-8baf-433b-82eb-8c7fada847da```                             |
 
 ### Error Event
 | Field       | Description                                                            |
@@ -30,7 +33,6 @@
 ### User Interaction Event
 | Field       | Description                                                            |
 |:-----------:|:----------------------------------------------------------------------:|
-
 #### Standard Events
   #. Form Submission
   #. Form Validation Failure
