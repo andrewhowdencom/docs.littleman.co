@@ -2,19 +2,38 @@
 All estimates include the time spent initially investigating and quoting the task, and the total time on the task should not exceed what's estimated without express approval from the client
 
 ## Styling / Design
-### Workflow
-| Time (t)    | Stage                       | 
-|:-----------:|:---------------------------:|
-| 0 - 120min  | Investigating the changes   |
-
-### Multipliers
-The multipliers are compounding, and multipled in the table order. **bold** denotes things that always apply. 
-
-| Factor          | Type                        |
-|:---------------:|:---------------------------:|
-| 1.2x            | No SCSS                     |
-| ({themes} / 2)x | Multiple copies of style    |
-| 1.2x            | **Client driven changes**   |
+# Calculate Estimation 
+| Area                             | Hours | Total
+|:--------------------------------:|:-----:|:-----
+| Investigation & Correspondence   | 0     | 0   
+| Development                      |       |  
+|   Backend                        |       |
+|     Server Configuration         | 0     | 0
+|     Package Configuration        | 0     | 0   
+|     PHP                          | 0     | 0   
+|   Frontend                       |       |   
+|     JavaScript (?)               | 0     | 0   
+|     PHP / HTML (templates?)      | 0     | 0   
+|     SCSS (styles?)               | 0     | 0        
+| Testing                          | 0     | 0   
+| Review                           | 0     | 0   
+| Documentation                    | 0     | 0   
+|:------------------------------------------------
+| Technical Debt                    
+|:------------------------------------------------
+| 1.2x - No SCSS                   | 0     | 0   
+|:------------------------------------------------
+| Magento Specific     
+|:------------------------------------------------
+| .05x Each theme (not store)      | 0     | 0   
+|:------------------------------------------------
+| Margin for error 
+|:------------------------------------------------
+| 1.2x < 2h Client Driven Changes  | 2h    | 0   
+| 1.2x < 2h "Buffer" Time          | 2     | 0   
+|:------------------------------------------------
+| Rounded                                    0   
+|:------------------------------------------------
 
 ## API
 ### Contraindications
