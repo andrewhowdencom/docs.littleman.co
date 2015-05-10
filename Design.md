@@ -14,18 +14,23 @@
 ## SCSS
 
 ### Whitespace
- - All elements are responsible for the vertical whitespace directly below them, with the exception 
+ - All elements are responsible for the vertical whitespace directly below them, with the exception
    of the first element on the page
+
+### Naming Standard
+| Structure    | Standard                                                  | Example        | 
+|:------------:|:---------------------------------------------------------:|:--------------:|
+| placeholders | Singular, describing it's semantic purpose. One word only | ```%heading``` |  
 
 ### Directory Structure
 
 | Sass |             |       |                 |
 |------|:-----------:|:-----:|:----------------|
-|      | styles      |                         | 
+|      | styles      |                         |
 |      | _mixins                               |
-|      | _colors                               | 
-|      | _variables                            | 
-|      | _placeholders                         | 
+|      | _colors                               |
+|      | _variables                            |
+|      | _placeholders                         |
 |                                              |
 |      | styles/     |       |                 |
 |      |             | core/ |                 |
@@ -38,4 +43,4 @@
 |      |             |       | _panels.scss    |
 |      |             |       | _utilities.scss |
 |      |             |       | _wells.scss     |
-|      |             |       |                 |  
+|      |             |       |                 | 
