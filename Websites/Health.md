@@ -1,9 +1,10 @@
 # Website Health
 
 ## Checks
-| Check   | Description                                                              |
-|:-------:|:------------------------------------------------------------------------:|
-| Site Up | Check if string 'data-service-id="abc123"' exists and is what's expected |
+| Check         | Description                                                              |
+|:-------------:|:------------------------------------------------------------------------:|
+| Site Up       | Check if string 'data-service-id="abc123"' exists and is what's expected |
+| Build Current | Check if string 'data-build-id="githash"' exists and is what's expected  |  
 
 ## Dashboard
 | Chart                | Metric                                | Notes                      |

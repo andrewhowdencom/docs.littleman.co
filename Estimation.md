@@ -16,7 +16,6 @@ All estimates include the time spent initially investigating and quoting the tas
 |     PHP / HTML (templates?)      | 0     | 0   
 |     SCSS (styles?)               | 0     | 0        
 | Testing                          | 0     | 0   
-| Review                           | 0     | 0   
 | Documentation                    | 0     | 0   
 |:------------------------------------------------
 | Technical Debt                    
@@ -27,8 +26,9 @@ All estimates include the time spent initially investigating and quoting the tas
 |:------------------------------------------------
 | .05x Each theme (not store)      | 0     | 0   
 |:------------------------------------------------
-| Margin for error 
+| Hand-off.           
 |:------------------------------------------------
+| 0.25x [Development] Code Review  | 0     | 0
 | 1.2x < 2h Client Driven Changes  | 2h    | 0   
 | 1.2x < 2h "Buffer" Time          | 2     | 0   
 |:------------------------------------------------
