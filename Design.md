@@ -18,9 +18,9 @@
    of the first element on the page
 
 ### Naming Standard
-| Structure    | Standard                                                  | Example        | 
+| Structure    | Standard                                                  | Example        |
 |:------------:|:---------------------------------------------------------:|:--------------:|
-| placeholders | Singular, describing it's semantic purpose. One word only | ```%heading``` |  
+| placeholders | Singular, describing it's semantic purpose. One word only | ```%heading``` | 
 
 ### Directory Structure
 
@@ -41,6 +41,7 @@
 |      |             |       | _messages.scss  |
 |      |             |       | _modals.scss    |
 |      |             |       | _panels.scss    |
+|      |             |       | _typography.scss|
 |      |             |       | _utilities.scss |
 |      |             |       | _wells.scss     |
-|      |             |       |                 | 
+|      |             |       |                 |
