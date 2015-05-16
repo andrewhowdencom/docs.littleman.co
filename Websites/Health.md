@@ -1,5 +1,13 @@
 # Website Health
 
+## Sensu Configuration 
+### Naming Standards
+| Name          | Example                    | Guideline                                           |
+|:-------------:|:--------------------------:|:---------------------------------------------------:|
+| Client Name   |  ```sub.howden.io```       | The canonical URL of the server                     |
+| Subscriptions | ```magento```              | The names of the services on the host being checked |
+| Check         | ```http-status-check```    | The name of the repo the check's in                 |
+
 ## Checks
 | Check         | Description                                                              |
 |:-------------:|:------------------------------------------------------------------------:|
@@ -12,4 +20,3 @@
 | Error Rate           | % events > warn                       |                            |
 | Time till engageable | seconds till user is able to interact | Based on event fired in JS |
 | Time till ready      | seconds till "document.ready()"       |                            | 
-
