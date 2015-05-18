@@ -13,6 +13,12 @@
 
 ## SCSS
 
+
+### Canonical name
+| Name                 | Alternatives                                                |
+|:--------------------:|:-----------------------------------------------------------:|
+| xlarge               | x-large, extra-large                                        |
+
 ### Whitespace
  - All elements are responsible for the vertical whitespace directly below them, with the exception 
    of the first element on the page
