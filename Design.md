@@ -37,6 +37,7 @@
 |      |             | core/ |                 |
 |      |             |       | _buttons.scss   |
 |      |             |       | _carousels.scss |
+|      |             |       | _collapse.scss  | 
 |      |             |       | _forms.scss     |
 |      |             |       | _loading.scss   |
 |      |             |       | _messages.scss  |
