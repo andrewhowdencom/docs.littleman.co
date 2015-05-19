@@ -1,5 +1,5 @@
 # Readme (Template)
-
+```
 ## Project Outline
 ### Project Goals
 1. This is a project goal
@@ -43,3 +43,4 @@ This is an example.
 ## Contributing
 Contributions are always welcome! I mirror my work on GitHub, however, if you'd like to [open an issue](http://link.com)
 i'd love the feedback!
+```
