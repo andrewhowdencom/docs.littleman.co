@@ -19,6 +19,16 @@
 |:--------------------:|:-----------------------------------------------------------:|
 | largest              | x-large, extra-large                                        |
 
+### Reserved Words
+
+#### Modifiers
+Modifiers are selectors that only modify the look of the page when combined with another selector. They should not have any styles applied to them directly, and ideally should only be used as placeholders. 
+
+| Word     | Description                                             |
+|:--------:|:-------------------------------------------------------:|
+| left     | Move the element to the left side of its parent         |
+| right    | Move the element to the right side of its parent        | 
+
 ### Whitespace
  - All elements are responsible for the vertical whitespace directly below them, with the exception 
    of the first element on the page
