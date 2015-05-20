@@ -1,4 +1,10 @@
 # Website Design
+## Definitions 
+| Word              | Description                                                    |
+|:-----------------:|:--------------------------------------------------------------:|
+| descriptor        | A qualifier for the psuedoelement structure (eg. title)        |
+| psuedoelement     | The semantic name for the page structure (eg. navbar)          |
+
 ## Overview
 ### Pertinant Data
 - Brand Colors
@@ -15,6 +21,11 @@
 
 ## Headings
 Heading styles should not be coupled with their tag counterparts. h1 - h5 are used for determining the importants of the content that follows, the class for describing further information about that section. 
+
+## Naming
+| Type                 | Standard                                                    |
+|:--------------------:|:-----------------------------------------------------------:|
+| Color variable       | {psuedoelement}-{descriptor}-color                          |
 
 ### Canonical name
 | Name                 | Alternatives                                                |
