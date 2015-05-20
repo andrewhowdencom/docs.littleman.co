@@ -13,6 +13,8 @@
 
 ## SCSS
 
+## Headings
+Heading styles should not be coupled with their tag counterparts. h1 - h5 are used for determining the importants of the content that follows, the class for describing further information about that section. 
 
 ### Canonical name
 | Name                 | Alternatives                                                |
