@@ -16,7 +16,7 @@ All estimates include the time spent initially investigating and quoting the tas
 |     PHP / HTML (templates?)      | 0     | 0   
 |     SCSS (styles?)               | 0     | 0        
 | Testing                          | 0     | 0   
-| Documentation                    | 0     | 0   
+| Documentation / Tooling          | 0     | 0   
 |:------------------------------------------------
 | Technical Debt                    
 |:------------------------------------------------
