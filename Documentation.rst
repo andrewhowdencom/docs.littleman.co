@@ -47,6 +47,11 @@ References
 |              |     **Heading 2**                     |                                  |
 |              |                                       |                                  |
 +--------------+---------------------------------------+----------------------------------+
+| In software  | .. code:: ReST                        | Undocumented.                    | 
+| menu item    |                                       |                                  |
+|              |    ``System → Configuration``         |                                  | 
+|              |                                       |                                  | 
++--------------+---------------------------------------+----------------------------------+  
 
 Examples
 --------
@@ -55,6 +60,7 @@ Examples
 | Structure    |  RST Syntax                           |  Markdown Syntax                 |
 +==============+=======================================+==================================+
 | Code block   | .. code:: ReST                        | Undocumented                     |
+|              |                                       |                                  |
 |              |     ..Code::                          |                                  |
 |              |         ./mage install-file {package} |                                  |
 |              |                                       |                                  |
