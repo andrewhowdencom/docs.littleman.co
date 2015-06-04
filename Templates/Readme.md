@@ -7,9 +7,9 @@
 This project is intended to cover the gap found during {foo}
 
 ### Summary
-| License    | Code Style |
-|------------|:----------:|
-| MIT        | Zend       |
+| License    | Code Style | Code Locale  |
+|------------|:----------:|:------------:|
+| Apache-2   | Zend       | en-AU [lang]_|
 
 
 ### Compatibility
@@ -43,3 +43,6 @@ This is an example.
 ## Contributing
 Contributions are always welcome! I mirror my work on GitHub, however, if you'd like to [open an issue](http://link.com)
 i'd love the feedback!
+
+## References
+.. [lang] Lingoes.net,. (2015). Language Code Table. Retrieved 4 June 2015, from http://www.lingoes.net/en/translator/langcode.htm
