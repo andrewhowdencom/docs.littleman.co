@@ -1,4 +1,5 @@
-Designed for copy-pasting
+Copy paste the below:
+
 ```
 /** 
  * NOTICE OF LICENSE 
@@ -9,5 +10,7 @@ Designed for copy-pasting
  * 
  * @copyright Copyright (c) 2015 Howden.io (http://howden.io) 
  * @license   Apache2 http://www.apache.org/licenses/LICENSE-2.0.html
+ * 
+ * @todo      An example todo
  */
 ```
