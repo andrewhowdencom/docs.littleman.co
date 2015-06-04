@@ -1,4 +1,7 @@
-    ..code:: 
+Below is the readme template!
+
+..code::  
+
     Project Outline
     ----------------
     Project Goals
@@ -57,3 +60,5 @@
     References
     -----------
     .. [lang] Lingoes.net,. (2015). Language Code Table. Retrieved 4 June 2015, from http://www.lingoes.net/en/translator/langcode.htm
+
+Conclude readme template
