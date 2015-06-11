@@ -2,6 +2,14 @@
 Apis
 ====
 
+Development
+-----------
+
+Parameters
+``````````
+- All parameters are to be supplied via the URL. Query string parameters are not acceptable
+- All parameters need to be sent and returned with the same name. For example, 'email' != 'EmailAddress' - 'email' => 'email
+
 Current Services
 ----------------
 +------------+-----------+
