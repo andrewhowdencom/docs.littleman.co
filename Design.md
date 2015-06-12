@@ -43,18 +43,23 @@ Modifiers are selectors that only modify the look of the page when combined with
 | right    | Move the element to the right side of its parent        | 
 
 ### Whitespace
- - All elements are responsible for the vertical whitespace directly below them, with the exception 
+ - All elements are responsible for the vertical whitespace directly below them, with the exception
    of the first element on the page
+
+### Naming Standard
+| Structure    | Standard                                                  | Example        |
+|:------------:|:---------------------------------------------------------:|:--------------:|
+| placeholders | Singular, describing it's semantic purpose. One word only | ```%heading``` | 
 
 ### Directory Structure
 
 | Sass |             |       |                 |
 |------|:-----------:|:-----:|:----------------|
-|      | styles      |                         | 
+|      | styles      |                         |
 |      | _mixins                               |
-|      | _colors                               | 
-|      | _variables                            | 
-|      | _placeholders                         | 
+|      | _colors                               |
+|      | _variables                            |
+|      | _placeholders                         |
 |                                              |
 |      | styles/     |       |                 |
 |      |             | core/ |                 |
@@ -66,6 +71,7 @@ Modifiers are selectors that only modify the look of the page when combined with
 |      |             |       | _messages.scss  |
 |      |             |       | _modals.scss    |
 |      |             |       | _panels.scss    |
+|      |             |       | _typography.scss|
 |      |             |       | _utilities.scss |
 |      |             |       | _wells.scss     |
 |      |             |       |                 |
