@@ -77,4 +77,5 @@ Modifiers are selectors that only modify the look of the page when combined with
 |      |             |       |                 |
 
 ## Useful Links
+- [Sassline - Print style typography on the web](https://github.com/designbyjake/sassline)
 - [Bootstrap - Materials Design](http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html)
