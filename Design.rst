@@ -24,6 +24,17 @@ Process
   - Paragraph Text
   - Lists
 
+Canonical Symbology
+-------------------
+
+Where possible, use the materials design icon set.
+
+==================== ========================================
+Term
+==================== ========================================
+Search               Magnifying Glass
+==================== ========================================
+
 SCSS
 ----
 
