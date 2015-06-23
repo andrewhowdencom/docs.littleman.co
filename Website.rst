@@ -1,4 +1,3 @@
-
 Naming
 ------
 
@@ -13,3 +12,14 @@ Log in         login              Log In
 Sign Up /      signup             Create an account
 Create Account
 =============  ================== ============================
+
+Analysis tools
+--------------
+
+Ongoing
+```````
+- Google Webmaster Tools
+
+One Time
+````````
+- `SSL - Qualsys SSL Labs <https://www.ssllabs.com/ssltest/>`
