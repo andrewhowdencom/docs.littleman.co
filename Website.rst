@@ -23,3 +23,4 @@ Ongoing
 One Time
 ````````
 - `SSL - Qualsys SSL Labs <https://www.ssllabs.com/ssltest/>`
+- `SSL - Diffie Helman <https://weakdh.org/sysadmin.html>`
