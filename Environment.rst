@@ -1,6 +1,11 @@
 
 Health Checks
 -------------
+Installed via Apt.
+
+- Disk free space metric
+- Free memory metric
+- CPU Usage metric
 
 Software
 ````````
@@ -9,7 +14,7 @@ Software health checks verify that software is in an expected state, and allows 
 ================== ========
 Software           Version
 ================== ========
-Nginx              1.8.0
+Nginx              1.9.1
 ================== ========
 
 Software Repositories
@@ -20,10 +25,8 @@ Debian
 ================== ===============================================================================
 Software           URL
 ================== ===============================================================================
-Nginx              deb http://nginx.org/packages/mainline/debian/ ``codename`` nginx [1]_
-                   deb-src http://nginx.org/packages/mainline/debian/ ``codename`` nginx [1]_
+Nginx              deb http://pkg.howden.io/ ./
 ================== ===============================================================================
 
 References
 ----------
-.. [#] Nginx.org,. (2015). nginx: Linux packages. Retrieved 2 June 2015, from http://nginx.org/en/linux_packages.html#stable
