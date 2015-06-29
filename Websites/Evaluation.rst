@@ -10,6 +10,10 @@ Usability
 - Is the site usable in 95% of users browsers?
 - Does it display a notice for any browsers it is not usable in?
 
+Legal
+-----
+Does your website display a cookie notice to users from the EU?
+
 Analysis tools
 --------------
 
