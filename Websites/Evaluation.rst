@@ -14,6 +14,16 @@ Legal
 -----
 Does your website display a cookie notice to users from the EU?
 
+Help
+----
+How much time does it take for a client to get in touch with you?
+- Livechat = Awesome
+- Email = Good, providing it's answered
+- Screenshots = Bonus Points
+
+Consider how difficult it is to find a method to contact, also. One click away? Two? Buried in the footer or on a nested page?
+
+
 Analysis tools
 --------------
 
