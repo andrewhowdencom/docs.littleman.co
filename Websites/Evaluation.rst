@@ -10,6 +10,7 @@ How many spelling mistakes are there across the site?
 Usability
 `````````
 - It it immediately clear what your website's primary purpose is?
+- Do any navigational diversions (for example, viewing the cart in an e-commerce site) return the user to their previous position or explicitly state otherwise?
 - Is the site still usable without JavaScript / does the site display a notice indicating it requires javascript?
 - Is the site usable in 95% of users browsers?
 - Does it display a notice for any browsers it is not usable in?
