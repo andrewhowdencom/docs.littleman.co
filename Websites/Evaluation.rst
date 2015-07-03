@@ -3,6 +3,10 @@ Requirements
 ------------
 # Get the scores from each given analysis tool
 
+Content
+-------
+How many spelling mistakes are there across the site?
+
 Usability
 `````````
 - It it immediately clear what your website's primary purpose is?
@@ -10,16 +14,26 @@ Usability
 - Is the site usable in 95% of users browsers?
 - Does it display a notice for any browsers it is not usable in?
 
+Interface
+---------
+- Does your website have a favicon? (+1 for yes, -1 for a default)
+
 Legal
 -----
 Does your website display a cookie notice to users from the EU?
 
 SEO
 ---
+
+Does Google spell the name of the site correctly?
+
+Metadata
+`````````
+
 Does your website contain appropriate schema data? (JSON-LD = + points)
 
 Appropriate Data
-````````````````
+""""""""""""""""
 
 ========== ===============
            Store Locations
