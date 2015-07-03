@@ -80,6 +80,11 @@ Naming Standard
 |:------------:|:---------------------------------------------------------:|:--------------:|
 | placeholders | Singular, describing it's semantic purpose. One word only | ```%heading``` | 
 
+Drop down menus
+---------------
+A nice library for aiming the mouse somewhere
+http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown
+
 Directory Structure
 ````````````````````
 
