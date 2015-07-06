@@ -35,6 +35,8 @@ Does Google spell the name of the site correctly?
 Metadata
 `````````
 
+// Todo: Find out whether Google queries metadata with varying user agents
+
 [M] Does your website contain appropriate schema data? (JSON-LD = + points)
 [M] Is the schema data appropriately formatted?
 [H] Does the schema data contain correct content?
