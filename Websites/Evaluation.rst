@@ -48,6 +48,16 @@ Appropriate Data
 Retailers        ✓
 ========== ===============
 
+Data Completeness
+"""""""""""""""""
+Ranking on importance, from 100 (extremely important) to 10 (not very important at all).
+
+Product
+- Name (100)
+- Price (90)
+
+- 
+
 Help
 ----
 How much time does it take for a client to get in touch with you?
