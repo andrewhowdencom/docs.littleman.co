@@ -1,3 +1,7 @@
+Notes
+-----
+[H] Denotes task that must be checked by human
+[M] Denotes task that is better outsourced to a machine
 
 Requirements
 ------------
@@ -31,7 +35,9 @@ Does Google spell the name of the site correctly?
 Metadata
 `````````
 
-Does your website contain appropriate schema data? (JSON-LD = + points)
+[M] Does your website contain appropriate schema data? (JSON-LD = + points)
+[M] Is the schema data appropriately formatted?
+[H] Does the schema data contain correct content?
 
 Appropriate Data
 """"""""""""""""
