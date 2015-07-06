@@ -26,11 +26,16 @@ Interface
 Legal
 -----
 Does your website display a cookie notice to users from the EU?
+Does your website have a canonical protocol / subdomain? (www => {none})
 
 SEO
 ---
 
+Is your website encrypted over TLS everywhere?
 Does Google spell the name of the site correctly?
+
+Security
+--------
 
 Metadata
 `````````
