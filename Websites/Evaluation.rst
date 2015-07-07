@@ -36,6 +36,17 @@ Does Google spell the name of the site correctly?
 
 Security
 --------
+Does your website expose any of the following files?
+
+General
+"""""""
+.env
+.htaccess
+
+Version Control
+"""""""""""""""
+.git/config
+
 
 Metadata
 `````````
@@ -101,6 +112,8 @@ One Time
 - `DNS - intoDNS <http://www.intodns.com/>`
 - `SSL - Qualsys SSL Labs <https://www.ssllabs.com/ssltest/>`
 - `SSL - Diffie Helman <https://weakdh.org/sysadmin.html>`
+- `HTML - <https://validator.w3.org/nu/>`
+- Google Audits (inspector, including accessibiliy)
 
 Appendix
 --------
