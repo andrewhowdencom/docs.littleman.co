@@ -6,12 +6,17 @@ Hardware
 
 Main Machines
 """""""""""""
+Hardware
 
 ============= ============= =========================
 Part          Description   Notes
 ============= ============= =========================
 HDD           2x SSD 256GB  1x OS, Packages. 1x Data
 ============= ============= =========================
+
+Software
+
+
 
 Backups
 """"""""
@@ -35,11 +40,12 @@ Software
 """"""""
 Software health checks verify that software is in an expected state, and allows the user make invalid an old version of software so that box can be scheduled for decommission, and a new box created with the updated package.
 
-================== ========
-Software           Version
-================== ========
-Nginx              1.9.1
-================== ========
+================== ==================
+Purpose            Software
+================== ==================
+Web Server         Nginx
+Log Forwarder      logstash-forwarder
+================== ==================
 
 Software Repositories
 """""""""""""""""""""
