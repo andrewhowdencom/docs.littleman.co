@@ -57,6 +57,7 @@ Debian
 Software           URL
 ================== ===============================================================================
 Nginx              deb http://pkg.howden.io/ ./
+Sensu              https://sensuapp.org/docs/latest/install-repositories
 ================== ===============================================================================
 
 References
