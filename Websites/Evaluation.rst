@@ -7,6 +7,11 @@ Requirements
 ------------
 # Get the scores from each given analysis tool
 
+Accessibility
+-------------
+Can your users accomplish the main goal of your site by using a screen reader?
+Are your users able to print a given page and see a reasonable representation of the content?
+
 Content
 -------
 How many spelling mistakes are there across the site?
