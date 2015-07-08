@@ -42,6 +42,7 @@ General
 """""""
 .env
 .htaccess
+.git/config
 
 Version Control
 """""""""""""""
