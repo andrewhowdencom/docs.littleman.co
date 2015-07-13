@@ -43,6 +43,11 @@ Security
 --------
 Does your website expose any of the following files?
 
+Reliability
+-----------
+- What is your sites uptime over the last (x) period?
+- Is your site speed consistent during its busiest periods?
+
 General
 """""""
 .env
@@ -79,8 +84,6 @@ Ranking on importance, from 100 (extremely important) to 10 (not very important 
 Product
 - Name (100)
 - Price (90)
-
-- 
 
 Help
 ----
