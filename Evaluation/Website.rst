@@ -60,6 +60,11 @@ Reliability
 - What is your sites uptime over the last (x) period?
 - Is your site speed consistent during its busiest periods?
 
+Search
+------
+- Does your search check spelling and suggest corrections?
+- Does your search update itself without a page reload?
+
 Security
 --------
 Does your website require HTTP/S?
