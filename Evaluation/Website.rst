@@ -23,6 +23,11 @@ Content
 -------
 How many spelling mistakes are there across the site?
 
+Membership
+----------
+Are the benefits of membership clearly stated?
+Do you offer SSO with multiple services (Facebook, Google, Twitter)?
+
 Usability
 `````````
 - It it immediately clear what your website's primary purpose is?
