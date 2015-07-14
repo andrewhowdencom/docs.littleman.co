@@ -40,6 +40,14 @@ Usability
 - Is the site usable in 95% of users browsers?
 - Does it display a notice for any browsers it is not usable in?
 
+Monitoring
+----------
+What checks do you have in place to ensure your website is always up?
+
+- None (-1)
+- Pingdom / Google / Whatever (+1)
+- Sensu (+2)
+
 Interface
 ---------
 - Does your website have a favicon? (+1 for yes, -1 for a default)
