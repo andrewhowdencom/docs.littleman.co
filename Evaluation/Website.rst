@@ -25,7 +25,11 @@ Social
 
 Content
 -------
-How many spelling mistakes are there across the site?
+- How many spelling mistakes are there across the site?
+
+Forms
+-----
+- Does your website offer JavaScript validation to mirror any server side validation?
 
 Membership
 ----------
