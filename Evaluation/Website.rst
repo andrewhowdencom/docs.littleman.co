@@ -82,14 +82,18 @@ Does your website expose any of the following files?
 
 General
 """""""
-.env
-.htaccess
-.git/config
+- .env
+- .htaccess
+- .git/config
 
 Version Control
 """""""""""""""
-.git/config
+- .git/config
 
+Build Files
+"""""""""""
+- composer.json
+- composer.lock
 
 Metadata
 `````````
