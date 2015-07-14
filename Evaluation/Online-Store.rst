@@ -1,3 +1,7 @@
+Payment Methods
+---------------
+- Does your website offer multiple, redundant payment methods?
+
 Product selection (category, search)
 ------------------------------------
 - Does your selection offer faceting? (+1) Is it updated via AJAX? (+2)
