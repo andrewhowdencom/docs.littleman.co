@@ -43,6 +43,7 @@ Usability
 Interface
 ---------
 - Does your website have a favicon? (+1 for yes, -1 for a default)
+- Do your website URLs accurately reflect the content of the page?
 
 Legal
 -----
