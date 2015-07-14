@@ -64,6 +64,7 @@ Search
 ------
 - Does your search check spelling and suggest corrections?
 - Does your search update itself without a page reload?
+- Does your search autocomplete?
 
 Security
 --------
