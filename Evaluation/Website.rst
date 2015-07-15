@@ -15,9 +15,14 @@ Are your users able to print a given page and see a reasonable representation of
 Connection
 ----------
 Does your website allow requests via SPDY (+1) or HTTP/2 (+2)?
+Does your website redirect from www or to www?
 
 Communication
 -------------
+
+Domain
+------
+Is your domain registered for the next 10 years?
 
 Social
 ``````
