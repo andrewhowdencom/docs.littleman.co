@@ -45,9 +45,15 @@ Heading styles should not be coupled with their tag counterparts. h1 - h5 are us
 
 Naming
 ``````
-| Type                 | Standard                                                    |
-|:--------------------:|:-----------------------------------------------------------:|
-| Color variable       | {psuedoelement}-{descriptor}-color                          |
+
+======================= ==============================================================
+Type                    Standard
+======================= ==============================================================
+Color Variable          {psuedoelement}-color-{descriptor}
+Height Variable         {psuedoelement}-height-{short(er|est)|base|tall(er|est)}
+Thickness Variable      Use width
+Width Variable          {psuedoelement}-width-{thin(er|est)|base|thick(er|est)}
+======================= ==============================================================
 
 Canonical name
 ```````````````
