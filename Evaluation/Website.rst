@@ -1,7 +1,7 @@
 Notes
 -----
-[H] Denotes task that must be checked by human
-[M] Denotes task that is better outsourced to a machine
+- [H] Denotes task that must be checked by human
+- [M] Denotes task that is better outsourced to a machine
 
 Requirements
 ------------
@@ -9,13 +9,13 @@ Requirements
 
 Accessibility
 -------------
-Can your users accomplish the main goal of your site by using a screen reader?
-Are your users able to print a given page and see a reasonable representation of the content?
+- Can your users accomplish the main goal of your site by using a screen reader?
+- Are your users able to print a given page and see a reasonable representation of the content?
 
 Connection
 ----------
-Does your website allow requests via SPDY (+1) or HTTP/2 (+2)?
-Does your website redirect from www or to www?
+- Does your website allow requests via SPDY (+1) or HTTP/2 (+2)?
+- Does your website redirect from www or to www?
 
 Communication
 -------------
