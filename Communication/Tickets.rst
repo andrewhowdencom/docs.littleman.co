@@ -8,4 +8,9 @@ Collect:
    Screenshot
    User Feedback
    Time
+   HTTP Status code
 
+Automatically submit report with the following error codes:
+   5xx
+
+Provide a form to submit for any other error codes.
