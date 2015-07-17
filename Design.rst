@@ -117,6 +117,15 @@ Directory Structure
 |      |             |       | _wells.scss     |
 |      |             |       |                 |
 
+Typography
+----------
+
+========== ============== ==========================
+Use        Inherits From  Additional Styles
+========== ============== ==========================
+Main Text                 1em
+Link       Main Text      Underline, Color: #0B0080
+
 Useful Links
 -------------
 
