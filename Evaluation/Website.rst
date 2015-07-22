@@ -1,11 +1,17 @@
-Notes
------
+This page should be in alphabetical order. It's not, but I'm slowly tidying that. That's why it's such a mess!
+
+Reading the Article
+-------------------
+
+Expected Audience
+`````````````````
 - [H] Denotes task that must be checked by human
 - [M] Denotes task that is better outsourced to a machine
 
 Requirements
-------------
+````````````
 # Get the scores from each given analysis tool
+
 
 Accessibility
 -------------
@@ -27,6 +33,7 @@ Domain
 Forms / Data Entry
 ------------------
 - Does your website require users to enter the same information multiple times anywhere?
+- Does your website offer JavaScript validation to mirror any server side validation?
 
 Social
 ``````
@@ -35,10 +42,6 @@ Social
 Content
 -------
 - How many spelling mistakes are there across the site?
-
-Forms
------
-- Does your website offer JavaScript validation to mirror any server side validation?
 
 Membership
 ----------
