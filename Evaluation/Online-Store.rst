@@ -10,8 +10,8 @@ Product selection (category, search)
 Trustworthyness
 ---------------
 Are you a Google Trusted Store?
-Do you supply product feeds to the following price comparison services: 
-- Google Shopping
+Do you supply valid & detailed product feeds to the following price comparison services:
+- Google Shopping (https://support.google.com/merchants/answer/188494?hl=en-AU)
 
 One-click checkout
 ------------------
