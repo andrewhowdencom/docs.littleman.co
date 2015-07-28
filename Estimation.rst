@@ -60,8 +60,12 @@ Initial figures (not multipliers) should come from records of similar work. If y
 | Total (rounded 1h)                       | 0     |
 +------------------------------------------+-------+
 
-A note about difficulty
-```````````````````````
+Code Review
+````````````
+This includes time spent looking at the diff with git on the command line, before submission for review.
+
+Difficulty
+```````````
 I don't think it's possible to objectively evaluate the difficulty of a particular subject, but a subjective view is still useful. Also, remember it's not just you looking at the code -- You'll have to explain your decisions to someone else at review anyway.
 
 API
