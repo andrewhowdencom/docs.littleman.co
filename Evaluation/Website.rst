@@ -102,7 +102,6 @@ General
 """""""
 - .env
 - .htaccess
-- .git/config
 
 Exposed Configuration Files
 """""""""""""""""""""""""""
@@ -114,11 +113,14 @@ Exposed Configuration Files
 Version Control
 """""""""""""""
 - .git/config
+- .gitignore
+. .gitkeep
 
 Build Files
 """""""""""
 - composer.json
 - composer.lock
+
 
 Metadata
 `````````
