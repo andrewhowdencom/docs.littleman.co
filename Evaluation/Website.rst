@@ -39,6 +39,8 @@ Social
 ``````
 - Are users able to share any given page to their preferred content-stream?
 
+**Content after this is unordered**
+
 Content
 -------
 - How many spelling mistakes are there across the site?
@@ -101,6 +103,13 @@ General
 - .env
 - .htaccess
 - .git/config
+
+Exposed Configuration Files
+"""""""""""""""""""""""""""
+- info.php
+- phpinfo.php 
+- app/etc/local.xml
+- app/etc/config.xml
 
 Version Control
 """""""""""""""
