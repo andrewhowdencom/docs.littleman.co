@@ -26,6 +26,20 @@ Connection
 Communication
 -------------
 
+Error Handling
+--------------
+
+User Facing
+"""""""""""
+- Do you have custom error pages for the most common error status codes? (4xx, 5xx)
+- Do you handle removed content gracefully (return a 404, but prompt the user as to where they may find similar content)
+
+Code
+""""
+- Do you keep logs of all back-end errors that occur in your stack?
+- Do you keep logs of all front-end errors that occur in your stack?
+
+
 Domain
 ------
 - Is your domain registered for the next 10 years?
