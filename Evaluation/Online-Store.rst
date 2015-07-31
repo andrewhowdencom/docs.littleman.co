@@ -1,6 +1,7 @@
 Payment Methods
 ---------------
 - Does your website offer multiple, redundant payment methods?
+- Do you validate your Credit Card numbers with Luhns algorithm before submission?
 
 Product selection (category, search)
 ------------------------------------

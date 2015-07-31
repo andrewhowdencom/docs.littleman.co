@@ -1,0 +1,1 @@
+- CC Numbers can be validated by Luhns Algorythem (JS: https://gist.github.com/DiegoSalazar/4075533)
