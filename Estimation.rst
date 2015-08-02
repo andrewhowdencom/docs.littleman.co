@@ -9,6 +9,8 @@ Initial figures (not multipliers) should come from records of similar work. If y
 +==================================+=======+=======+
 | Investigation & Correspondence   | 0     | 0     |
 +----------------------------------+-------+-------+
+| Other administration             | 1     | 0     |
++----------------------------------+-------+-------+
 | **Development**                                  |
 +----------------------------------+-------+-------+
 | *Backend*                                        |
@@ -67,6 +69,10 @@ This includes time spent looking at the diff with git on the command line, befor
 Difficulty
 ```````````
 I don't think it's possible to objectively evaluate the difficulty of a particular subject, but a subjective view is still useful. Also, remember it's not just you looking at the code -- You'll have to explain your decisions to someone else at review anyway.
+
+Other Administration
+````````````````````
+This includes general work around the ticket such as reviewing RT, Asana or IVY, asking questions from colleagues. Time for colleagues to allocate on your ticket.
 
 API
 ---
