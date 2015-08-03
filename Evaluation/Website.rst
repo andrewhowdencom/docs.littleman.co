@@ -18,6 +18,10 @@ Accessibility
 - Can your users accomplish the main goal of your site by using a screen reader?
 - Are your users able to print a given page and see a reasonable representation of the content?
 
+Categories
+----------
+- Do you offer faceted navigation?
+
 Connection
 ----------
 - Does your website allow requests via SPDY (+1) or HTTP/2 (+2)?
