@@ -1,3 +1,8 @@
+Navigation
+----------
+- Do you offer an ajax "Add to cart" feature? 
+- Do you redirect your users to their previous view from the "cart" page?
+
 Payment Methods
 ---------------
 - Does your website offer multiple, redundant payment methods?
@@ -6,7 +11,6 @@ Payment Methods
 Product selection (category, search)
 ------------------------------------
 - Does your selection offer faceting? (+1) Is it updated via AJAX? (+2)
-
 
 Trustworthyness
 ---------------
