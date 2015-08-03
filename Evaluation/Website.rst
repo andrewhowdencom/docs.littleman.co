@@ -3,10 +3,16 @@ This page should be in alphabetical order. It's not, but I'm slowly tidying that
 Reading the Article
 -------------------
 
-Expected Audience
-`````````````````
+Expected Audience (Depreciated in favour of appropriate test)
+`````````````````````````````````````````````````````````````
 - [H] Denotes task that must be checked by human
 - [M] Denotes task that is better outsourced to a machine
+
+Appropriate Test
+````````````````
+- [Sensu 24h]
+- [PHPUnit / Behat]
+- Analysis
 
 Requirements
 ````````````
