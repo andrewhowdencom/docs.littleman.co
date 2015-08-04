@@ -1,5 +1,11 @@
 All estimates include the time spent initially investigating and quoting the task, and the total time on the task should not exceed what's estimated without express approval from the client
 
+Before Estimation
+-----------------
+- Work out if there is any other work that is not yet on master, but that will conflict with your work (so, it's on staging)
+- Work out if there's any rewrites to what you're making
+- Look into how difficult it will be (**not how difficult you imagine it should be**)
+
 Calculation Table
 -----------------
 Initial figures (not multipliers) should come from records of similar work. If you don't have any, take a best guess, but you should have at least some.
@@ -51,9 +57,13 @@ Initial figures (not multipliers) should come from records of similar work. If y
 +----------------------------------+-------+-------+
 | .05x Each Theme (not store)      | 0     | 0     |
 +----------------------------------+-------+-------+
-| **Hand-off**                                     |
+| **Integration**                                  |
 +----------------------------------+-------+-------+
 | .25x Code Review                 | 0     | 0     |
++----------------------------------+-------+-------+
+| Additional time merging          |       |       |
++----------------------------------+-------+-------+
+| **Hand-off**                                     |
 +----------------------------------+-------+-------+
 | 1.2x < 2h Client driven changes  | 0     | 0     | 
 +----------------------------------+-------+-------+
