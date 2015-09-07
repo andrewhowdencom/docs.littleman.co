@@ -14,10 +14,15 @@ Appropriate Test
 - [PHPUnit / Behat]
 - Analysis
 
+Scores
+------
+W3 Validator (HTML)
+W3 Validator (CSS)
+Google PageSpeed
+
 Requirements
 ````````````
 # Get the scores from each given analysis tool
-
 
 Accessibility
 -------------
