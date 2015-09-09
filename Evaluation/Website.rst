@@ -116,6 +116,14 @@ Reliability
 - What is your sites uptime over the last (x) period?
 - Is your site speed consistent during its busiest periods?
 
+Efficiency
+----------
+- Are your images 
+  - Jpeg / PNG / WebP
+  - Have no metadata
+  - Suitable for the connection speed (file size wise)
+
+
 Search
 ------
 - Does your search check spelling and suggest corrections?
