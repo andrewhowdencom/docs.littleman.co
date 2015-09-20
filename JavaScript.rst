@@ -3,6 +3,8 @@ Canonical JavaScript Stacks
 
 - Dependency Management
   - [Core] http://requirejs.org/
+- [if] jQuery
+  - https://github.com/wilsonpage/jquery-fastdom
 
 Todo: Convert the below to be alphabetical
 - Logging
