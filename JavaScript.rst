@@ -3,6 +3,8 @@ Canonical JavaScript Stacks
 
 - Dependency Management
   - [Core] http://requirejs.org/
+- Form Validation
+  - None. Use HTML5 form validation
 - [if] jQuery
   - https://github.com/wilsonpage/jquery-fastdom
 
