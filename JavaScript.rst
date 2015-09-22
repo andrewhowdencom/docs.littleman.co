@@ -17,3 +17,9 @@ Todo: Convert the below to be alphabetical
 - Carousel 
   - Don't use a carousel
   - http://kenwheeler.github.io/slick/
+
+Developing a plugin
+-------------------
+- Use events rather than method handles to provide methods to "hook into" the plugin
+- Allow default configurations to be overwritten with the data-{whatever} flags
+
