@@ -11,6 +11,8 @@
 
 I've found I'm forgetting some of the finite details that it may be better to write down. So, here they are.
 
+Now i can even do it on my tablet!
+
 ## Installation 
 ### Visit http://dev.howden.io
 Or,
