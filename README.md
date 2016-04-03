@@ -14,14 +14,10 @@ I've found I'm forgetting some of the finite details that it may be better to wr
 Now i can even do it on my tablet!
 
 ## Installation 
-### Visit http://dev.howden.io
+### Visit http://docs.littleman.io
 Or,
 
-### Steal the documentation
-1. Clone the documentation
-2. Create a gollum server
-3. Set this documentation up in the gollum dir
-4. (optional) contribute any good idea's you have back
+### Steal the documentation.
 
 ## Contributing
 Contributions are always welcome! I mirror my work on GitHub, however, if you'd like to
