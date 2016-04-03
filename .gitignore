@@ -1,0 +1,7 @@
+# Ignore dotfiles (.foo), as they're sometimes used for secret inforamtion. 
+
+.*
+
+# These dotfiles are OK
+!/.travis.yml 
+!/.gitignore
