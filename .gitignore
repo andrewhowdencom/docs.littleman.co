@@ -5,3 +5,6 @@
 # These dotfiles are OK
 !/.travis.yml 
 !/.gitignore
+
+## Secrets, but encrypted.
+!/.gcloud.json.enc
