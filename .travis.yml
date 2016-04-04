@@ -5,7 +5,11 @@ branches:
 addons:
   apt:
     packages:
+    # Hugo
     - python-docutils
+    # gcloud
+    - pyopenssl
+    # make
     - git
 
 sudo: required
