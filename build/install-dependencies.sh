@@ -1,4 +1,4 @@
-#!/bin/bin/env bash
+#!/usr/bin/env bash
 
 GOOGLE_CLOUD_VERSION=103.0.0
 HUGO_VERSION=0.15
