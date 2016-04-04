@@ -18,14 +18,14 @@ before_install:
   -in .gcloud.json.enc -out .gcloud.json -d
 
 install:
-   sudo ./build/install-dependencies.sh
+  sudo ./build/install-dependencies.sh
 
 before_script:
-    make auth
+  sudo make auth
 
 script:
-    sudo make build-container-nginx
-    sudo make push-container-nginx
+  sudo make build-container-nginx
+  sudo make push-container-nginx
 
 after_sucess:
 
