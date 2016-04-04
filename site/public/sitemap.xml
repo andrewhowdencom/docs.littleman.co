@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://docs.littleman.co/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Analytics/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Apis/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Arguments/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/build/Website/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Code/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/communication/Argument/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/communication/Estimate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/communication/Publication/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/communication/Tickets/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Conference/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Design/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Documentation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Domain/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Email/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Environment/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Estimation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/evaluation/Email/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/evaluation/Infrastructure/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/evaluation/Magento/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/evaluation/Online-Store/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/evaluation/Presence/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/evaluation/Website/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Events/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Health/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Home/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/investigation/Magento/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/JavaScript/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Logging/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/magento/Attributes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/magento/Design/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/magento/Home/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/magento/module/Controller/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/magento/module/InstallScripts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/magento/module/Interfaces/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/magento/module/interfaces/Configuration/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/magento/module/interfaces/Events/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/magento/module/Observer/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Naming/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Nginx/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/packages/Nginx/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/README/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/reference/Bash/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/reference/magento/Constants/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/robo/Config/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Security/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Sensu/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/server/Nginx/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/server/PHP/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Service/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/snippets/LogstashForwarder/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/snippets/LogstashServer/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Social/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/TakingPayments/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/templates/Client-Summary/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/templates/Readme/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/templates/Scss-File/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Terminology/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Testing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Tools/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Usability/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Vim/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/Website/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/websites/Lint/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/websites/Markup/</loc>
+  </url>
+  
+  <url>
+    <loc>http://docs.littleman.co/docs/websites/Package/</loc>
+  </url>
+  
+</urlset>
