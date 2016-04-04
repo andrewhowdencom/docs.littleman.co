@@ -16,16 +16,10 @@ echo "GIT HASH: $(git rev-parse --short HEAD)"
 mkdir bin
 export PATH=$PATH:$(pwd)/bin
 
-# Install Google Cloud
-wget "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz"
-tar -xvf google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz
-export PATH=$PATH:$(pwd)/google-cloud-sdk/bin
-
-make auth
-
-# Install kubectl 
-wget https://storage.googleapis.com/kubernetes-release/release/v${KUBECTL_VERSION}/bin/darwin/amd64/kubectl
-mv kubectl ./bin/
+# Install Google Cloud, GCR Docker and GCR Kubernetes
+curl https://sdk.cloud.google.com | bash # Note: This isn't such a good solution. However, the static install comes with neither Docker nor Kubectl
+exec -l $SHELL
+gcloud components install kubectl 
 
 gcloud config set project $GCR_REGION
 gcloud config set compute/zone $GCR_PROJECT

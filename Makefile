@@ -47,4 +47,4 @@ generate: ## Create the static site
 	cd site && hugo
 
 auth: ## Activate the service account where this is being deployed to Google Cloud
-	gcloud auth activate-service-account --key-file .gcloud.json
+	gcloud auth activate-service-account ${GCR_SERVICE_ACCOUNT} --key-file .gcloud.json
