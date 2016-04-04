@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snippets on Some developer documentation</title>
+    <link>http://docs.littleman.co/snippets/</link>
+    <description>Recent content in Snippets on Some developer documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://docs.littleman.co/snippets/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/snippets/LogstashForwarder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/snippets/LogstashForwarder/</guid>
+      <description>
+
+&lt;h1 id=&#34;logstash-forwarder:63a45d609cd5e2002f554c62cc90f186&#34;&gt;Logstash Forwarder&lt;/h1&gt;
+
+&lt;h2 id=&#34;nginx:63a45d609cd5e2002f554c62cc90f186&#34;&gt;Nginx&lt;/h2&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;http://docs.littleman.co/Events&#34;&gt;events&lt;/a&gt; page for a description of these types.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &amp;quot;network&amp;quot;: {
+    &amp;quot;servers&amp;quot;: [ &amp;quot;{server}:{port}&amp;quot; ],
+    &amp;quot;ssl ca&amp;quot;: &amp;quot;/etc/logstash/logstash.crt&amp;quot;,
+    &amp;quot;timeout&amp;quot;: 15
+  },
+  &amp;quot;files&amp;quot;: [
+    {
+      &amp;quot;paths&amp;quot;: [&amp;quot;/var/log/nginx/access.log&amp;quot;],
+      &amp;quot;fields&amp;quot;: {
+         &amp;quot;environment&amp;quot;: &amp;quot;production&amp;quot;,
+         &amp;quot;format&amp;quot;: &amp;quot;json&amp;quot;,
+         &amp;quot;package&amp;quot;: &amp;quot;nginx&amp;quot;,
+         &amp;quot;service&amp;quot;: &amp;quot;andrewhowden.com&amp;quot;,
+         &amp;quot;type&amp;quot;: &amp;quot;event&amp;quot;
+       }
+    },
+    {
+      &amp;quot;paths&amp;quot;: [&amp;quot;/var/log/nginx/error.log&amp;quot;],
+      &amp;quot;fields&amp;quot;: {
+        &amp;quot;environment&amp;quot;: &amp;quot;production&amp;quot;,
+        &amp;quot;format&amp;quot;: &amp;quot;string&amp;quot;,
+        &amp;quot;package&amp;quot;: &amp;quot;nginx&amp;quot;,
+        &amp;quot;service&amp;quot;: &amp;quot;andrewhowden.com&amp;quot;,
+        &amp;quot;type&amp;quot;: &amp;quot;error&amp;quot;
+      }
+    }
+  ]
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/snippets/LogstashServer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/snippets/LogstashServer/</guid>
+      <description>
+
+&lt;h1 id=&#34;logstash-server:4e138af595e549a48e08719709d5d03e&#34;&gt;Logstash Server&lt;/h1&gt;
+
+&lt;h2 id=&#34;inputs:4e138af595e549a48e08719709d5d03e&#34;&gt;Inputs&lt;/h2&gt;
+
+&lt;h3 id=&#34;lumberjack:4e138af595e549a48e08719709d5d03e&#34;&gt;Lumberjack&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;input {
+  lumberjack {
+    port =&amp;gt; 5043
+    ssl_certificate =&amp;gt; &amp;quot;/etc/logstash/ssl/server.crt&amp;quot;
+    ssl_key =&amp;gt; &amp;quot;/etc/logstash/ssl/server.key&amp;quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;filters:4e138af595e549a48e08719709d5d03e&#34;&gt;Filters&lt;/h2&gt;
+
+&lt;h3 id=&#34;json:4e138af595e549a48e08719709d5d03e&#34;&gt;Json&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;filter {
+  if [format] == &amp;quot;json&amp;quot; {
+    json {
+      source =&amp;gt; &amp;quot;message&amp;quot;
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;nginx-error:4e138af595e549a48e08719709d5d03e&#34;&gt;Nginx Error&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;filter {
+  if [format] == &amp;quot;string&amp;quot; and [type] == &amp;quot;error&amp;quot; and [package] == &amp;quot;nginx&amp;quot; {
+    grok {
+      match =&amp;gt; [ &amp;quot;message&amp;quot;, &amp;quot;(?&amp;lt;timestamp&amp;gt;[0-9A-z\/:\ ]{0,19}) \[%{LOGLEVEL:level}\] %{GREEDYDATA:payload}&amp;quot; ]
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;outputs:4e138af595e549a48e08719709d5d03e&#34;&gt;Outputs&lt;/h2&gt;
+
+&lt;h3 id=&#34;elastic-search:4e138af595e549a48e08719709d5d03e&#34;&gt;Elastic Search&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;output {
+  elasticsearch {
+    protocol =&amp;gt; &amp;quot;http&amp;quot;
+    cluster =&amp;gt; &amp;quot;elasticsearch&amp;quot;
+    host =&amp;gt; &amp;quot;127.0.0.1&amp;quot;
+    port =&amp;gt; 9200
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

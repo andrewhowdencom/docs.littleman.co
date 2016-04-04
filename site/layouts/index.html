@@ -6,10 +6,11 @@
 </div>
 
 <div class="content">
-  {{ range $key, $value := .Paginator.Pages }}
-    {{ .Render "summary"}}
-  {{ end }}
-
+  <ul id="list">
+    {{ range .Data.Pages }}
+      {{ .Render "li"}}
+    {{ end }}
+  </ul>
   {{ partial "pagination.html" . }}
 
 </div>

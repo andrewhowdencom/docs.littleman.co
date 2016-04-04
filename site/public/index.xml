@@ -10,46 +10,89 @@
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/Analytics/</link>
+      <link>http://docs.littleman.co/Analytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/Analytics/</guid>
+      <guid>http://docs.littleman.co/Analytics/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;div class=&#34;section&#34; id=&#34;contact-cta-analytics&#34;&gt;
+&lt;h1&gt;Contact CTA Analytics&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;What page are users on when they request further information&lt;/li&gt;
+&lt;li&gt;Is it possible to put that information on the page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;end-of-the-line-failures&#34;&gt;
+&lt;h1&gt;End of the line failures&lt;/h1&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 7)&lt;/p&gt;
+&lt;p&gt;Title underline too short.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+End of the line failures
+-----------------------
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Contact Page (user should have been able to contact without leaving their page)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/Apis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/Apis/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/Apis/</link>
+      <link>http://docs.littleman.co/Arguments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/Apis/</guid>
-      <description></description>
+      <guid>http://docs.littleman.co/Arguments/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;standard-arguments&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Standard Arguments&lt;/h1&gt;
+
+&lt;div class=&#34;section&#34; id=&#34;upgrading-magento&#34;&gt;
+&lt;h1&gt;Upgrading Magento&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Validations (such as the email TLD validation) will become out of date, rendering some users unable to sign up&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;keeping-magento-extensions-up-to-date&#34;&gt;
+&lt;h1&gt;Keeping Magento Extensions up to date&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Occasionally, Magento will release an architectural change that upstream providers will automatically adjust for. However, if you&#39;re on an old version, the changes are either going to have to be back-ported or you&#39;re going to have to go through a whole swathe of upgrades. Better the latter, at smaller increments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/Arguments/</link>
+      <link>http://docs.littleman.co/build/Website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/Arguments/</guid>
-      <description></description>
+      <guid>http://docs.littleman.co/build/Website/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;css&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;CSS&lt;/h1&gt;
+
+&lt;p&gt;Remove redundant styles: &lt;a class=&#34;reference external&#34; href=&#34;https://github.com/purifycss/purifycss&#34;&gt;https://github.com/purifycss/purifycss&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/build/Website/</link>
+      <link>http://docs.littleman.co/Code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/build/Website/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://docs.littleman.co/docs/Code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://docs.littleman.co/docs/Code/</guid>
+      <guid>http://docs.littleman.co/Code/</guid>
       <description>
 
 &lt;h1 id=&#34;code:f0a065d8e1cf39db1995ae7b7f1ea071&#34;&gt;Code&lt;/h1&gt;
@@ -87,10 +130,10 @@
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/communication/Argument/</link>
+      <link>http://docs.littleman.co/communication/Argument/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/communication/Argument/</guid>
+      <guid>http://docs.littleman.co/communication/Argument/</guid>
       <description>
 
 &lt;h1 id=&#34;argument:61a2470d7d74eda3a9877e20c503651f&#34;&gt;Argument&lt;/h1&gt;
@@ -110,10 +153,10 @@
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/communication/Estimate/</link>
+      <link>http://docs.littleman.co/communication/Estimate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/communication/Estimate/</guid>
+      <guid>http://docs.littleman.co/communication/Estimate/</guid>
       <description>
 
 &lt;h1 id=&#34;estimation:544a2b9e9c9a89559b94de03a9d02e28&#34;&gt;Estimation&lt;/h1&gt;
@@ -122,74 +165,728 @@
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/communication/Publication/</link>
+      <link>http://docs.littleman.co/communication/Publication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/communication/Publication/</guid>
-      <description></description>
+      <guid>http://docs.littleman.co/communication/Publication/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;Basics
+1. Is anyone going to give a shit? No? Don&#39;t publish it. Spam is bad.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;publication-types&#34;&gt;
+&lt;h1&gt;Publication Types&lt;/h1&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 7)&lt;/p&gt;
+&lt;p&gt;Malformed table.
+Bottom/header table border does not match top border.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+====================== =============================================== ===============================
+Type                   Description                                     Example
+====================== =============================================== ===============================
+Announcement
+Security Notice
+Service Advertisement
+====================== =============================================== ================================
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;publication-streams&#34;&gt;
+&lt;h1&gt;Publication Streams&lt;/h1&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;59%&#34; /&gt;
+&lt;col width=&#34;22%&#34; /&gt;
+&lt;col width=&#34;19%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&#34;bottom&#34;&gt;
+&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Type&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;Facebook&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;Twitter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;Announcement&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/communication/Tickets/</link>
+      <link>http://docs.littleman.co/communication/Tickets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/communication/Tickets/</guid>
-      <description></description>
+      <guid>http://docs.littleman.co/communication/Tickets/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;The canonical way of reporting issues should be from the client website. Insert JS for certain IP ranges or user login that allows a bug reporting form.&lt;/p&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;Collect:&lt;/dt&gt;
+&lt;dd&gt;User Agent
+Device
+Request URI
+Session ID
+Screenshot
+User Feedback
+Time
+HTTP Status code&lt;/dd&gt;
+&lt;dt&gt;Automatically submit report with the following error codes:&lt;/dt&gt;
+&lt;dd&gt;5xx&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Provide a form to submit for any other error codes.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;projects-dependant-on-these-docs&#34;&gt;
+&lt;h1&gt;Projects dependant on these docs&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://git.howden.io/repository/nginx&#34;&gt;http://git.howden.io/repository/nginx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/Conference/</link>
+      <link>http://docs.littleman.co/Conference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/Conference/</guid>
-      <description></description>
+      <guid>http://docs.littleman.co/Conference/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;creating-a-conference-or-gathering&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Creating a conference (or gathering)&lt;/h1&gt;
+
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Create a Trello board for internal use (make it visible externally?)&lt;/li&gt;
+&lt;li&gt;Create a slack room for&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 5)&lt;/p&gt;
+Bullet list ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Speakers&lt;/li&gt;
+&lt;li&gt;Attendees&lt;/li&gt;
+&lt;li&gt;Internal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;section&#34; id=&#34;advertising&#34;&gt;
+&lt;h1&gt;Advertising&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Take efforts to be particularly welcoming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/Design/</link>
+      <link>http://docs.littleman.co/Design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/Design/</guid>
-      <description></description>
+      <guid>http://docs.littleman.co/Design/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;div class=&#34;section&#34; id=&#34;definitions&#34;&gt;
+&lt;h1&gt;Definitions&lt;/h1&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;21%&#34; /&gt;
+&lt;col width=&#34;79%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&#34;bottom&#34;&gt;
+&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Word&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;descriptor&lt;/td&gt;
+&lt;td&gt;A qualifier for the psuedoelement structure (eg. title)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;psuedoelement&lt;/td&gt;
+&lt;td&gt;The semantic name for the page structure (eg. navbar)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;overview&#34;&gt;
+&lt;h1&gt;Overview&lt;/h1&gt;
+&lt;div class=&#34;section&#34; id=&#34;pertinent-data&#34;&gt;
+&lt;h2&gt;Pertinent Data&lt;/h2&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Brand Colors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;process&#34;&gt;
+&lt;h2&gt;Process&lt;/h2&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Develop a kitchen sink of elements that will be used throughout the site. Some common ones are&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 21)&lt;/p&gt;
+Enumerated list ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Buttons&lt;/li&gt;
+&lt;li&gt;Loading Indicators&lt;/li&gt;
+&lt;li&gt;Headings&lt;/li&gt;
+&lt;li&gt;Paragraph Text&lt;/li&gt;
+&lt;li&gt;Lists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;canonical-symbology&#34;&gt;
+&lt;h1&gt;Canonical Symbology&lt;/h1&gt;
+&lt;p&gt;Where possible, use the materials design icon set.&lt;/p&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;33%&#34; /&gt;
+&lt;col width=&#34;67%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&#34;bottom&#34;&gt;
+&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Term&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;&amp;nbsp;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;Search&lt;/td&gt;
+&lt;td&gt;Magnifying Glass&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;scss&#34;&gt;
+&lt;h1&gt;SCSS&lt;/h1&gt;
+&lt;div class=&#34;section&#34; id=&#34;headings&#34;&gt;
+&lt;h2&gt;Headings&lt;/h2&gt;
+&lt;p&gt;Heading styles should not be coupled with their tag counterparts. h1 - h5 are used for determining the importants of the content that follows, the class for describing further information about that section.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;naming&#34;&gt;
+&lt;h2&gt;Naming&lt;/h2&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;27%&#34; /&gt;
+&lt;col width=&#34;73%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&#34;bottom&#34;&gt;
+&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Type&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;Standard&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;Color Variable&lt;/td&gt;
+&lt;td&gt;{psuedoelement}-color-{descriptor}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Height Variable&lt;/td&gt;
+&lt;td&gt;{psuedoelement}-height-{short(er|est)|base|tall(er|est)}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Thickness Variable&lt;/td&gt;
+&lt;td&gt;Use width&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Width Variable&lt;/td&gt;
+&lt;td&gt;{psuedoelement}-width-{thin(er|est)|base|thick(er|est)}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;canonical-name&#34;&gt;
+&lt;h2&gt;Canonical name&lt;/h2&gt;
+&lt;div class=&#34;line-block&#34;&gt;
+&lt;div class=&#34;line&#34;&gt;Name                 | Alternatives                                                |&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 62)&lt;/p&gt;
+Line block ends without a blank line.&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;#id1&#34;&gt;&lt;span class=&#34;problematic&#34; id=&#34;id2&#34;&gt;|:--------------------:|&lt;/span&gt;&lt;/a&gt;:-----------------------------------------------------------:|
+| largest              | x-large, extra-large                                        |&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;reserved-words&#34;&gt;
+&lt;h2&gt;Reserved Words&lt;/h2&gt;
+&lt;div class=&#34;section&#34; id=&#34;modifiers&#34;&gt;
+&lt;h3&gt;Modifiers&lt;/h3&gt;
+&lt;p&gt;Modifiers are selectors that only modify the look of the page when combined with another selector. They should not have any styles applied to them directly, and ideally should only be used as placeholders.&lt;/p&gt;
+&lt;div class=&#34;line-block&#34;&gt;
+&lt;div class=&#34;line&#34;&gt;Word     | Description                                             |&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 74)&lt;/p&gt;
+Line block ends without a blank line.&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;#id3&#34;&gt;&lt;span class=&#34;problematic&#34; id=&#34;id4&#34;&gt;|:--------:|&lt;/span&gt;&lt;/a&gt;:-------------------------------------------------------:|
+| left     | Move the element to the left side of its parent         |
+| right    | Move the element to the right side of its parent        |&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;whitespace&#34;&gt;
+&lt;h2&gt;Whitespace&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;All elements are responsible for the vertical whitespace directly below them, with the exception
+of the first element on the page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;naming-standard&#34;&gt;
+&lt;h2&gt;Naming Standard&lt;/h2&gt;
+&lt;div class=&#34;line-block&#34;&gt;
+&lt;div class=&#34;line&#34;&gt;Structure    | Standard                                                  | Example        |&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 86)&lt;/p&gt;
+Line block ends without a blank line.&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;#id5&#34;&gt;&lt;span class=&#34;problematic&#34; id=&#34;id6&#34;&gt;|:------------:|&lt;/span&gt;&lt;/a&gt;:---------------------------------------------------------:&lt;a href=&#34;#id7&#34;&gt;&lt;span class=&#34;problematic&#34; id=&#34;id8&#34;&gt;|:--------------:|&lt;/span&gt;&lt;/a&gt;
+| placeholders | Singular, describing it&#39;s semantic purpose. One word only | &lt;tt class=&#34;docutils literal&#34;&gt;`%heading`&lt;/tt&gt; |&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;drop-down-menus&#34;&gt;
+&lt;h1&gt;Drop down menus&lt;/h1&gt;
+&lt;p&gt;A nice library for aiming the mouse somewhere
+&lt;a class=&#34;reference external&#34; href=&#34;http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown&#34;&gt;http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;directory-structure&#34;&gt;
+&lt;h2&gt;Directory Structure&lt;/h2&gt;
+&lt;div class=&#34;line-block&#34;&gt;
+&lt;div class=&#34;line&#34;&gt;Sass |             |       |                 |&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 98)&lt;/p&gt;
+Line block ends without a blank line.&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;#id9&#34;&gt;&lt;span class=&#34;problematic&#34; id=&#34;id10&#34;&gt;|------|&lt;/span&gt;&lt;/a&gt;:-----------:&lt;a href=&#34;#id11&#34;&gt;&lt;span class=&#34;problematic&#34; id=&#34;id12&#34;&gt;|:-----:|&lt;/span&gt;&lt;/a&gt;:----------------|
+|      | styles      |                         |
+|      | _mixins                               |
+|      | _colors                               |
+|      | _variables                            |
+|      | _placeholders                         |
+|                                              |
+|      | styles/     |       |                 |
+|      |             | core/ |                 |
+|      |             |       | _buttons.scss   |
+|      |             |       | _carousels.scss |
+|      |             |       | _collapse.scss  |
+|      |             |       | _forms.scss     |
+|      |             |       | _loading.scss   |
+|      |             |       | _messages.scss  |
+|      |             |       | _modals.scss    |
+|      |             |       | _panels.scss    |
+|      |             |       | _typography.scss|
+|      |             |       | _utilities.scss |
+|      |             |       | _wells.scss     |
+|      |             |       |                 |&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;typography&#34;&gt;
+&lt;h1&gt;Typography&lt;/h1&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 123)&lt;/p&gt;
+&lt;p&gt;Malformed table.
+No bottom table border found or no blank line after table bottom.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+========== ============== ==========================
+Use        Inherits From  Additional Styles
+========== ============== ==========================
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 126)&lt;/p&gt;
+Blank line required after table.&lt;/div&gt;
+&lt;p&gt;Main Text                 1em
+Link       Main Text      Underline, Color: #0B0080&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;useful-links&#34;&gt;
+&lt;h1&gt;Useful Links&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;[Sassline - Print style typography on the web](&lt;a class=&#34;reference external&#34; href=&#34;https://github.com/designbyjake/sassline&#34;&gt;https://github.com/designbyjake/sassline&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;[Bootstrap - Materials Design](&lt;a class=&#34;reference external&#34; href=&#34;http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html&#34;&gt;http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;system-messages section&#34;&gt;
+&lt;h1&gt;Docutils System Messages&lt;/h1&gt;
+&lt;div class=&#34;system-message&#34; id=&#34;id1&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 62); &lt;em&gt;&lt;a href=&#34;#id2&#34;&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Undefined substitution referenced: &amp;quot;:--------------------:&amp;quot;.&lt;/div&gt;
+&lt;div class=&#34;system-message&#34; id=&#34;id3&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 74); &lt;em&gt;&lt;a href=&#34;#id4&#34;&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Undefined substitution referenced: &amp;quot;:--------:&amp;quot;.&lt;/div&gt;
+&lt;div class=&#34;system-message&#34; id=&#34;id5&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 86); &lt;em&gt;&lt;a href=&#34;#id6&#34;&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Undefined substitution referenced: &amp;quot;:------------:&amp;quot;.&lt;/div&gt;
+&lt;div class=&#34;system-message&#34; id=&#34;id7&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 86); &lt;em&gt;&lt;a href=&#34;#id8&#34;&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Undefined substitution referenced: &amp;quot;:--------------:&amp;quot;.&lt;/div&gt;
+&lt;div class=&#34;system-message&#34; id=&#34;id9&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 98); &lt;em&gt;&lt;a href=&#34;#id10&#34;&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Undefined substitution referenced: &amp;quot;------&amp;quot;.&lt;/div&gt;
+&lt;div class=&#34;system-message&#34; id=&#34;id11&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 98); &lt;em&gt;&lt;a href=&#34;#id12&#34;&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Undefined substitution referenced: &amp;quot;:-----:&amp;quot;.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/Documentation/</link>
+      <link>http://docs.littleman.co/Documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/Documentation/</guid>
-      <description></description>
+      <guid>http://docs.littleman.co/Documentation/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;documentation&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Documentation&lt;/h1&gt;
+
+&lt;p&gt;This articles intention is to provide information about how to properly structure both markdown and restructured text documentation.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;titles&#34;&gt;
+&lt;h1&gt;Titles&lt;/h1&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;16%&#34; /&gt;
+&lt;col width=&#34;45%&#34; /&gt;
+&lt;col width=&#34;39%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&#34;bottom&#34;&gt;
+&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Structure&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;RST Syntax&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;Markdown Syntax&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;h1&lt;/td&gt;
+&lt;td&gt;&lt;div class=&#34;first last system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 14)&lt;/p&gt;
+&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. code:: ReST
+
+   =====
+   Title
+   =====
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;pre class=&#34;code first last literal-block&#34;&gt;
+# Title
+&lt;/pre&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;h2&lt;/td&gt;
+&lt;td&gt;&lt;div class=&#34;first last system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 21)&lt;/p&gt;
+&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. code:: ReST
+
+    Heading 2
+    ---------
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;pre class=&#34;code first last literal-block&#34;&gt;
+## Heading 2
+&lt;/pre&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;h3&lt;/td&gt;
+&lt;td&gt;&lt;div class=&#34;first last system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 27)&lt;/p&gt;
+&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. code:: ReST
+
+    Heading 3
+    `````````
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;pre class=&#34;code first last literal-block&#34;&gt;
+### Heading 3
+&lt;/pre&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;h4&lt;/td&gt;
+&lt;td&gt;&lt;div class=&#34;first last system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 33)&lt;/p&gt;
+&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. code:: ReST
+
+    Heading 4
+    &amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;pre class=&#34;code first last literal-block&#34;&gt;
+#### Heading 4
+&lt;/pre&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;references&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;16%&#34; /&gt;
+&lt;col width=&#34;45%&#34; /&gt;
+&lt;col width=&#34;39%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&#34;bottom&#34;&gt;
+&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Structure&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;RST Syntax&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;Markdown Syntax&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;Heading&lt;/td&gt;
+&lt;td&gt;&lt;div class=&#34;first last system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 46)&lt;/p&gt;
+&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. code:: ReST
+
+    **Heading 2**
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;td&gt;Undocumented.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;In software
+menu item&lt;/td&gt;
+&lt;td&gt;&lt;div class=&#34;first last system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 51)&lt;/p&gt;
+&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. code:: ReST
+
+   ``System → Configuration``
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;td&gt;Undocumented.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;examples&#34;&gt;
+&lt;h1&gt;Examples&lt;/h1&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;16%&#34; /&gt;
+&lt;col width=&#34;45%&#34; /&gt;
+&lt;col width=&#34;39%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&#34;bottom&#34;&gt;
+&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Structure&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;RST Syntax&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;Markdown Syntax&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;Code block&lt;/td&gt;
+&lt;td&gt;&lt;div class=&#34;first system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 63)&lt;/p&gt;
+&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+.. code:: ReST
+
+    ..Code::
+        ./mage install-file {package}
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p class=&#34;last&#34;&gt;You&#39;ll need a space between &#39;..&#39; &amp;amp; &#39;C&#39;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;Undocumented&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/Domain/</link>
+      <link>http://docs.littleman.co/Domain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/Domain/</guid>
-      <description></description>
+      <guid>http://docs.littleman.co/Domain/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;recovering-a-domain&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Recovering a domain&lt;/h1&gt;
+&lt;h2 class=&#34;subtitle&#34; id=&#34;com-au&#34;&gt;.com.au&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://admin.auda.org.au/password_recovery/auda_recover_password.jsp?&#34;&gt;EPP Pass code recovery link&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/Email/</link>
+      <link>http://docs.littleman.co/Email/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/Email/</guid>
-      <description></description>
+      <guid>http://docs.littleman.co/Email/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;div class=&#34;section&#34; id=&#34;naming-standards&#34;&gt;
+&lt;h1&gt;Naming Standards&lt;/h1&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 5)&lt;/p&gt;
+&lt;p&gt;Malformed table.
+Text in column margin in table line 2.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+================== ===== ===================
+Construct          Std  Example
+================== ===== ===================
+Delimiter          ``-``
+================== ===== ===================
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;standard-addresses&#34;&gt;
+&lt;h1&gt;Standard Addresses&lt;/h1&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;51%&#34; /&gt;
+&lt;col width=&#34;49%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;Bug fixes / software updates&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;reference external&#34; href=&#34;mailto:software-updates&amp;#64;example.com&#34;&gt;software-updates&amp;#64;example.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Website Administrators&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;reference external&#34; href=&#34;mailto:webmaster&amp;#64;example.com&#34;&gt;webmaster&amp;#64;example.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Support / Help&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;reference external&#34; href=&#34;mailto:support&amp;#64;example.com&#34;&gt;support&amp;#64;example.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;standard-signature&#34;&gt;
+&lt;h1&gt;Standard Signature&lt;/h1&gt;
+&lt;p&gt;Example User
+Job Title
+T: 0438 123 456 | E: &lt;a class=&#34;reference external&#34; href=&#34;mailto:hello&amp;#64;example.com&#34;&gt;hello&amp;#64;example.com&lt;/a&gt; | W: &lt;a class=&#34;reference external&#34; href=&#34;http://litleman.co&#34;&gt;http://litleman.co&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/docs/Environment/</link>
+      <link>http://docs.littleman.co/Environment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/docs/Environment/</guid>
-      <description></description>
+      <guid>http://docs.littleman.co/Environment/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;div class=&#34;section&#34; id=&#34;development&#34;&gt;
+&lt;h1&gt;Development&lt;/h1&gt;
+&lt;div class=&#34;section&#34; id=&#34;hardware&#34;&gt;
+&lt;h2&gt;Hardware&lt;/h2&gt;
+&lt;div class=&#34;section&#34; id=&#34;main-machines&#34;&gt;
+&lt;h3&gt;Main Machines&lt;/h3&gt;
+&lt;p&gt;Hardware&lt;/p&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;25%&#34; /&gt;
+&lt;col width=&#34;25%&#34; /&gt;
+&lt;col width=&#34;49%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&#34;bottom&#34;&gt;
+&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Part&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;Description&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;HDD&lt;/td&gt;
+&lt;td&gt;2x SSD 256GB&lt;/td&gt;
+&lt;td&gt;1x OS, Packages. 1x Data&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Software&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;backups&#34;&gt;
+&lt;h3&gt;Backups&lt;/h3&gt;
+&lt;p&gt;Some sort of NAS&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;virtual-machines&#34;&gt;
+&lt;h2&gt;Virtual Machines&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;server&#34;&gt;
+&lt;h1&gt;Server&lt;/h1&gt;
+&lt;div class=&#34;section&#34; id=&#34;health-checks&#34;&gt;
+&lt;h2&gt;Health Checks&lt;/h2&gt;
+&lt;p&gt;Installed via Apt.&lt;/p&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Disk free space metric&lt;/li&gt;
+&lt;li&gt;Free memory metric&lt;/li&gt;
+&lt;li&gt;CPU Usage metric&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;section&#34; id=&#34;software&#34;&gt;
+&lt;h3&gt;Software&lt;/h3&gt;
+&lt;p&gt;Software health checks verify that software is in an expected state, and allows the user make invalid an old version of software so that box can be scheduled for decommission, and a new box created with the updated package.&lt;/p&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;50%&#34; /&gt;
+&lt;col width=&#34;50%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&#34;bottom&#34;&gt;
+&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Purpose&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;Software&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;Web Server&lt;/td&gt;
+&lt;td&gt;Nginx&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Log Forwarder&lt;/td&gt;
+&lt;td&gt;logstash-forwarder&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;software-repositories&#34;&gt;
+&lt;h3&gt;Software Repositories&lt;/h3&gt;
+&lt;div class=&#34;section&#34; id=&#34;debian&#34;&gt;
+&lt;h4&gt;Debian&lt;/h4&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;19%&#34; /&gt;
+&lt;col width=&#34;81%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&#34;bottom&#34;&gt;
+&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Software&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;URL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;Nginx&lt;/td&gt;
+&lt;td&gt;deb &lt;a class=&#34;reference external&#34; href=&#34;http://pkg.howden.io/&#34;&gt;http://pkg.howden.io/&lt;/a&gt; ./&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Sensu&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;reference external&#34; href=&#34;https://sensuapp.org/docs/latest/install-repositories&#34;&gt;https://sensuapp.org/docs/latest/install-repositories&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;references&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
   </channel>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evaluations on Some developer documentation</title>
+    <link>http://docs.littleman.co/evaluation/</link>
+    <description>Recent content in Evaluations on Some developer documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://docs.littleman.co/evaluation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/evaluation/Email/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/evaluation/Email/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Is your email responsive?&lt;/li&gt;
+&lt;li&gt;Is your email viewable across a broad range of clients?&lt;/li&gt;
+&lt;li&gt;Does your email include a plain text version?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;section&#34; id=&#34;transactional-email&#34;&gt;
+&lt;h1&gt;Transactional Email&lt;/h1&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Does your email include the appropriate structured microdata?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/evaluation/Infrastructure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/evaluation/Infrastructure/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;location&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Location&lt;/h1&gt;
+
+&lt;p&gt;[H] Are your servers in the closest data center to your users? (Remains true for worldwide users; Get a CDN, or multiple machines)&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/evaluation/Magento/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/evaluation/Magento/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;security&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Security&lt;/h1&gt;
+
+&lt;p&gt;Do the following folders return standard 404 code?
+- /app&lt;/p&gt;
+&lt;p&gt;Are the following files accessible?
+- /var/log/system.log
+- /app/etc/local.xml&lt;/p&gt;
+&lt;p&gt;Are the following folders indexable?
+- /var
+- /customer&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/evaluation/Online-Store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/evaluation/Online-Store/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;div class=&#34;section&#34; id=&#34;navigation&#34;&gt;
+&lt;h1&gt;Navigation&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Do you offer an ajax &amp;quot;Add to cart&amp;quot; feature?&lt;/li&gt;
+&lt;li&gt;Do you redirect your users to their previous view from the &amp;quot;cart&amp;quot; page?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;payment-methods&#34;&gt;
+&lt;h1&gt;Payment Methods&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Does your website offer multiple, redundant payment methods?&lt;/li&gt;
+&lt;li&gt;Do you validate your Credit Card numbers with Luhns algorithm before submission?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;product-selection-category-search&#34;&gt;
+&lt;h1&gt;Product selection (category, search)&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Does your selection offer faceting? (+1) Is it updated via AJAX? (+2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;trustworthyness&#34;&gt;
+&lt;h1&gt;Trustworthyness&lt;/h1&gt;
+&lt;p&gt;Are you a Google Trusted Store?
+Do you supply valid &amp;amp; detailed product feeds to the following price comparison services:
+- Google Shopping (&lt;a class=&#34;reference external&#34; href=&#34;https://support.google.com/merchants/answer/188494?hl=en-AU&#34;&gt;https://support.google.com/merchants/answer/188494?hl=en-AU&lt;/a&gt;)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;one-click-checkout&#34;&gt;
+&lt;h1&gt;One-click checkout&lt;/h1&gt;
+&lt;p&gt;Does your store offer a one-click checkout?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/evaluation/Presence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/evaluation/Presence/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;social&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Social&lt;/h1&gt;
+
+&lt;p&gt;Do you have accounts with Facebook, Twitter &amp;amp; Google+?
+Are you registered in the relevant industry directories?&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/evaluation/Website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/evaluation/Website/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

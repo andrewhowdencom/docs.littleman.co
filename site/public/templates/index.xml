@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Templates on Some developer documentation</title>
+    <link>http://docs.littleman.co/templates/</link>
+    <description>Recent content in Templates on Some developer documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://docs.littleman.co/templates/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/templates/Client-Summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/templates/Client-Summary/</guid>
+      <description>
+
+&lt;h1 id=&#34;clientname-summary-document:a744d4fe252aa8c4fa58ffad05e98d3d&#34;&gt;{ClientName} Summary Document&lt;/h1&gt;
+
+&lt;h2 id=&#34;general-overview:a744d4fe252aa8c4fa58ffad05e98d3d&#34;&gt;General Overview&lt;/h2&gt;
+
+&lt;p&gt;Here lies a little information about the company, their goals, what they&amp;rsquo;re doing IT wise etc.&lt;/p&gt;
+
+&lt;h2 id=&#34;development-environment:a744d4fe252aa8c4fa58ffad05e98d3d&#34;&gt;Development Environment&lt;/h2&gt;
+
+&lt;h3 id=&#34;description:a744d4fe252aa8c4fa58ffad05e98d3d&#34;&gt;Description&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Service&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Responsibily&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;our-role:a744d4fe252aa8c4fa58ffad05e98d3d&#34;&gt;Our Role&lt;/h3&gt;
+
+&lt;p&gt;Our role is to be responsible for the changes to {x} service and the upkeep of {y} service&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/templates/Readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/templates/Readme/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;Below is the readme template!&lt;/p&gt;
+&lt;p&gt;..code:&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+Project Outline
+----------------
+Project Goals
+`````````````
+1. This is a project goal
+
+This project is intended to cover the gap found during {foo}
+
+Summary
+```````
+============= ============ ==============
+License       Code Style   Code Locale
+------------- ------------ --------------
+Apache-2      Zend         en-AU [lang]_
+============= ============ ==============
+
+Compatibility
+`````````````
+Magento  Compatibility
+
+===== ===== ===== ===== ===== =====
+ 1.9   1.8   1.7   1.6   1.5   1.4
+----- ----- ----- ----- ----- -----
+  Y     ?     ?     ?     ?     ?
+===== ===== ===== ===== ===== =====
+
+Installation
+-------------
+Add the satis repository
+    .. code::
+    {
+       &amp;quot;repositories&amp;quot;: [
+           {
+               &amp;quot;type&amp;quot;: &amp;quot;composer&amp;quot;,
+               &amp;quot;url&amp;quot;: &amp;quot;http://satis.howden.io&amp;quot;
+           }
+       ]
+    }
+
+Do a thing
+
+Usage
+-----
+Example A
+``````````
+This is an example.
+.. code::
+    // This is an example code
+    &amp;lt;?php echo $foo; ?&amp;gt;
+
+Contributing
+------------
+Contributions are always welcome! I mirror my work on GitHub, however, if you&#39;d like to [open an issue](http://link.com)
+i&#39;d love the feedback!
+
+References
+-----------
+.. [lang] Lingoes.net,. (2015). Language Code Table. Retrieved 4 June 2015, from http://www.lingoes.net/en/translator/langcode.htm
+&lt;/pre&gt;
+&lt;p&gt;Conclude readme template&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/templates/Scss-File/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/templates/Scss-File/</guid>
+      <description>&lt;p&gt;Copy paste the below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/** 
+ * NOTICE OF LICENSE 
+ * 
+ * {Replace this with the actual license text} 
+ * 
+ * This file is responsible for ...
+ * 
+ * @copyright Copyright (c) 2015 Howden.io (http://howden.io) 
+ * @license   Apache2 http://www.apache.org/licenses/LICENSE-2.0.html
+ * 
+ * @todo      An example todo
+ */
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

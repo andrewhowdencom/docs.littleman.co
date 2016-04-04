@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Websites on Some developer documentation</title>
+    <link>http://docs.littleman.co/websites/</link>
+    <description>Recent content in Websites on Some developer documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://docs.littleman.co/websites/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/websites/Lint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/websites/Lint/</guid>
+      <description>
+
+&lt;h1 id=&#34;code-style:1339f060d8f52fd7fe865d4bb394a5c8&#34;&gt;Code Style&lt;/h1&gt;
+
+&lt;p&gt;I dislike styleguides, and much prefer lints.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Language&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Javascript&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Lint&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;http://eslint.org/&#34;&gt;ESLint&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/websites/Markup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/websites/Markup/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;semantic-element-guidelines&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Semantic element guidelines&lt;/h1&gt;
+&lt;h2 class=&#34;subtitle&#34; id=&#34;pagination-bar&#34;&gt;Pagination Bar&lt;/h2&gt;
+
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;If the pagination is for the ancestor element, use &lt;tt class=&#34;docutils literal&#34;&gt;&amp;lt;nav&amp;gt;&lt;/tt&gt;&lt;/li&gt;
+&lt;li&gt;Use rel=&amp;quot;prev&amp;quot; and rel=&amp;quot;next&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/websites/Package/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/websites/Package/</guid>
+      <description>
+
+&lt;h1 id=&#34;website-package:0970a2f2d6e6b3116fa73753b320fdfe&#34;&gt;Website Package&lt;/h1&gt;
+
+&lt;p&gt;This is information about the standard structure of a website package. It&amp;rsquo;s not a hard and fast set, just a reasonable layout of the files I&amp;rsquo;ve found useful.&lt;/p&gt;
+
+&lt;h2 id=&#34;folder-structure:0970a2f2d6e6b3116fa73753b320fdfe&#34;&gt;Folder Structure&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;/data/www/{application}
+  → app/
+  → build/ 
+      robo.yml
+  → etc/ 
+    → nginx/ 
+
+      # Ideally, there should be an includes that handles these. Yet to figure out a clean way to do that, though.
+      Production.conf
+      Staging.conf
+      Development.conf
+    → init.d/
+
+      # Some (mainly go) application don&#39;t come with an init.d service script. 
+      {application} 
+  → public/
+    index.{ext}
+  → var/ 
+    → log/ 
+      application.log
+  → vendor/
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

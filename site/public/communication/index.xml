@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communications on Some developer documentation</title>
+    <link>http://docs.littleman.co/communication/</link>
+    <description>Recent content in Communications on Some developer documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://docs.littleman.co/communication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/communication/Argument/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/communication/Argument/</guid>
+      <description>
+
+&lt;h1 id=&#34;argument:61a2470d7d74eda3a9877e20c503651f&#34;&gt;Argument&lt;/h1&gt;
+
+&lt;h2 id=&#34;arguing-for-a-pre-determined-conclusion:61a2470d7d74eda3a9877e20c503651f&#34;&gt;Arguing for a pre-determined conclusion&lt;/h2&gt;
+
+&lt;p&gt;Try and construct the story in the following format:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;Describe Problem&lt;/em&gt; - &amp;ldquo;{point} exists to solve the problem {describe problem}&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Describe Solution&lt;/em&gt; - &amp;ldquo;{point} solves this issue by {describe solution}&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Consider Alternatives&lt;/em&gt; - &amp;ldquo;although there alternatives to {point}, {point} is superior as it &amp;hellip;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Call to Action&lt;/em&gt; - &amp;ldquo;{point} seem the best way to go at this point. We need to {call to action}&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/communication/Estimate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/communication/Estimate/</guid>
+      <description>
+
+&lt;h1 id=&#34;estimation:544a2b9e9c9a89559b94de03a9d02e28&#34;&gt;Estimation&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/communication/Publication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/communication/Publication/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;Basics
+1. Is anyone going to give a shit? No? Don&#39;t publish it. Spam is bad.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;publication-types&#34;&gt;
+&lt;h1&gt;Publication Types&lt;/h1&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 7)&lt;/p&gt;
+&lt;p&gt;Malformed table.
+Bottom/header table border does not match top border.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+====================== =============================================== ===============================
+Type                   Description                                     Example
+====================== =============================================== ===============================
+Announcement
+Security Notice
+Service Advertisement
+====================== =============================================== ================================
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;publication-streams&#34;&gt;
+&lt;h1&gt;Publication Streams&lt;/h1&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;59%&#34; /&gt;
+&lt;col width=&#34;22%&#34; /&gt;
+&lt;col width=&#34;19%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&#34;bottom&#34;&gt;
+&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Type&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;Facebook&lt;/th&gt;
+&lt;th class=&#34;head&#34;&gt;Twitter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;Announcement&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/communication/Tickets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/communication/Tickets/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;The canonical way of reporting issues should be from the client website. Insert JS for certain IP ranges or user login that allows a bug reporting form.&lt;/p&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;Collect:&lt;/dt&gt;
+&lt;dd&gt;User Agent
+Device
+Request URI
+Session ID
+Screenshot
+User Feedback
+Time
+HTTP Status code&lt;/dd&gt;
+&lt;dt&gt;Automatically submit report with the following error codes:&lt;/dt&gt;
+&lt;dd&gt;5xx&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Provide a form to submit for any other error codes.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;projects-dependant-on-these-docs&#34;&gt;
+&lt;h1&gt;Projects dependant on these docs&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://git.howden.io/repository/nginx&#34;&gt;http://git.howden.io/repository/nginx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

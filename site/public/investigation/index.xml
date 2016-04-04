@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Investigations on Some developer documentation</title>
+    <link>http://docs.littleman.co/investigation/</link>
+    <description>Recent content in Investigations on Some developer documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://docs.littleman.co/investigation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/investigation/Magento/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/investigation/Magento/</guid>
+      <description>
+
+&lt;h1 id=&#34;magento-investigation:42ce1c7f2b397b06c07548c972e83ab3&#34;&gt;Magento Investigation&lt;/h1&gt;
+
+&lt;h2 id=&#34;things-to-check:42ce1c7f2b397b06c07548c972e83ab3&#34;&gt;Things to check&lt;/h2&gt;
+
+&lt;h3 id=&#34;particularly-as-they-age:42ce1c7f2b397b06c07548c972e83ab3&#34;&gt;Particularly, as they age:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Does the extension use an API? When is it end of life?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

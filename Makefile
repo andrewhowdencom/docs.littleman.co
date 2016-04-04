@@ -31,5 +31,8 @@ help: ## Show this menu
 build-container-%: ## Builds the $* (gollum) container, and tags it with the git hash. 
 	docker build -t ${CONTAINER_NS}/$*:${GIT_HASH} -f build/docker/$*/Dockerfile .
 
-preview-changes: ## Starts a hugo server that watches build changes
+preview: ## Starts a hugo server that watches build changes
 	cd site && hugo server
+
+generate: ## Create the static site
+	cd site && hugo

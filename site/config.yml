@@ -1,0 +1,7 @@
+baseurl: http://docs.littleman.co/
+languageCode: en-us
+
+title: Some developer documentation
+theme: blackburn
+
+buildDrafts: true

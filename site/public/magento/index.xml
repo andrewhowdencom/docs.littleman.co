@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Magentos on Some developer documentation</title>
+    <link>http://docs.littleman.co/magento/</link>
+    <description>Recent content in Magentos on Some developer documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://docs.littleman.co/magento/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/Attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/Attributes/</guid>
+      <description>
+
+&lt;h1 id=&#34;attributes:702263f29a486ccdeea4f94fde0a79fc&#34;&gt;Attributes&lt;/h1&gt;
+
+&lt;h2 id=&#34;product-attributes:702263f29a486ccdeea4f94fde0a79fc&#34;&gt;Product Attributes&lt;/h2&gt;
+
+&lt;h3 id=&#34;backend-models:702263f29a486ccdeea4f94fde0a79fc&#34;&gt;Backend Models&lt;/h3&gt;
+
+&lt;p&gt;All backend models inherit from &lt;code&gt;Mage_Eav_Model_Entity_Attribute_Backend_Abstract&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;setup:702263f29a486ccdeea4f94fde0a79fc&#34;&gt;Setup&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Attribute Type&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Setup Model&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Catalog Attributes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;Mage_Catalog_Model_Resource_Setup&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;description:702263f29a486ccdeea4f94fde0a79fc&#34;&gt;Description&lt;/h3&gt;
+
+&lt;p&gt;Blank means the impact isn&amp;rsquo;t known.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Attribute&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Values&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;group&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;input&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;boolean&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The type of input to display&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;type&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;int&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;label&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Anything on the frontend&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;backend&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;catalog/product_attribute_backend_boolean&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;visible&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;required&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;true&lt;/code&gt;, &lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;user_defined&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;true&lt;/code&gt;, &lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Whether it&amp;rsquo;s a system attribute (user deletable)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;searchable&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;true&lt;/code&gt;, &lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;filterable&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;true&lt;/code&gt;, &lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;comparable&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;true&lt;/code&gt;, &lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;used_in_product_listing&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;true&lt;/code&gt;, &lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Whether to load the attr in the list pages (list.phtml)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The list above is incomplete&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/Design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/Design/</guid>
+      <description>
+
+&lt;h1 id=&#34;magento-design:6939488705ec3578625dfe6c1910afcb&#34;&gt;Magento Design&lt;/h1&gt;
+
+&lt;h2 id=&#34;templates:6939488705ec3578625dfe6c1910afcb&#34;&gt;Templates&lt;/h2&gt;
+
+&lt;h3 id=&#34;translations:6939488705ec3578625dfe6c1910afcb&#34;&gt;Translations&lt;/h3&gt;
+
+&lt;p&gt;Work something like&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    &amp;lt;?php /** @var $this Mage_Paypal_Block_Standard_Form */ ?&amp;gt;
+    &amp;lt;?php echo $this-&amp;gt;__(&#39;A sensible default&#39;); ?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The best-practice way to manage strings is with Magento&amp;rsquo;s Translate calls. This means that, within the template, the strings should be
+   1. Absolutely correct english (or, locale)
+   2. Sensible, and minimal
+   3. Individual enough the message is never going to be mixed with another translate call (no &lt;code&gt;$this-&amp;gt;__(&#39;Hello, World&#39;); ?&amp;gt;&lt;/code&gt;
+   4. Never changed (well, hardly ever)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/Home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/Home/</guid>
+      <description>
+
+&lt;h1 id=&#34;module-development:b4d7124d2993cd13aabeec1fc19baf51&#34;&gt;Module Development&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Module/Interfaces&#34;&gt;Interfaces&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/module/Controller/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/module/Controller/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;admin-controllers&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Admin Controllers&lt;/h1&gt;
+
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Max one ACL per controller. More is retarded.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/module/InstallScripts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/module/InstallScripts/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;review-checks&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Review Checks&lt;/h1&gt;
+
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Install scripts should be build defensively enough that they can be interrupted half way through and resume without issue. This includes things like&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 4)&lt;/p&gt;
+Bullet list ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Checking tables exist before attempting to create them.&lt;/li&gt;
+&lt;li&gt;Checking columns exist before attempting to create them.&lt;/li&gt;
+&lt;li&gt;Checking columns are in the expected state before attempting to modify them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/module/Interfaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/module/Interfaces/</guid>
+      <description>
+
+&lt;h1 id=&#34;module-interfaces:9cb10ebd9cead969ffc1f5b7089a496d&#34;&gt;Module Interfaces&lt;/h1&gt;
+
+&lt;p&gt;A module can have several ways it can be interacted with, listed below&lt;/p&gt;
+
+&lt;h2 id=&#34;user:9cb10ebd9cead969ffc1f5b7089a496d&#34;&gt;User&lt;/h2&gt;
+
+&lt;h2 id=&#34;admin-configuration-interfaces-configuration:9cb10ebd9cead969ffc1f5b7089a496d&#34;&gt;&lt;a href=&#34;Interfaces/Configuration&#34;&gt;Admin -&amp;gt; Configuration&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;admin-menu:9cb10ebd9cead969ffc1f5b7089a496d&#34;&gt;Admin -&amp;gt; Menu&lt;/h2&gt;
+
+&lt;h2 id=&#34;soap-api:9cb10ebd9cead969ffc1f5b7089a496d&#34;&gt;Soap API&lt;/h2&gt;
+
+&lt;h2 id=&#34;programmatic-api:9cb10ebd9cead969ffc1f5b7089a496d&#34;&gt;Programmatic API&lt;/h2&gt;
+
+&lt;h2 id=&#34;event-api-intefaces-events:9cb10ebd9cead969ffc1f5b7089a496d&#34;&gt;&lt;a href=&#34;Intefaces/Events&#34;&gt;Event API&lt;/a&gt;&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/module/interfaces/Configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/module/interfaces/Configuration/</guid>
+      <description>
+
+&lt;h1 id=&#34;system-configuration:56306cfd3e7beb04ce9377752b9c372a&#34;&gt;System → Configuration&lt;/h1&gt;
+
+&lt;h2 id=&#34;responsibilities:56306cfd3e7beb04ce9377752b9c372a&#34;&gt;Responsibilities&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;House settings that will modify an extensions behaviour&lt;/li&gt;
+&lt;li&gt;House any tests that will ensure an extension is working correctly&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;guidelines:56306cfd3e7beb04ce9377752b9c372a&#34;&gt;Guidelines&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;All Howdenio extensions should have a branded header at the top of the config settings with:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Where to submit an issue.&lt;/li&gt;
+&lt;li&gt;Where to seek help (Gitter / IRC, Wiki).&lt;/li&gt;
+&lt;li&gt;Where to provide any feedback or suggestions.&lt;/li&gt;
+&lt;li&gt;The Howden.io logo.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Any comments containing links need to use &lt;code&gt;target=&amp;quot;_blank&amp;quot;&lt;/code&gt; so a client doesn&amp;rsquo;t lose their config settings.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/module/interfaces/Events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/module/interfaces/Events/</guid>
+      <description>
+
+&lt;h1 id=&#34;magento-event:50e1d64868904363f00d2765edad1698&#34;&gt;Magento Event&lt;/h1&gt;
+
+&lt;p&gt;Magento seems to handle the firing of events pretty intelligently, dispatching a new event after events that manipulate an objects data.&lt;/p&gt;
+
+&lt;h2 id=&#34;naming-standard:50e1d64868904363f00d2765edad1698&#34;&gt;Naming Standard&lt;/h2&gt;
+
+&lt;p&gt;No idea.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/module/Observer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/module/Observer/</guid>
+      <description>
+
+&lt;h1 id=&#34;observers:14435960c51671643c6a0f4b87f9cc53&#34;&gt;Observers&lt;/h1&gt;
+
+&lt;h2 id=&#34;scope:14435960c51671643c6a0f4b87f9cc53&#34;&gt;Scope&lt;/h2&gt;
+
+&lt;p&gt;An observer is designed to interface with Magento&amp;rsquo;s event&amp;rsquo;s system. It should be minimally written out, with methods that don&amp;rsquo;t get beyond 5 lines or so. There&amp;rsquo;s a large amount of business logic, put it in a helper.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
