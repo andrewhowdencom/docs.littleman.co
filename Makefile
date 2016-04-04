@@ -20,6 +20,9 @@ ANSI_OFF          := '\e[0m'
 PATH_DOCS                := $(shell pwd)/docs
 PATH_BUILD_CONFIGURATION := $(shell pwd)/build
 
+HUGO_THEME := blackburn
+HUGO_BUILD_DRAFTS := true
+
 help: ## Show this menu 
 	@echo -e $(ANSI_TITLE)docs.littleman.co$(ANSI_OFF)$(ANSI_SUBTITLE)" - Development documentation that is handy\n"$(ANSI_OFF)
 	@echo -e $(ANSI_TITLE)Commands:$(ANSI_OFF)
@@ -28,3 +31,5 @@ help: ## Show this menu
 build-container-%: ## Builds the $* (gollum) container, and tags it with the git hash. 
 	docker build -t ${CONTAINER_NS}/$*:${GIT_HASH} -f build/docker/$*/Dockerfile .
 
+preview-changes: ## Starts a hugo server that watches build changes
+	cd site && hugo server
