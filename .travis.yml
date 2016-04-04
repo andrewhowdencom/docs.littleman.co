@@ -6,6 +6,7 @@ addons:
   apt:
     packages:
     - python-docutils
+    - git
 
 sudo: required
 
