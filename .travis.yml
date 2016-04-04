@@ -23,8 +23,7 @@ install:
 before_script:
 
 script:
-  sudo make build-container-nginx
-  sudo make push-container-nginx
+  sudo make deploy-container-nginx
 
 after_sucess:
 

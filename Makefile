@@ -37,6 +37,9 @@ push-container-%: ## Tags and pushes a container to the repo
 build-container-%: ## Builds the $* (gollum) container, and tags it with the git hash. 
 	docker build -t ${CONTAINER_NS}/$*:${GIT_HASH} -f build/docker/$*/Dockerfile .
 
+deploy-container-%: build-container-% push-container-% ## Pushes a container to GCR. Will eventually update Kubernetes
+	echo "Complete"
+
 preview: ## Starts a hugo server that watches build changes
 	cd site && hugo server
 
