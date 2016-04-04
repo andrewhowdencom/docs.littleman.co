@@ -21,6 +21,7 @@ install:
   ./build/install-dependencies.sh
 
 before_script:
+  ./build/auth.sh
 
 script:
   sudo make deploy-container-nginx

@@ -32,7 +32,7 @@ help: ## Show this menu
 
 push-container-%: ## Tags and pushes a container to the repo
 	docker tag ${CONTAINER_NS}/$*:${GIT_HASH} gcr.io/${GCR_NAMESPACE}/$*:${GIT_HASH}
-	gcloud docker push gcr.io/${GCR_NAMESPACE}/$*:${GIT_HASH}
+	docker push gcr.io/${GCR_NAMESPACE}/$*:${GIT_HASH}
 
 build-container-%: ## Builds the $* (gollum) container, and tags it with the git hash. 
 	docker build -t ${CONTAINER_NS}/$*:${GIT_HASH} -f build/docker/$*/Dockerfile .
@@ -42,9 +42,3 @@ deploy-container-%: build-container-% push-container-% ## Pushes a container to 
 
 preview: ## Starts a hugo server that watches build changes
 	cd site && hugo server
-
-generate: ## Create the static site
-	cd site && hugo
-
-auth: ## Activate the service account where this is being deployed to Google Cloud
-	gcloud auth activate-service-account ${GCR_SERVICE_ACCOUNT} --key-file .gcloud.json
