@@ -17,7 +17,8 @@ Pertinent Data
 
 Process
 ````````
-1. Develop a kitchen sink of elements that will be used throughout the site. Some common ones are
+#. Develop a kitchen sink of elements that will be used throughout the site. Some common ones are
+
   - Buttons
   - Loading Indicators
   - Headings
@@ -58,9 +59,11 @@ Width Variable          {psuedoelement}-width-{thin(er|est)|base|thick(er|est)}
 Canonical name
 ```````````````
 
-| Name                 | Alternatives                                                |
-|:--------------------:|:-----------------------------------------------------------:|
-| largest              | x-large, extra-large                                        |
+====================== ===============================================================
+Name                   Alternatives
+---------------------- ---------------------------------------------------------------
+largest                x-large, extra-large
+====================== ===============================================================
 
 Reserved Words
 ```````````````
@@ -70,10 +73,12 @@ Modifiers
 
 Modifiers are selectors that only modify the look of the page when combined with another selector. They should not have any styles applied to them directly, and ideally should only be used as placeholders. 
 
-| Word     | Description                                             |
-|:--------:|:-------------------------------------------------------:|
-| left     | Move the element to the left side of its parent         |
-| right    | Move the element to the right side of its parent        | 
+=========== =========================================================
+Word         Description
+----------- ---------------------------------------------------------
+left        Move the element to the left side of its parent         
+right       Move the element to the right side of its parent
+=========== ========================================================= 
 
 Whitespace
 ```````````
