@@ -22,3 +22,13 @@ install:
     make auth
     make build-container-nginx
     make push-container-nginx
+
+before_script:
+
+script:
+
+after_sucess:
+
+after_failure:
+
+after_script:
