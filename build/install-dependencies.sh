@@ -12,7 +12,7 @@ HUGO_VERSION=0.15
 wget "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz"
 tar -xvf google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz
 export PATH=$PATH:$(pwd)/google-cloud-sdk/bin
-ls -la 
+
 make auth
 
 # Install kubectl 
