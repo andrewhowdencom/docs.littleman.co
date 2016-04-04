@@ -23,10 +23,16 @@ PATH_BUILD_CONFIGURATION := $(shell pwd)/build
 HUGO_THEME := blackburn
 HUGO_BUILD_DRAFTS := true
 
+GCR_NAMESPACE := littleman-co
+
 help: ## Show this menu 
 	@echo -e $(ANSI_TITLE)docs.littleman.co$(ANSI_OFF)$(ANSI_SUBTITLE)" - Development documentation that is handy\n"$(ANSI_OFF)
 	@echo -e $(ANSI_TITLE)Commands:$(ANSI_OFF)
 	@grep -E '^[a-zA-Z_-%]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "    \033[32m%-30s\033[0m %s\n", $$1, $$2}'
+
+push-container-%: ## Tags and pushes a container to the repo
+	docker tag ${CONTAINER_NS}/$*:${GIT_HASH} gcr.io/${GCR_NAMESPACE}/$*:${GIT_HASH}
+	gcloud docker push gcr.io/${GCR_NAMESPACE}/$*:${GIT_HASH}
 
 build-container-%: ## Builds the $* (gollum) container, and tags it with the git hash. 
 	docker build -t ${CONTAINER_NS}/$*:${GIT_HASH} -f build/docker/$*/Dockerfile .

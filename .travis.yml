@@ -20,4 +20,4 @@ install:
     ./build/install-dependencies.sh
     make auth
     make build-container-nginx
-
+    make push-container-nginx
