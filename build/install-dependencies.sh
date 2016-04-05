@@ -15,7 +15,8 @@ export PATH=$PATH:$(pwd)/bin
 
 # Install Google Cloud
 # Need pyopenssl for gcloud, and need to install it via pip. See https://docs.travis-ci.com/user/languages/python
-pip install pyopenssl
+# Needs sudo to install pip
+sudo pip install pyopenssl
 wget "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz"
 tar -xvf google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz
 export PATH=$PATH:$(pwd)/google-cloud-sdk/bin
