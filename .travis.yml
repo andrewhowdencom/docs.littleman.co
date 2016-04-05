@@ -6,7 +6,6 @@ addons:
   apt:
     packages:
     - python-docutils
-    - python-openssl
     - git
 
 sudo: required
