@@ -16,14 +16,15 @@ export PATH=$PATH:$(pwd)/bin
 # Install Google Cloud
 # Need pyopenssl for gcloud, and need to install it via pip. See https://docs.travis-ci.com/user/languages/python
 # Needs sudo to install pip
-sudo pip install pyopenssl
+# Also needs additional libraries: http://urllib3.readthedocs.org/en/latest/security.html#openssl-pyopenssl
+sudo pip install --upgrade pyopenssl ndg-httpsclient pyasn1
+
 wget "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz"
 tar -xvf google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz
-export PATH=$PATH:$(pwd)/google-cloud-sdk/bin
+google-cloud-sdk/install.sh --additional-components bq core gsutil gcloud alpha beta kubectl --quiet
 
-# Install kubectl 
-wget https://storage.googleapis.com/kubernetes-release/release/v${KUBECTL_VERSION}/bin/darwin/amd64/kubectl
-mv kubectl ./bin/
+# Check kubectl is installed
+kubectl version
 
 # Install Hugo
 wget "https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux_amd64.tar.gz"
