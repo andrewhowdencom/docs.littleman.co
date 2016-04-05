@@ -1,1 +1,15 @@
-# Yaml placeholder for service. Nothing to see here!
+kind: Service
+apiVersion: v1
+metadata: 
+  name: webserver
+spec:
+  selector:
+    role: webserver
+  ports: 
+    - protocol: TCP
+      name: http 
+      port: 80
+    - protocol: TCP
+      name: https
+      port: 443
+  type: LoadBalancer
