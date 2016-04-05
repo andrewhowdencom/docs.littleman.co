@@ -3,15 +3,12 @@
 GOOGLE_CLOUD_VERSION=103.0.0
 HUGO_VERSION=0.15
 KUBECTL_VERSION=1.2.1
+PATH=$PATH:$(pwd)/bin
 
 # Defined in Travis
 # GCR_PROJECT
 # GCR_REGION
 # KUBERNETS_CLUSTER
-
-# Create a temporary bin to put things into 
-mkdir bin
-export PATH=$PATH:$(pwd)/bin
 
 # Install Google Cloud
 # Need pyopenssl for gcloud, and need to install it via pip. See https://docs.travis-ci.com/user/languages/python
@@ -21,10 +18,19 @@ sudo pip install --upgrade pyopenssl ndg-httpsclient pyasn1
 
 wget "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz"
 tar -xvf google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz
-google-cloud-sdk/install.sh --additional-components bq core gsutil gcloud alpha beta kubectl --quiet
-source ~/.bashrc
 
-# Check kubectl is installed
+echo "First check of gcloud path: $(type gcloud)"
+
+google-cloud-sdk/install.sh --additional-components bq core gsutil gcloud alpha beta kubectl --quiet
+google-cloud-sdk/kubectl version
+
+# Source the installed bashrc
+. /home/travis/.bashrc
+
+echo "Second check of gcloud path: $(type gcloud)"
+
+hash -d gcloud
+gcloud version
 kubectl version
 
 # Install Hugo
