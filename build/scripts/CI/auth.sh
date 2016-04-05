@@ -23,8 +23,8 @@ google-cloud-sdk/bin/gcloud config set container/cluster ${KUBERNETES_CLUSTER}
 google-cloud-sdk/bin/gcloud container clusters get-credentials ${KUBERNETES_CLUSTER}
 
 # Set the context for kube
-export CONTEXT=$(kubectl config view | grep current-context | awk '{print $2}')
-kubectl config set-context $CONTEXT --namespace=${KUBE_NAMESPACE}
+export CONTEXT=$(google-cloud-sdk/bin/kubectl config view | grep current-context | awk '{print $2}')
+google-cloud-sdk/bin/kubectl config set-context $CONTEXT --namespace=${KUBE_NAMESPACE}
 
 # Auth Docker
 docker login -e ${GCR_SERVICE_ACCOUNT} -u _token -p "$(google-cloud-sdk/bin/gcloud auth print-access-token)" https://gcr.io

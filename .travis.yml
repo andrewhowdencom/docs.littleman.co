@@ -27,8 +27,7 @@ before_script:
   ./build/scripts/CI/auth.sh
 
 script:
-  - make deploy-container-nginx
-    make deploy
+  ./build/scripts/CI/deploy.sh
 
 after_sucess:
 
