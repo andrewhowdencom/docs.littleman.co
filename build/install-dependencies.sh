@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -ex
+
 GOOGLE_CLOUD_VERSION=103.0.0
 HUGO_VERSION=0.15
 KUBECTL_VERSION=1.2.1
@@ -23,16 +25,9 @@ wget "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sd
 tar -xvf google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz
 export PATH=$PATH:$(pwd)/google-cloud-sdk/bin
 
-make auth
-
 # Install kubectl 
 wget https://storage.googleapis.com/kubernetes-release/release/v${KUBECTL_VERSION}/bin/darwin/amd64/kubectl
 mv kubectl ./bin/
-
-gcloud config set project $GCR_REGION
-gcloud config set compute/zone $GCR_PROJECT
-gcloud config set container/cluster $KUBERNETES_CLUSTER
-gcloud container clusters get-credentials $KUBERNETES_CLUSTER
 
 # Install Hugo
 wget "https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux_amd64.tar.gz"
