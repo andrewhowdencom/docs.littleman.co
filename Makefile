@@ -41,7 +41,9 @@ deploy: ## Push an update to Kube for the current build
 # This doesn't work until Kube 1.2
 #	sed "s/{{GCR_PROJECT}}/${GCR_PROJECT}/" build/kubernetes/deployment.yml | sed "s/{{GIT_HASH}}/${GIT_HASH}/" | kubectl create -f -
 	kubectl rolling-update webserver --image=gcr.io/${GCR_PROJECT}/nginx:${GIT_HASH}
+
 deploy-container-%: build-container-% push-container-% ## Pushes a container to GCR. Will eventually update Kubernetes
+	echo "Deployed"
 
 preview: ## Starts a hugo server that watches build changes
 	cd site && hugo server
