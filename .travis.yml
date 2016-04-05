@@ -21,10 +21,10 @@ before_install:
   -in .gcloud.json.enc -out .gcloud.json -d
 
 install:
-  ./build/install-dependencies.sh
+  sudo ./build/install-dependencies.sh
 
 before_script:
-  ./build/auth.sh
+  sudo ./build/auth.sh
 
 script:
   sudo make deploy-container-nginx

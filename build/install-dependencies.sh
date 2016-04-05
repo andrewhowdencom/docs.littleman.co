@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -ex
-
 GOOGLE_CLOUD_VERSION=103.0.0
 HUGO_VERSION=0.15
 KUBECTL_VERSION=1.2.1
@@ -10,9 +8,6 @@ KUBECTL_VERSION=1.2.1
 # GCR_PROJECT
 # GCR_REGION
 # KUBERNETS_CLUSTER
-
-# Print a header to see if git is working
-echo "GIT HASH: $(git rev-parse --short HEAD)"
 
 # Create a temporary bin to put things into 
 mkdir bin
