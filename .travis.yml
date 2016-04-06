@@ -30,7 +30,7 @@ script:
   - "./build/scripts/CI/build.sh"
   - "./build/scripts/CI/deploy.sh"
 
-after_sucess:
+after_success:
   "./build/scripts/CI/success.sh"
 
 after_failure:
