@@ -1,6 +1,7 @@
 # Ignore dotfiles (.foo), as they're sometimes used for secret inforamtion. 
 
 .*
+*.pem
 
 # These dotfiles are OK
 !/.travis.yml 
