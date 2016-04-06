@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export PATH=$PATH:$(pwd)/bin
+
 make build
 make deploy-container-nginx
 
