@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -ex
 
 # fetch the hash
 GIT_HASH=$(git rev-parse --short HEAD)
