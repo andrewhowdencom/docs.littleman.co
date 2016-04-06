@@ -1,13 +1,13 @@
 kind: Service
 apiVersion: v1
-metadata: 
+metadata:
   name: webserver
 spec:
   selector:
     role: webserver
-  ports: 
+  ports:
     - protocol: TCP
-      name: http 
+      name: http
       port: 80
     - protocol: TCP
       name: https
