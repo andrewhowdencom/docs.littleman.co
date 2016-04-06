@@ -1,13 +1,18 @@
 ========================
 Communication Sanitation
 ========================
-- Sensitive user data should never be communicated unencrypted. So, for 
+
+Sensitive user data should never be communicated unencrypted. So, anything unencrypted, don't talk about it!
+
+Unencrypted Communications
+--------------------------
   - Phone
   - Email
 
-The following is out:
+Things that you shouldn't talk about
+------------------------------------
   - User ID
   - DOB
   - Address
   - Credit Card
-  
+
