@@ -27,10 +27,8 @@ before_script:
   "./build/scripts/CI/auth.sh"
 
 script:
-  "./build/scripts/CI/build.sh"
-
-deploy:
-  "./build/scripts/CI/deploy.sh"
+  - "./build/scripts/CI/build.sh"
+  - "./build/scripts/CI/deploy.sh"
 
 after_sucess:
   "./build/scripts/CI/annotate.sh success"
