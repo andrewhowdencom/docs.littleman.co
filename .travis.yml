@@ -31,9 +31,9 @@ script:
   - "./build/scripts/CI/deploy.sh"
 
 after_sucess:
-  "./build/scripts/CI/annotate.sh success"
+  "./build/scripts/CI/success.sh"
 
 after_failure:
-  "./build/scripts/CI/annotate.sh failure"
+  "./build/scripts/CI/failure.sh"
 
 after_script:
