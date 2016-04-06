@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Fetch the most recent deployment tag
 PREVIOUS_BUILD=$(git describe --tags `git rev-list --tags --max-count=1` | grep -oE '[0-9]+')
 

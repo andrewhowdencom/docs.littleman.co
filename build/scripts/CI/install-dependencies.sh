@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 GOOGLE_CLOUD_VERSION=103.0.0
 HUGO_VERSION=0.15
 KUBECTL_VERSION=1.2.1

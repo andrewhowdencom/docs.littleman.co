@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Terminate on first failure
-set -x
+set -e
 
 # Set in Travis
 # GCR_REGION

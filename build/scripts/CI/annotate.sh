@@ -1,8 +1,10 @@
 #!/bin/bash
 
+set -e
+
 GIT_HASH=$(git rev-parse --short HEAD)
 
-case $1 in 
+case $1 in
     success)
         git notes append "$GIT_HASH" -m "Deployment Success"
         ;;
@@ -19,4 +21,4 @@ git push origin /refs/notes/*
 
 >&2 echo "$TRAVIS_BUILD_NUMBER"
 >&2 echo "$TRAVIS_JOB_NUMBER"
->&2 echo "$TRAVIS_JOB_ID" 
+>&2 echo "$TRAVIS_JOB_ID"
