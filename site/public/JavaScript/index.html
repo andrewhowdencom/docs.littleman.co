@@ -149,31 +149,23 @@
 <ul class="simple">
 <li>Dependency Management
 - [Core] <a class="reference external" href="http://requirejs.org/">http://requirejs.org/</a></li>
+<li>Disabling double tap on mobile
+- Modify the viewport, wrap in feature detection
+- [Polyfill] Fastclick</li>
 <li>Form Validation
-- None. Use HTML5 form validation</li>
+- None. Use HTML5 form validation.</li>
 <li>[if] jQuery
 - <a class="reference external" href="https://github.com/wilsonpage/jquery-fastdom">https://github.com/wilsonpage/jquery-fastdom</a></li>
-</ul>
-<p>Todo: Convert the below to be alphabetical
-- Logging</p>
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 13)</p>
-Unexpected indentation.</div>
-<blockquote>
-<ul class="simple">
-<li>[Core] <a class="reference external" href="https://github.com/pimterry/loglevel">https://github.com/pimterry/loglevel</a></li>
-<li>[Core] <a class="reference external" href="https://github.com/miguelmota/Navigator.sendBeacon">https://github.com/miguelmota/Navigator.sendBeacon</a></li>
-</ul>
-</blockquote>
-<div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 15)</p>
-Block quote ends without a blank line; unexpected unindent.</div>
-<ul class="simple">
+<li>Logging
+- [Core] <a class="reference external" href="https://github.com/pimterry/loglevel">https://github.com/pimterry/loglevel</a>
+- [Core] <a class="reference external" href="https://github.com/miguelmota/Navigator.sendBeacon">https://github.com/miguelmota/Navigator.sendBeacon</a></li>
 <li>Dom Manipulation
 - [Core] <a class="reference external" href="https://github.com/wilsonpage/fastdom">https://github.com/wilsonpage/fastdom</a></li>
 <li>Carousel
 - Don't use a carousel
 - <a class="reference external" href="http://kenwheeler.github.io/slick/">http://kenwheeler.github.io/slick/</a></li>
+<li>Click to copy
+<a class="reference external" href="https://zenorocha.github.io/clipboard.js/">https://zenorocha.github.io/clipboard.js/</a></li>
 </ul>
 </div>
 <div class="section" id="developing-a-plugin">
@@ -183,6 +175,26 @@ Block quote ends without a blank line; unexpected unindent.</div>
 <li>Allow default configurations to be overwritten with the data-{whatever} flags</li>
 <li>Make compatible as AMD or Browserify module (the jQuery mousewheel has a good example for this)</li>
 </ul>
+</div>
+<div class="section" id="polyfills">
+<h1>Polyfills</h1>
+<table border="1" class="docutils">
+<colgroup>
+<col width="34%" />
+<col width="66%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>Action</td>
+<td>Polyfill</td>
+</tr>
+<tr><td>Navigator.sendBeacon</td>
+<td><a class="reference external" href="https://github.com/miguelmota/Navigator.sendBeacon">https://github.com/miguelmota/Navigator.sendBeacon</a></td>
+</tr>
+<tr><td>Promise</td>
+<td><a class="reference external" href="https://github.com/jakearchibald/ES6-Promises">https://github.com/jakearchibald/ES6-Promises</a></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>

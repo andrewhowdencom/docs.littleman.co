@@ -166,8 +166,27 @@
 </tbody>
 </table>
 </div>
+<div class="section" id="elements">
+<h1>Elements</h1>
+<p>In the order they appear on the page (top - bottom, left to right)</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="23%" />
+<col width="77%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>QuickNav</td>
+<td>Single line to bar with links to My Account, etc.</td>
+</tr>
+</tbody>
+</table>
+</div>
 <div class="section" id="overview">
 <h1>Overview</h1>
+<div class="section" id="responsive">
+<h2>Responsive</h2>
+<p>-Any element that requires responsive aspect should be developed with the same approach the framework has taken. If in doubt, design an element for mobile, and scale it up to desktop.</p>
+</div>
 <div class="section" id="pertinent-data">
 <h2>Pertinent Data</h2>
 <ul class="simple">
@@ -180,7 +199,7 @@
 <li>Develop a kitchen sink of elements that will be used throughout the site. Some common ones are</li>
 </ol>
 <div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 21)</p>
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 33)</p>
 Enumerated list ends without a blank line; unexpected unindent.</div>
 <blockquote>
 <ul class="simple">
@@ -210,8 +229,34 @@ Enumerated list ends without a blank line; unexpected unindent.</div>
 <tr><td>Search</td>
 <td>Magnifying Glass</td>
 </tr>
+<tr><td>Favourites</td>
+<td>Heart</td>
+</tr>
 </tbody>
 </table>
+</div>
+<div class="section" id="common-libraries">
+<h1>Common Libraries</h1>
+<table border="1" class="docutils">
+<colgroup>
+<col width="29%" />
+<col width="71%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>Mega Menu</td>
+<td>Yamm</td>
+</tr>
+<tr><td>Offcanvas</td>
+<td>Jasny Offcanvas</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="interactive-elements">
+<h1>Interactive Elements</h1>
+<ul class="simple">
+<li>Interactive elements that are not guaranteed to work should start disabled, and once a health check has taken place, be enabled.</li>
+</ul>
 </div>
 <div class="section" id="scss">
 <h1>SCSS</h1>
@@ -253,10 +298,11 @@ Enumerated list ends without a blank line; unexpected unindent.</div>
 <div class="line">Name                 | Alternatives                                                |</div>
 </div>
 <div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 62)</p>
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 86)</p>
 Line block ends without a blank line.</div>
 <p><a href="#id1"><span class="problematic" id="id2">|:--------------------:|</span></a>:-----------------------------------------------------------:|
-| largest              | x-large, extra-large                                        |</p>
+| largest              | x-large, extra-large                                        |
+| smallest             | x-small, tiny                                               |</p>
 </div>
 <div class="section" id="reserved-words">
 <h2>Reserved Words</h2>
@@ -267,7 +313,7 @@ Line block ends without a blank line.</div>
 <div class="line">Word     | Description                                             |</div>
 </div>
 <div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 74)</p>
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 99)</p>
 Line block ends without a blank line.</div>
 <p><a href="#id3"><span class="problematic" id="id4">|:--------:|</span></a>:-------------------------------------------------------:|
 | left     | Move the element to the left side of its parent         |
@@ -289,7 +335,7 @@ of the first element on the page</li>
 <div class="line">Structure    | Standard                                                  | Example        |</div>
 </div>
 <div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 86)</p>
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 111)</p>
 Line block ends without a blank line.</div>
 <p><a href="#id5"><span class="problematic" id="id6">|:------------:|</span></a>:---------------------------------------------------------:<a href="#id7"><span class="problematic" id="id8">|:--------------:|</span></a>
 | placeholders | Singular, describing it's semantic purpose. One word only | <tt class="docutils literal">`%heading`</tt> |</p>
@@ -305,7 +351,7 @@ Line block ends without a blank line.</div>
 <div class="line">Sass |             |       |                 |</div>
 </div>
 <div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 98)</p>
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 123)</p>
 Line block ends without a blank line.</div>
 <p><a href="#id9"><span class="problematic" id="id10">|------|</span></a>:-----------:<a href="#id11"><span class="problematic" id="id12">|:-----:|</span></a>:----------------|
 |      | styles      |                         |
@@ -330,10 +376,17 @@ Line block ends without a blank line.</div>
 |      |             |       |                 |</p>
 </div>
 </div>
+<div class="section" id="tables">
+<h1>Tables</h1>
+<ul class="simple">
+<li>Ensure they are sortable</li>
+<li><a class="reference external" href="https://techblog.livingsocial.com/blog/2015/04/06/responsive-tables-in-pure-css/">https://techblog.livingsocial.com/blog/2015/04/06/responsive-tables-in-pure-css/</a></li>
+</ul>
+</div>
 <div class="section" id="typography">
 <h1>Typography</h1>
 <div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 123)</p>
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 153)</p>
 <p>Malformed table.
 No bottom table border found or no blank line after table bottom.</p>
 <pre class="literal-block">
@@ -343,7 +396,7 @@ Use        Inherits From  Additional Styles
 </pre>
 </div>
 <div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 126)</p>
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;stdin&gt;</tt>, line 156)</p>
 Blank line required after table.</div>
 <p>Main Text                 1em
 Link       Main Text      Underline, Color: #0B0080</p>
@@ -358,22 +411,22 @@ Link       Main Text      Underline, Color: #0B0080</p>
 <div class="system-messages section">
 <h1>Docutils System Messages</h1>
 <div class="system-message" id="id1">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 62); <em><a href="#id2">backlink</a></em></p>
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 86); <em><a href="#id2">backlink</a></em></p>
 Undefined substitution referenced: &quot;:--------------------:&quot;.</div>
 <div class="system-message" id="id3">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 74); <em><a href="#id4">backlink</a></em></p>
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 99); <em><a href="#id4">backlink</a></em></p>
 Undefined substitution referenced: &quot;:--------:&quot;.</div>
 <div class="system-message" id="id5">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 86); <em><a href="#id6">backlink</a></em></p>
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 111); <em><a href="#id6">backlink</a></em></p>
 Undefined substitution referenced: &quot;:------------:&quot;.</div>
 <div class="system-message" id="id7">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 86); <em><a href="#id8">backlink</a></em></p>
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 111); <em><a href="#id8">backlink</a></em></p>
 Undefined substitution referenced: &quot;:--------------:&quot;.</div>
 <div class="system-message" id="id9">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 98); <em><a href="#id10">backlink</a></em></p>
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 123); <em><a href="#id10">backlink</a></em></p>
 Undefined substitution referenced: &quot;------&quot;.</div>
 <div class="system-message" id="id11">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 98); <em><a href="#id12">backlink</a></em></p>
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 123); <em><a href="#id12">backlink</a></em></p>
 Undefined substitution referenced: &quot;:-----:&quot;.</div>
 </div>
 </div>

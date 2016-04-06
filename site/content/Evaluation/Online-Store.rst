@@ -15,9 +15,13 @@ Product selection (category, search)
 Trustworthyness
 ---------------
 Are you a Google Trusted Store?
-Do you supply valid & detailed product feeds to the following price comparison services:
-- Google Shopping (https://support.google.com/merchants/answer/188494?hl=en-AU)
 
+Shopping Feeds
+--------------
+Do you supply valid & detailed product feeds to the following price comparison services:
+  - Google Shopping (https://support.google.com/merchants/answer/188494?hl=en-AU)
+  - Shop Bot
+  
 One-click checkout
 ------------------
 Does your store offer a one-click checkout?

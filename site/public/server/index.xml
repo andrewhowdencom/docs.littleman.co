@@ -36,6 +36,12 @@
 
 &lt;h1 id=&#34;php:f3667e62ba262a326e335f8e6738eba5&#34;&gt;PHP&lt;/h1&gt;
 
+&lt;h1 id=&#34;code-review:f3667e62ba262a326e335f8e6738eba5&#34;&gt;Code Review&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://symfony.com/doc/current/contributing/code/bc.html&#34;&gt;http://symfony.com/doc/current/contributing/code/bc.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;extensions:f3667e62ba262a326e335f8e6738eba5&#34;&gt;Extensions&lt;/h2&gt;
 
 &lt;h2 id=&#34;optimisation-strategies:f3667e62ba262a326e335f8e6738eba5&#34;&gt;Optimisation Strategies&lt;/h2&gt;

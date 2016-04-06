@@ -52,6 +52,21 @@ End of the line failures
     
     <item>
       <title></title>
+      <link>http://docs.littleman.co/Architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/Architecture/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;architecture&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Architecture&lt;/h1&gt;
+
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Configuration has a separate responsibility to code. Code should work in all variations of configuration (including invalid configuration, even if it&#39;s just to say it&#39;s invalid)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://docs.littleman.co/Arguments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -84,6 +99,92 @@ End of the line failures
 &lt;h1 class=&#34;title&#34;&gt;CSS&lt;/h1&gt;
 
 &lt;p&gt;Remove redundant styles: &lt;a class=&#34;reference external&#34; href=&#34;https://github.com/purifycss/purifycss&#34;&gt;https://github.com/purifycss/purifycss&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/business/BuildingPresence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/business/BuildingPresence/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;div class=&#34;section&#34; id=&#34;building-presence&#34;&gt;
+&lt;h1&gt;Building Presence&lt;/h1&gt;
+&lt;p&gt;Whenever a new entity is started (entity being a business, charity, person or whatever) there&#39;s a series of things that they need to do to increase their online presence. Some things to remember would be:&lt;/p&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Online presence should not require much maintenance. It should be introduced to normal business processes, or not at all. Stale content is pretty bad.&lt;/li&gt;
+&lt;li&gt;Being &amp;quot;online&amp;quot; is not a magic marketing bullet - Being online, by itself, gets you nothing at all. It&#39;s more like a doorway to an entity the user can access anywhere.&lt;/li&gt;
+&lt;li&gt;It&#39;s dangerous to publish content to a medium that users expect interaction with. It&#39;s much the same as monologuing without listening to the audience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;property-creation&#34;&gt;
+&lt;h1&gt;Property Creation&lt;/h1&gt;
+&lt;p&gt;There are a large number of places an entity can claim property in. Some properties are more valuable than others, and the list below represents the most valuable (and thus: the most needed to claim) as well as advantages and dangers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;a-website&#34;&gt;
+&lt;h1&gt;A website&lt;/h1&gt;
+&lt;p&gt;Advantages
+- Provides the canonical place for your business information
+- Can be a powerful tool to create business leads directly (through online booking, live chat, etc)&lt;/p&gt;
+&lt;p&gt;Disadvantages
+- High cost OR low choice&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;facebook&#34;&gt;
+&lt;h1&gt;Facebook&lt;/h1&gt;
+&lt;p&gt;Advantages
+- It&#39;s essentially ubiquitous
+- It allows publication of a wide variety of formats
+- It&#39;s extremely track-able&lt;/p&gt;
+&lt;p&gt;Disadvantages
+- It&#39;s a two-way communication medium (or, it should be)
+- Users have certain expectations
+- Messages are not aggregated into a central medium (like email)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;google-business&#34;&gt;
+&lt;h1&gt;Google Business&lt;/h1&gt;
+&lt;p&gt;Advantages
+- Entity is on Google Maps
+- Entity is reviewable&lt;/p&gt;
+&lt;p&gt;Disadvantages
+- It&#39;s highly referenced, so incorrect business information is a significant issue.
+- It needs verification
+- Entity is reviewable&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;twitter&#34;&gt;
+&lt;h1&gt;Twitter&lt;/h1&gt;
+&lt;p&gt;?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;true-local&#34;&gt;
+&lt;h1&gt;True Local&lt;/h1&gt;
+&lt;p&gt;?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;sensis&#34;&gt;
+&lt;h1&gt;Sensis&lt;/h1&gt;
+&lt;p&gt;?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/Cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/Cli/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;cli&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;CLI&lt;/h1&gt;
+
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Should be able to accept std in&lt;/li&gt;
+&lt;li&gt;Should be able to specify an output format&lt;/li&gt;
+&lt;li&gt;Should be able to specify an input format (or, ideally, recognize it by file type)&lt;/li&gt;
+&lt;li&gt;Should use reasonable exit codes&lt;/li&gt;
+&lt;li&gt;Should output most everything to std out (including expected &amp;quot;errors&amp;quot; -- Things like lint failures, or the like)&lt;/li&gt;
+&lt;li&gt;Should &lt;em&gt;absolutely&lt;/em&gt; show you decent help for all your stuff.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;</description>
     </item>
     
@@ -130,6 +231,24 @@ End of the line failures
     
     <item>
       <title></title>
+      <link>http://docs.littleman.co/Communication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/Communication/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;communication&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Communication&lt;/h1&gt;
+
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Relate the contention to some impact on the audience lives&lt;/li&gt;
+&lt;li&gt;Avoid jargon&lt;/li&gt;
+&lt;li&gt;Speak passionately&lt;/li&gt;
+&lt;li&gt;Omit whats not relevant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://docs.littleman.co/communication/Argument/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -153,6 +272,106 @@ End of the line failures
     
     <item>
       <title></title>
+      <link>http://docs.littleman.co/communication/BrandSaturation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/communication/BrandSaturation/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;brand-saturation&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Brand Saturation&lt;/h1&gt;
+
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;Brand Saturation is the process of creating awareness of:&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class=&#34;first last simple&#34;&gt;
+&lt;li&gt;The Brand&lt;/li&gt;
+&lt;li&gt;What the brand does&lt;/li&gt;
+&lt;li&gt;How to undertake the product or service of a brand&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Brand saturation is not a brands &amp;quot;reach&amp;quot; (number of people who have seen the brand), rather, a function of how familiar a person is with a brand. See also &amp;quot;reach&amp;quot;.&lt;/p&gt;
+&lt;p&gt;There isn&#39;t a metric of brand saturation, aside from estimated impressions. (That is, No. people x Imprint). At this time, it&#39;s presumed that message effectiveness is limited by a potential customers willingness to hear a given message.&lt;/p&gt;
+&lt;p&gt;A rough idea is that a potential customer is in a given &amp;quot;stage&amp;quot; of purchase. A customer who is more likely to purchase and should be given the means to do so, but a customer who is just stsrting thr purchade cycle is likely just to be investigating (and should be given the means to do so).&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;promotional-equipment&#34;&gt;
+&lt;h1&gt;Promotional Equipment&lt;/h1&gt;
+&lt;p&gt;All promotional equipment should have an associated goal and experiment, as well as a series of alternatives. This means no promo equipment without an associated experiment.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;baskets&#34;&gt;
+&lt;h2&gt;Baskets&lt;/h2&gt;
+&lt;p&gt;Where mentioned, baskets indicate a raft of goodies given to both clients and key industry figures.&lt;/p&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;19%&#34; /&gt;
+&lt;col width=&#34;22%&#34; /&gt;
+&lt;col width=&#34;58%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;Industry&lt;/td&gt;
+&lt;td&gt;Item&lt;/td&gt;
+&lt;td&gt;Use Case&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Web Development&lt;/td&gt;
+&lt;td&gt;Mouse Pad
+How to submit a ticket
+Phone Stand&lt;/td&gt;
+&lt;td&gt;&amp;quot;Thanks for undertaking our services&amp;quot; basket
+As above
+&amp;quot;We wish you a merry christmas&amp;quot; basket&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ecommerce&lt;/td&gt;
+&lt;td&gt;Stickers&lt;/td&gt;
+&lt;td&gt;Ship with all orders&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ecommerce (fight)&lt;/td&gt;
+&lt;td&gt;Branded wrist wraps
+Branded drink bottle&lt;/td&gt;
+&lt;td&gt;Any orders with sufficient profit (~20% profit)
+As above&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ecommerce (apparel)&lt;/td&gt;
+&lt;td&gt;Tshirt&lt;/td&gt;
+&lt;td&gt;As above&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;industry-figures&#34;&gt;
+&lt;h1&gt;Industry Figures&lt;/h1&gt;
+&lt;p&gt;Industry figures, that is leaders of the culture that it&#39;s the businesses goals to provide services for, should have special attention paid to them. The goal is to develop a product that is good enough the figures will want to endorse it. (No paid endorsement without initial free endorsement)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;packaging&#34;&gt;
+&lt;h1&gt;Packaging&lt;/h1&gt;
+&lt;p&gt;This included envelopes, ecommerce parcels, hampers etc.&lt;/p&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Branded with logo, name, website and tag line&lt;/li&gt;
+&lt;li&gt;Fun&lt;/li&gt;
+&lt;li&gt;Subject to experiment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;signage&#34;&gt;
+&lt;h1&gt;Signage&lt;/h1&gt;
+&lt;div class=&#34;section&#34; id=&#34;a-frame&#34;&gt;
+&lt;h2&gt;A frame&lt;/h2&gt;
+&lt;p&gt;Use a TV. Waterproof it, and handle the battery / power somehow.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/communication/Debreif/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/communication/Debreif/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;A document that details the debreif process for when something goes wrong.&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://docs.littleman.co/communication/Estimate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -165,726 +384,184 @@ End of the line failures
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/communication/Publication/</link>
+      <link>http://docs.littleman.co/communication/Proposal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/communication/Publication/</guid>
+      <guid>http://docs.littleman.co/communication/Proposal/</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;p&gt;Basics
-1. Is anyone going to give a shit? No? Don&#39;t publish it. Spam is bad.&lt;/p&gt;
-&lt;div class=&#34;section&#34; id=&#34;publication-types&#34;&gt;
-&lt;h1&gt;Publication Types&lt;/h1&gt;
-&lt;div class=&#34;system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 7)&lt;/p&gt;
-&lt;p&gt;Malformed table.
-Bottom/header table border does not match top border.&lt;/p&gt;
-&lt;pre class=&#34;literal-block&#34;&gt;
-====================== =============================================== ===============================
-Type                   Description                                     Example
-====================== =============================================== ===============================
-Announcement
-Security Notice
-Service Advertisement
-====================== =============================================== ================================
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;publication-streams&#34;&gt;
-&lt;h1&gt;Publication Streams&lt;/h1&gt;
-&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;59%&#34; /&gt;
-&lt;col width=&#34;22%&#34; /&gt;
-&lt;col width=&#34;19%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead valign=&#34;bottom&#34;&gt;
-&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Type&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;Facebook&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;Twitter&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody valign=&#34;top&#34;&gt;
-&lt;tr&gt;&lt;td&gt;Announcement&lt;/td&gt;
-&lt;td&gt;Y&lt;/td&gt;
-&lt;td&gt;Y&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://docs.littleman.co/communication/Tickets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://docs.littleman.co/communication/Tickets/</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
-
-
-&lt;p&gt;The canonical way of reporting issues should be from the client website. Insert JS for certain IP ranges or user login that allows a bug reporting form.&lt;/p&gt;
-&lt;dl class=&#34;docutils&#34;&gt;
-&lt;dt&gt;Collect:&lt;/dt&gt;
-&lt;dd&gt;User Agent
-Device
-Request URI
-Session ID
-Screenshot
-User Feedback
-Time
-HTTP Status code&lt;/dd&gt;
-&lt;dt&gt;Automatically submit report with the following error codes:&lt;/dt&gt;
-&lt;dd&gt;5xx&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;Provide a form to submit for any other error codes.&lt;/p&gt;
-&lt;div class=&#34;section&#34; id=&#34;projects-dependant-on-these-docs&#34;&gt;
-&lt;h1&gt;Projects dependant on these docs&lt;/h1&gt;
-&lt;ul class=&#34;simple&#34;&gt;
-&lt;li&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://git.howden.io/repository/nginx&#34;&gt;http://git.howden.io/repository/nginx&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://docs.littleman.co/Conference/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://docs.littleman.co/Conference/</guid>
-      <description>&lt;div class=&#34;document&#34; id=&#34;creating-a-conference-or-gathering&#34;&gt;
-&lt;h1 class=&#34;title&#34;&gt;Creating a conference (or gathering)&lt;/h1&gt;
-
-&lt;ul class=&#34;simple&#34;&gt;
-&lt;li&gt;Create a Trello board for internal use (make it visible externally?)&lt;/li&gt;
-&lt;li&gt;Create a slack room for&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 5)&lt;/p&gt;
-Bullet list ends without a blank line; unexpected unindent.&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;ul class=&#34;simple&#34;&gt;
-&lt;li&gt;Speakers&lt;/li&gt;
-&lt;li&gt;Attendees&lt;/li&gt;
-&lt;li&gt;Internal&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;div class=&#34;section&#34; id=&#34;advertising&#34;&gt;
-&lt;h1&gt;Advertising&lt;/h1&gt;
-&lt;ul class=&#34;simple&#34;&gt;
-&lt;li&gt;Take efforts to be particularly welcoming&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://docs.littleman.co/Design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://docs.littleman.co/Design/</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
-
-
-&lt;div class=&#34;section&#34; id=&#34;definitions&#34;&gt;
-&lt;h1&gt;Definitions&lt;/h1&gt;
-&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;21%&#34; /&gt;
-&lt;col width=&#34;79%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead valign=&#34;bottom&#34;&gt;
-&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Word&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody valign=&#34;top&#34;&gt;
-&lt;tr&gt;&lt;td&gt;descriptor&lt;/td&gt;
-&lt;td&gt;A qualifier for the psuedoelement structure (eg. title)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;psuedoelement&lt;/td&gt;
-&lt;td&gt;The semantic name for the page structure (eg. navbar)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;overview&#34;&gt;
-&lt;h1&gt;Overview&lt;/h1&gt;
-&lt;div class=&#34;section&#34; id=&#34;pertinent-data&#34;&gt;
-&lt;h2&gt;Pertinent Data&lt;/h2&gt;
-&lt;ul class=&#34;simple&#34;&gt;
-&lt;li&gt;Brand Colors&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;process&#34;&gt;
-&lt;h2&gt;Process&lt;/h2&gt;
+&lt;p&gt;A proposal is a story intended to persuade the reader that a new course of action will be better than the current one in some way. It is a structured document that should be referenced, proofed and list its authors. it consists of various titled sections, listed below. Note: It is not a good idea to voice ones conjecture. Support all points with references or don&#39;t include them.&lt;/p&gt;
 &lt;ol class=&#34;arabic simple&#34;&gt;
-&lt;li&gt;Develop a kitchen sink of elements that will be used throughout the site. Some common ones are&lt;/li&gt;
+&lt;li&gt;Abstract&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 21)&lt;/p&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 4)&lt;/p&gt;
+Enumerated list ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;A summary of the proposal, including description, benefits, risks and estimated costs.&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class=&#34;first last simple&#34;&gt;
+&lt;li&gt;Keep this short.&lt;/li&gt;
+&lt;li&gt;Pique Interest.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/blockquote&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Problem Description&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 9)&lt;/p&gt;
+Enumerated list ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;An outline of the problem that the proposed solution will solve. If a proposal does not solve a problem it is worthless.
+- Outline any efficiency improvements as problems. For Example:&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+&amp;quot;Oen mobile, connections are slow&amp;quot; rather than &amp;quot;with HTTP/2 mobile load times will decrease&amp;quot;.
+&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class=&#34;first&#34;&gt;Hook into a metric that the reader cares about. For example:&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+&amp;quot;lower page load times are correlated with decreased user engagement and, by association, cart abandonment&amp;quot;
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Proposal Outline&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 19)&lt;/p&gt;
+Enumerated list ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;How your proposed solution will resolve or lessen the described problem.&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class=&#34;first last simple&#34;&gt;
+&lt;li&gt;&amp;quot;Side&amp;quot; benefits (or &amp;quot;opportunities&amp;quot;) are fine, but much less important than the solution to the problem. Rate each side benefit on a colour coded likert scale (very useful -&amp;gt; detrimental)&lt;/li&gt;
+&lt;li&gt;Address each concern in description.&lt;/li&gt;
+&lt;li&gt;Outline any other things that have undertaken this proposal and their results.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/blockquote&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Success evaluation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 25)&lt;/p&gt;
 Enumerated list ends without a blank line; unexpected unindent.&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;ul class=&#34;simple&#34;&gt;
-&lt;li&gt;Buttons&lt;/li&gt;
-&lt;li&gt;Loading Indicators&lt;/li&gt;
-&lt;li&gt;Headings&lt;/li&gt;
-&lt;li&gt;Paragraph Text&lt;/li&gt;
-&lt;li&gt;Lists&lt;/li&gt;
+&lt;li&gt;how do we know it works?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;canonical-symbology&#34;&gt;
-&lt;h1&gt;Canonical Symbology&lt;/h1&gt;
-&lt;p&gt;Where possible, use the materials design icon set.&lt;/p&gt;
-&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;33%&#34; /&gt;
-&lt;col width=&#34;67%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead valign=&#34;bottom&#34;&gt;
-&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Term&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;&amp;nbsp;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody valign=&#34;top&#34;&gt;
-&lt;tr&gt;&lt;td&gt;Search&lt;/td&gt;
-&lt;td&gt;Magnifying Glass&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;scss&#34;&gt;
-&lt;h1&gt;SCSS&lt;/h1&gt;
-&lt;div class=&#34;section&#34; id=&#34;headings&#34;&gt;
-&lt;h2&gt;Headings&lt;/h2&gt;
-&lt;p&gt;Heading styles should not be coupled with their tag counterparts. h1 - h5 are used for determining the importants of the content that follows, the class for describing further information about that section.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;naming&#34;&gt;
-&lt;h2&gt;Naming&lt;/h2&gt;
-&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;27%&#34; /&gt;
-&lt;col width=&#34;73%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead valign=&#34;bottom&#34;&gt;
-&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Type&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;Standard&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody valign=&#34;top&#34;&gt;
-&lt;tr&gt;&lt;td&gt;Color Variable&lt;/td&gt;
-&lt;td&gt;{psuedoelement}-color-{descriptor}&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Height Variable&lt;/td&gt;
-&lt;td&gt;{psuedoelement}-height-{short(er|est)|base|tall(er|est)}&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Thickness Variable&lt;/td&gt;
-&lt;td&gt;Use width&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Width Variable&lt;/td&gt;
-&lt;td&gt;{psuedoelement}-width-{thin(er|est)|base|thick(er|est)}&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;canonical-name&#34;&gt;
-&lt;h2&gt;Canonical name&lt;/h2&gt;
-&lt;div class=&#34;line-block&#34;&gt;
-&lt;div class=&#34;line&#34;&gt;Name                 | Alternatives                                                |&lt;/div&gt;
-&lt;/div&gt;
 &lt;div class=&#34;system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 62)&lt;/p&gt;
-Line block ends without a blank line.&lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;#id1&#34;&gt;&lt;span class=&#34;problematic&#34; id=&#34;id2&#34;&gt;|:--------------------:|&lt;/span&gt;&lt;/a&gt;:-----------------------------------------------------------:|
-| largest              | x-large, extra-large                                        |&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;reserved-words&#34;&gt;
-&lt;h2&gt;Reserved Words&lt;/h2&gt;
-&lt;div class=&#34;section&#34; id=&#34;modifiers&#34;&gt;
-&lt;h3&gt;Modifiers&lt;/h3&gt;
-&lt;p&gt;Modifiers are selectors that only modify the look of the page when combined with another selector. They should not have any styles applied to them directly, and ideally should only be used as placeholders.&lt;/p&gt;
-&lt;div class=&#34;line-block&#34;&gt;
-&lt;div class=&#34;line&#34;&gt;Word     | Description                                             |&lt;/div&gt;
-&lt;/div&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 26)&lt;/p&gt;
+Block quote ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Problems (&amp;amp; resolutions)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;div class=&#34;system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 74)&lt;/p&gt;
-Line block ends without a blank line.&lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;#id3&#34;&gt;&lt;span class=&#34;problematic&#34; id=&#34;id4&#34;&gt;|:--------:|&lt;/span&gt;&lt;/a&gt;:-------------------------------------------------------:|
-| left     | Move the element to the left side of its parent         |
-| right    | Move the element to the right side of its parent        |&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;whitespace&#34;&gt;
-&lt;h2&gt;Whitespace&lt;/h2&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 27)&lt;/p&gt;
+Enumerated list ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;Any new problems that may arise as a result of the proposal, as well as how they can be solved or why it is acceptable to introduce a new problem.&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class=&#34;first last simple&#34;&gt;
+&lt;li&gt;List problems that don&#39;t yet have a solution. It should be avoided if possible, however sometimes its good to open it for discussion.&lt;/li&gt;
+&lt;li&gt;Rate each problem on a likert scale (noted earlier)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/blockquote&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Risks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 32)&lt;/p&gt;
+Enumerated list ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;Any new risks that may be introduced as a result of the proposal.&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class=&#34;first last simple&#34;&gt;
+&lt;li&gt;Rate each of these risks on a likert scale (dangerous - safe).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/blockquote&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Estimated costs&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 36)&lt;/p&gt;
+Enumerated list ends without a blank line; unexpected unindent.&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;ul class=&#34;simple&#34;&gt;
-&lt;li&gt;All elements are responsible for the vertical whitespace directly below them, with the exception
-of the first element on the page&lt;/li&gt;
+&lt;li&gt;Development Time&lt;/li&gt;
+&lt;li&gt;Equipment Purchase&lt;/li&gt;
+&lt;li&gt;Reskilling Workers&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;naming-standard&#34;&gt;
-&lt;h2&gt;Naming Standard&lt;/h2&gt;
-&lt;div class=&#34;line-block&#34;&gt;
-&lt;div class=&#34;line&#34;&gt;Structure    | Standard                                                  | Example        |&lt;/div&gt;
-&lt;/div&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Alternative solutions&lt;/li&gt;
+&lt;/ol&gt;
 &lt;div class=&#34;system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 86)&lt;/p&gt;
-Line block ends without a blank line.&lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;#id5&#34;&gt;&lt;span class=&#34;problematic&#34; id=&#34;id6&#34;&gt;|:------------:|&lt;/span&gt;&lt;/a&gt;:---------------------------------------------------------:&lt;a href=&#34;#id7&#34;&gt;&lt;span class=&#34;problematic&#34; id=&#34;id8&#34;&gt;|:--------------:|&lt;/span&gt;&lt;/a&gt;
-| placeholders | Singular, describing it&#39;s semantic purpose. One word only | &lt;tt class=&#34;docutils literal&#34;&gt;`%heading`&lt;/tt&gt; |&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;drop-down-menus&#34;&gt;
-&lt;h1&gt;Drop down menus&lt;/h1&gt;
-&lt;p&gt;A nice library for aiming the mouse somewhere
-&lt;a class=&#34;reference external&#34; href=&#34;http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown&#34;&gt;http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;section&#34; id=&#34;directory-structure&#34;&gt;
-&lt;h2&gt;Directory Structure&lt;/h2&gt;
-&lt;div class=&#34;line-block&#34;&gt;
-&lt;div class=&#34;line&#34;&gt;Sass |             |       |                 |&lt;/div&gt;
-&lt;/div&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 41)&lt;/p&gt;
+Enumerated list ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;blockquote&gt;
+Any alternative solutions, as well as why they weren&#39;t chosen.&lt;/blockquote&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Implementation Plan&lt;/li&gt;
+&lt;/ol&gt;
 &lt;div class=&#34;system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 98)&lt;/p&gt;
-Line block ends without a blank line.&lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;#id9&#34;&gt;&lt;span class=&#34;problematic&#34; id=&#34;id10&#34;&gt;|------|&lt;/span&gt;&lt;/a&gt;:-----------:&lt;a href=&#34;#id11&#34;&gt;&lt;span class=&#34;problematic&#34; id=&#34;id12&#34;&gt;|:-----:|&lt;/span&gt;&lt;/a&gt;:----------------|
-|      | styles      |                         |
-|      | _mixins                               |
-|      | _colors                               |
-|      | _variables                            |
-|      | _placeholders                         |
-|                                              |
-|      | styles/     |       |                 |
-|      |             | core/ |                 |
-|      |             |       | _buttons.scss   |
-|      |             |       | _carousels.scss |
-|      |             |       | _collapse.scss  |
-|      |             |       | _forms.scss     |
-|      |             |       | _loading.scss   |
-|      |             |       | _messages.scss  |
-|      |             |       | _modals.scss    |
-|      |             |       | _panels.scss    |
-|      |             |       | _typography.scss|
-|      |             |       | _utilities.scss |
-|      |             |       | _wells.scss     |
-|      |             |       |                 |&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;typography&#34;&gt;
-&lt;h1&gt;Typography&lt;/h1&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 44)&lt;/p&gt;
+Enumerated list ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;blockquote&gt;
+Steps the organisation will go though to implement the process.&lt;/blockquote&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;Rollback plan&lt;/li&gt;
+&lt;/ol&gt;
 &lt;div class=&#34;system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 123)&lt;/p&gt;
-&lt;p&gt;Malformed table.
-No bottom table border found or no blank line after table bottom.&lt;/p&gt;
-&lt;pre class=&#34;literal-block&#34;&gt;
-========== ============== ==========================
-Use        Inherits From  Additional Styles
-========== ============== ==========================
-&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 47)&lt;/p&gt;
+Enumerated list ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;blockquote&gt;
+Steps the organisation will go through to revert the change should that become necessary.&lt;/blockquote&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;References&lt;/li&gt;
+&lt;/ol&gt;
 &lt;div class=&#34;system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 126)&lt;/p&gt;
-Blank line required after table.&lt;/div&gt;
-&lt;p&gt;Main Text                 1em
-Link       Main Text      Underline, Color: #0B0080&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;useful-links&#34;&gt;
-&lt;h1&gt;Useful Links&lt;/h1&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 50)&lt;/p&gt;
+Enumerated list ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;blockquote&gt;
 &lt;ul class=&#34;simple&#34;&gt;
-&lt;li&gt;[Sassline - Print style typography on the web](&lt;a class=&#34;reference external&#34; href=&#34;https://github.com/designbyjake/sassline&#34;&gt;https://github.com/designbyjake/sassline&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;[Bootstrap - Materials Design](&lt;a class=&#34;reference external&#34; href=&#34;http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html&#34;&gt;http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Use APA style&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&#34;system-messages section&#34;&gt;
-&lt;h1&gt;Docutils System Messages&lt;/h1&gt;
-&lt;div class=&#34;system-message&#34; id=&#34;id1&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 62); &lt;em&gt;&lt;a href=&#34;#id2&#34;&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Undefined substitution referenced: &amp;quot;:--------------------:&amp;quot;.&lt;/div&gt;
-&lt;div class=&#34;system-message&#34; id=&#34;id3&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 74); &lt;em&gt;&lt;a href=&#34;#id4&#34;&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Undefined substitution referenced: &amp;quot;:--------:&amp;quot;.&lt;/div&gt;
-&lt;div class=&#34;system-message&#34; id=&#34;id5&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 86); &lt;em&gt;&lt;a href=&#34;#id6&#34;&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Undefined substitution referenced: &amp;quot;:------------:&amp;quot;.&lt;/div&gt;
-&lt;div class=&#34;system-message&#34; id=&#34;id7&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 86); &lt;em&gt;&lt;a href=&#34;#id8&#34;&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Undefined substitution referenced: &amp;quot;:--------------:&amp;quot;.&lt;/div&gt;
-&lt;div class=&#34;system-message&#34; id=&#34;id9&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 98); &lt;em&gt;&lt;a href=&#34;#id10&#34;&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Undefined substitution referenced: &amp;quot;------&amp;quot;.&lt;/div&gt;
-&lt;div class=&#34;system-message&#34; id=&#34;id11&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 98); &lt;em&gt;&lt;a href=&#34;#id12&#34;&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Undefined substitution referenced: &amp;quot;:-----:&amp;quot;.&lt;/div&gt;
-&lt;/div&gt;
+&lt;/blockquote&gt;
 &lt;/div&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://docs.littleman.co/Documentation/</link>
+      <link>http://docs.littleman.co/communication/ProposalExample/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.littleman.co/Documentation/</guid>
-      <description>&lt;div class=&#34;document&#34; id=&#34;documentation&#34;&gt;
-&lt;h1 class=&#34;title&#34;&gt;Documentation&lt;/h1&gt;
-
-&lt;p&gt;This articles intention is to provide information about how to properly structure both markdown and restructured text documentation.&lt;/p&gt;
-&lt;div class=&#34;section&#34; id=&#34;titles&#34;&gt;
-&lt;h1&gt;Titles&lt;/h1&gt;
-&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;16%&#34; /&gt;
-&lt;col width=&#34;45%&#34; /&gt;
-&lt;col width=&#34;39%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead valign=&#34;bottom&#34;&gt;
-&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Structure&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;RST Syntax&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;Markdown Syntax&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody valign=&#34;top&#34;&gt;
-&lt;tr&gt;&lt;td&gt;h1&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;first last system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 14)&lt;/p&gt;
-&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
-&lt;pre class=&#34;literal-block&#34;&gt;
-.. code:: ReST
-
-   =====
-   Title
-   =====
-
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;&lt;pre class=&#34;code first last literal-block&#34;&gt;
-# Title
-&lt;/pre&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;h2&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;first last system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 21)&lt;/p&gt;
-&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
-&lt;pre class=&#34;literal-block&#34;&gt;
-.. code:: ReST
-
-    Heading 2
-    ---------
-
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;&lt;pre class=&#34;code first last literal-block&#34;&gt;
-## Heading 2
-&lt;/pre&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;h3&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;first last system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 27)&lt;/p&gt;
-&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
-&lt;pre class=&#34;literal-block&#34;&gt;
-.. code:: ReST
-
-    Heading 3
-    `````````
-
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;&lt;pre class=&#34;code first last literal-block&#34;&gt;
-### Heading 3
-&lt;/pre&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;h4&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;first last system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 33)&lt;/p&gt;
-&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
-&lt;pre class=&#34;literal-block&#34;&gt;
-.. code:: ReST
-
-    Heading 4
-    &amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;
-
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;&lt;pre class=&#34;code first last literal-block&#34;&gt;
-#### Heading 4
-&lt;/pre&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;references&#34;&gt;
-&lt;h1&gt;References&lt;/h1&gt;
-&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;16%&#34; /&gt;
-&lt;col width=&#34;45%&#34; /&gt;
-&lt;col width=&#34;39%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead valign=&#34;bottom&#34;&gt;
-&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Structure&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;RST Syntax&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;Markdown Syntax&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody valign=&#34;top&#34;&gt;
-&lt;tr&gt;&lt;td&gt;Heading&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;first last system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 46)&lt;/p&gt;
-&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
-&lt;pre class=&#34;literal-block&#34;&gt;
-.. code:: ReST
-
-    **Heading 2**
-
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;Undocumented.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;In software
-menu item&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;first last system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 51)&lt;/p&gt;
-&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
-&lt;pre class=&#34;literal-block&#34;&gt;
-.. code:: ReST
-
-   ``System → Configuration``
-
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;Undocumented.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;examples&#34;&gt;
-&lt;h1&gt;Examples&lt;/h1&gt;
-&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;16%&#34; /&gt;
-&lt;col width=&#34;45%&#34; /&gt;
-&lt;col width=&#34;39%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead valign=&#34;bottom&#34;&gt;
-&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Structure&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;RST Syntax&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;Markdown Syntax&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody valign=&#34;top&#34;&gt;
-&lt;tr&gt;&lt;td&gt;Code block&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;first system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 63)&lt;/p&gt;
-&lt;p&gt;Cannot analyze code. Pygments package not found.&lt;/p&gt;
-&lt;pre class=&#34;literal-block&#34;&gt;
-.. code:: ReST
-
-    ..Code::
-        ./mage install-file {package}
-
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p class=&#34;last&#34;&gt;You&#39;ll need a space between &#39;..&#39; &amp;amp; &#39;C&#39;&lt;/p&gt;
-&lt;/td&gt;
-&lt;td&gt;Undocumented&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://docs.littleman.co/Domain/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://docs.littleman.co/Domain/</guid>
-      <description>&lt;div class=&#34;document&#34; id=&#34;recovering-a-domain&#34;&gt;
-&lt;h1 class=&#34;title&#34;&gt;Recovering a domain&lt;/h1&gt;
-&lt;h2 class=&#34;subtitle&#34; id=&#34;com-au&#34;&gt;.com.au&lt;/h2&gt;
-
-&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://admin.auda.org.au/password_recovery/auda_recover_password.jsp?&#34;&gt;EPP Pass code recovery link&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://docs.littleman.co/Email/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://docs.littleman.co/Email/</guid>
+      <guid>http://docs.littleman.co/communication/ProposalExample/</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;div class=&#34;section&#34; id=&#34;naming-standards&#34;&gt;
-&lt;h1&gt;Naming Standards&lt;/h1&gt;
-&lt;div class=&#34;system-message&#34;&gt;
-&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 5)&lt;/p&gt;
-&lt;p&gt;Malformed table.
-Text in column margin in table line 2.&lt;/p&gt;
-&lt;pre class=&#34;literal-block&#34;&gt;
-================== ===== ===================
-Construct          Std  Example
-================== ===== ===================
-Delimiter          ``-``
-================== ===== ===================
-&lt;/pre&gt;
+&lt;p&gt;There is currently no formal process for team members to submit ideas about innovating any business process. Without a formal process the unique insights and ideas of each employee can be lost, even if that idea is informally discussed amongst the peer group. This document proposes that a spec be defined for the submission of policy change proposals, as well as providing an example of a proposal document.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;problem&#34;&gt;
+&lt;h1&gt;Problem&lt;/h1&gt;
+&lt;p&gt;Running a for profit business is extremely competitive, and all businesses are vying to create the best service at the lowest cost in the most accessible way. Businesses that do not regularly examine and innovate their workflow begin to become stale, uncompetitive and eventually untenable. Employees performing the work that generates the product of the business are ideally placed to reflect on the processes they undertake daily and see more efficient, creative ways to solve the problems they&#39;re facing, however, without any permission or communication are unlikely to spontaneously redefine their work, improving their own efficiency. This might lead over time to negative business outcomes.&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;standard-addresses&#34;&gt;
-&lt;h1&gt;Standard Addresses&lt;/h1&gt;
-&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;51%&#34; /&gt;
-&lt;col width=&#34;49%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;tbody valign=&#34;top&#34;&gt;
-&lt;tr&gt;&lt;td&gt;Bug fixes / software updates&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;reference external&#34; href=&#34;mailto:software-updates&amp;#64;example.com&#34;&gt;software-updates&amp;#64;example.com&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Website Administrators&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;reference external&#34; href=&#34;mailto:webmaster&amp;#64;example.com&#34;&gt;webmaster&amp;#64;example.com&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Support / Help&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;reference external&#34; href=&#34;mailto:support&amp;#64;example.com&#34;&gt;support&amp;#64;example.com&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;standard-signature&#34;&gt;
-&lt;h1&gt;Standard Signature&lt;/h1&gt;
-&lt;p&gt;Example User
-Job Title
-T: 0438 123 456 | E: &lt;a class=&#34;reference external&#34; href=&#34;mailto:hello&amp;#64;example.com&#34;&gt;hello&amp;#64;example.com&lt;/a&gt; | W: &lt;a class=&#34;reference external&#34; href=&#34;http://litleman.co&#34;&gt;http://litleman.co&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://docs.littleman.co/Environment/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://docs.littleman.co/Environment/</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
-
-
-&lt;div class=&#34;section&#34; id=&#34;development&#34;&gt;
-&lt;h1&gt;Development&lt;/h1&gt;
-&lt;div class=&#34;section&#34; id=&#34;hardware&#34;&gt;
-&lt;h2&gt;Hardware&lt;/h2&gt;
-&lt;div class=&#34;section&#34; id=&#34;main-machines&#34;&gt;
-&lt;h3&gt;Main Machines&lt;/h3&gt;
-&lt;p&gt;Hardware&lt;/p&gt;
-&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;25%&#34; /&gt;
-&lt;col width=&#34;25%&#34; /&gt;
-&lt;col width=&#34;49%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead valign=&#34;bottom&#34;&gt;
-&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Part&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;Description&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;Notes&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody valign=&#34;top&#34;&gt;
-&lt;tr&gt;&lt;td&gt;HDD&lt;/td&gt;
-&lt;td&gt;2x SSD 256GB&lt;/td&gt;
-&lt;td&gt;1x OS, Packages. 1x Data&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Software&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;backups&#34;&gt;
-&lt;h3&gt;Backups&lt;/h3&gt;
-&lt;p&gt;Some sort of NAS&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;virtual-machines&#34;&gt;
-&lt;h2&gt;Virtual Machines&lt;/h2&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;server&#34;&gt;
-&lt;h1&gt;Server&lt;/h1&gt;
-&lt;div class=&#34;section&#34; id=&#34;health-checks&#34;&gt;
-&lt;h2&gt;Health Checks&lt;/h2&gt;
-&lt;p&gt;Installed via Apt.&lt;/p&gt;
-&lt;ul class=&#34;simple&#34;&gt;
-&lt;li&gt;Disk free space metric&lt;/li&gt;
-&lt;li&gt;Free memory metric&lt;/li&gt;
-&lt;li&gt;CPU Usage metric&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;section&#34; id=&#34;software&#34;&gt;
-&lt;h3&gt;Software&lt;/h3&gt;
-&lt;p&gt;Software health checks verify that software is in an expected state, and allows the user make invalid an old version of software so that box can be scheduled for decommission, and a new box created with the updated package.&lt;/p&gt;
-&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;50%&#34; /&gt;
-&lt;col width=&#34;50%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead valign=&#34;bottom&#34;&gt;
-&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Purpose&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;Software&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody valign=&#34;top&#34;&gt;
-&lt;tr&gt;&lt;td&gt;Web Server&lt;/td&gt;
-&lt;td&gt;Nginx&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Log Forwarder&lt;/td&gt;
-&lt;td&gt;logstash-forwarder&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;software-repositories&#34;&gt;
-&lt;h3&gt;Software Repositories&lt;/h3&gt;
-&lt;div class=&#34;section&#34; id=&#34;debian&#34;&gt;
-&lt;h4&gt;Debian&lt;/h4&gt;
-&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;19%&#34; /&gt;
-&lt;col width=&#34;81%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead valign=&#34;bottom&#34;&gt;
-&lt;tr&gt;&lt;th class=&#34;head&#34;&gt;Software&lt;/th&gt;
-&lt;th class=&#34;head&#34;&gt;URL&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody valign=&#34;top&#34;&gt;
-&lt;tr&gt;&lt;td&gt;Nginx&lt;/td&gt;
-&lt;td&gt;deb &lt;a class=&#34;reference external&#34; href=&#34;http://pkg.howden.io/&#34;&gt;http://pkg.howden.io/&lt;/a&gt; ./&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Sensu&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;reference external&#34; href=&#34;https://sensuapp.org/docs/latest/install-repositories&#34;&gt;https://sensuapp.org/docs/latest/install-repositories&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;section&#34; id=&#34;references&#34;&gt;
-&lt;h1&gt;References&lt;/h1&gt;
+&lt;div class=&#34;section&#34; id=&#34;solution&#34;&gt;
+&lt;h1&gt;Solution&lt;/h1&gt;
+&lt;p&gt;This document proposes the creation of a proposal specification that team members are encouraged to submit for review to their peers or superiors, that must be reviewed and acted upon.&lt;/p&gt;
+&lt;p&gt;The structure of the proposal document is defined at:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;a class=&#34;reference external&#34; href=&#34;https://docs.littleman.co/Templates/Proposal&#34;&gt;https://docs.littleman.co/Templates/Proposal&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;This document follows the template, and serves an example of the proposal.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
     </item>

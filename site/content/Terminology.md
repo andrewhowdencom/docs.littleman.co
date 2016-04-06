@@ -3,6 +3,7 @@
 | Name                 | Alternatives            |
 |:--------------------:|:-----------------------:|
 | Folder<sup>[1]</sup> | Directory               | 
+| Interactive          | Interactable, Buttons   | 
 
 # Accepted Shorthand
 | Shorthand | Short For                |

@@ -9,3 +9,6 @@ All packages should be of the form ```/{type}/{standard}.git```
 |:------------:|:-------------------------:|
 | phpcs        | {vendor}-{package}        |
 
+### Generated Files
+
+{file-name}-{date}-{time if absolutely necessary}.{ext}

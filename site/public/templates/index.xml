@@ -52,6 +52,82 @@
     
     <item>
       <title></title>
+      <link>http://docs.littleman.co/templates/content/BusinessSuggestion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/templates/content/BusinessSuggestion/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;A business suggestion is a document designed to make a business stakeholder (owner, developer or manager) investigate the implementation of a new technology, process anything else.&lt;/p&gt;
+&lt;div class=&#34;section&#34; id=&#34;document-intents&#34;&gt;
+&lt;h1&gt;Document Intents&lt;/h1&gt;
+&lt;table border=&#34;1&#34; class=&#34;docutils&#34;&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;31%&#34; /&gt;
+&lt;col width=&#34;69%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign=&#34;top&#34;&gt;
+&lt;tr&gt;&lt;td&gt;Intent&lt;/td&gt;
+&lt;td&gt;Guidelines&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Audiences&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Primary Message&lt;/td&gt;
+&lt;td&gt;Implementing this suggestion can solve a business issue.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Audience specific messages&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Purpose of page&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Style and tone&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;title-i-can-do-what-now&#34;&gt;
+&lt;h1&gt;Title (I can do what now?)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class=&#34;first&#34;&gt;A short sentence linking suggestion with business metric impact.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&#34;first&#34;&gt;Example:&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+&amp;quot;Reduce cart abandonment rate by implementing HTTP/2&amp;quot;
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;body&#34;&gt;
+&lt;h1&gt;Body&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Avoid jargon as much as possible.&lt;/li&gt;
+&lt;li&gt;Where required, provide inline links that explain topics in a greater depth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;section&#34; id=&#34;introduction-how-does-this-help-the-business&#34;&gt;
+&lt;h2&gt;Introduction (How does this help the business?)&lt;/h2&gt;
+&lt;ol class=&#34;arabic simple&#34;&gt;
+&lt;li&gt;An outline of the problem, including how it impacts business goals. Include a note about how this problem will become worse over time if it does (common in technology).&lt;/li&gt;
+&lt;li&gt;How this solution will resolve this problem.&lt;/li&gt;
+&lt;li&gt;An estimated return on investment / payback time.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;problems-what-are-the-downsides-to-this-suggestion&#34;&gt;
+&lt;h2&gt;Problems (What are the downsides to this suggestion?)&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;risks-what-can-go-wrong-during-the-implementation-of-this-solution&#34;&gt;
+&lt;h2&gt;Risks (What can go wrong during the implementation of this solution?)&lt;/h2&gt;
+&lt;p&gt;Costs (What will this solution cost me?)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://docs.littleman.co/templates/Readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.15" />
+
+  <title> &middot; Some developer documentation</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <link rel="alternate" type="application/rss+xml" title="Some developer documentation" href="http://docs.littleman.co/index.xml" />
+
+  
+
+  <link rel="shortcut icon" href="http://docs.littleman.co/img/favicon.ico" type="image/x-icon" />
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="http://docs.littleman.co/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+    </li>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div class="pure-g">
+  <div class="small-print pure-u-1 pure-u-md-1-1">
+    <small></small>
+  </div>
+  <div class="small-print pure-u-1 pure-u-md-1-1">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1></h1>
+  <h2></h2>
+</div>
+<div class="content">
+  <div class="document" id="module">
+<h1 class="title">Module</h1>
+
+<div class="section" id="admin">
+<h1>Admin</h1>
+<ul class="simple">
+<li>Ensure that the &quot;Get help for this page&quot; links to an appropriate documentation page</li>
+</ul>
+</div>
+<div class="section" id="system-configuration">
+<h1>System → Configuration</h1>
+<ul class="simple">
+<li>Ensure that the configuration has a nice top bar (Use eBizMarts as a reference)</li>
+<li>Ensure that the logo appears in front of the menu</li>
+<li>If a third party API service is required, make sure there's a &quot;sign up&quot; link and an &quot;about&quot; link in the nice top bar.</li>
+</ul>
+<div class="section" id="api-keys">
+<h2>API Keys</h2>
+<ul class="simple">
+<li>API Keys are just as secret as passwords. Treat them as such.</li>
+<li>OAuth secrets are ... well, secret.</li>
+<li>OAuth Client IDs are not secret.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="config-xml">
+<h1>Config.xml</h1>
+<div class="section" id="events">
+<h2>Events</h2>
+<ul class="simple">
+<li>To disable an event, use the &quot;disabled&quot; type used by Magento, rather than deleting or commenting out an event.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="local-xml">
+<h1>Local.xml</h1>
+<ul class="simple">
+<li>Heavily advised to have the &quot;skip_process_module_updates&quot; enabled, and run them with n98-magerun.phar</li>
+</ul>
+</div>
+<div class="section" id="system-xml">
+<h1>System(.xml)</h1>
+<ul class="simple">
+<li>All system configuration should have corresponding defaults in config.xml</li>
+</ul>
+<div class="section" id="specific-data-guidelines">
+<h2>Specific data guidelines</h2>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">&lt;stdin&gt;</tt>, line 45)</p>
+<p>Malformed table.
+Column span alignment problem in table line 7.</p>
+<pre class="literal-block">
+===================== ================================= ======
+Type                  Guideline                         Secret
+--------------------- --------------------------------- ------
+API Key               {service}_api_key                   ✓
+OAuth Client ID       {service}_oauth_client_id
+Oauth Client Secret   {service}_oauth_client_secret       ✓
+====================  ================================= ======
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<script src="http://docs.littleman.co/js/ui.js"></script>
+
+
+
+
+</body>
+</html>
+

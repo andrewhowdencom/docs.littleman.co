@@ -222,6 +222,104 @@
     
     <item>
       <title></title>
+      <link>http://docs.littleman.co/magento/Module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/Module/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;module&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Module&lt;/h1&gt;
+
+&lt;div class=&#34;section&#34; id=&#34;admin&#34;&gt;
+&lt;h1&gt;Admin&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Ensure that the &amp;quot;Get help for this page&amp;quot; links to an appropriate documentation page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;system-configuration&#34;&gt;
+&lt;h1&gt;System → Configuration&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Ensure that the configuration has a nice top bar (Use eBizMarts as a reference)&lt;/li&gt;
+&lt;li&gt;Ensure that the logo appears in front of the menu&lt;/li&gt;
+&lt;li&gt;If a third party API service is required, make sure there&#39;s a &amp;quot;sign up&amp;quot; link and an &amp;quot;about&amp;quot; link in the nice top bar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;section&#34; id=&#34;api-keys&#34;&gt;
+&lt;h2&gt;API Keys&lt;/h2&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;API Keys are just as secret as passwords. Treat them as such.&lt;/li&gt;
+&lt;li&gt;OAuth secrets are ... well, secret.&lt;/li&gt;
+&lt;li&gt;OAuth Client IDs are not secret.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;config-xml&#34;&gt;
+&lt;h1&gt;Config.xml&lt;/h1&gt;
+&lt;div class=&#34;section&#34; id=&#34;events&#34;&gt;
+&lt;h2&gt;Events&lt;/h2&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;To disable an event, use the &amp;quot;disabled&amp;quot; type used by Magento, rather than deleting or commenting out an event.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;local-xml&#34;&gt;
+&lt;h1&gt;Local.xml&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Heavily advised to have the &amp;quot;skip_process_module_updates&amp;quot; enabled, and run them with n98-magerun.phar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;system-xml&#34;&gt;
+&lt;h1&gt;System(.xml)&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;All system configuration should have corresponding defaults in config.xml&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;section&#34; id=&#34;specific-data-guidelines&#34;&gt;
+&lt;h2&gt;Specific data guidelines&lt;/h2&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: ERROR/3 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 45)&lt;/p&gt;
+&lt;p&gt;Malformed table.
+Column span alignment problem in table line 7.&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
+===================== ================================= ======
+Type                  Guideline                         Secret
+--------------------- --------------------------------- ------
+API Key               {service}_api_key                   ✓
+OAuth Client ID       {service}_oauth_client_id
+Oauth Client Secret   {service}_oauth_client_secret       ✓
+====================  ================================= ======
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/module/Block/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/module/Block/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;block&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Block&lt;/h1&gt;
+
+&lt;p&gt;Logic around preparing a view. Presentational logic only, nothing that modifies stored data.&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/module/Configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/module/Configuration/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://docs.littleman.co/magento/module/Controller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -231,6 +329,24 @@
 
 &lt;ul class=&#34;simple&#34;&gt;
 &lt;li&gt;Max one ACL per controller. More is retarded.&lt;/li&gt;
+&lt;li&gt;Logic around preparing a view (such as passing session objects in)&lt;/li&gt;
+&lt;li&gt;Mostly should be done by the layout engine&lt;/li&gt;
+&lt;li&gt;No business logic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/module/Helper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/module/Helper/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;helper&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Helper&lt;/h1&gt;
+
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Business logic&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;</description>
     </item>
@@ -257,6 +373,12 @@ Bullet list ends without a blank line; unexpected unindent.&lt;/div&gt;
 &lt;li&gt;Checking columns are in the expected state before attempting to modify them.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
+&lt;div class=&#34;system-message&#34;&gt;
+&lt;p class=&#34;system-message-title&#34;&gt;System Message: WARNING/2 (&lt;tt class=&#34;docutils&#34;&gt;&amp;lt;stdin&amp;gt;&lt;/tt&gt;, line 7)&lt;/p&gt;
+Block quote ends without a blank line; unexpected unindent.&lt;/div&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Module changes should be designed to work both with the old schema and the new. There is no reason code changes need to rely on a schema change, unless thst change is a critical bugfix.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;</description>
     </item>
     
@@ -340,6 +462,21 @@ Bullet list ends without a blank line; unexpected unindent.&lt;/div&gt;
     
     <item>
       <title></title>
+      <link>http://docs.littleman.co/magento/module/Model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/module/Model/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;model&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Model&lt;/h1&gt;
+
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;Logic around setting and fetching data. Includes logic calculating derived data within that model (such as &lt;tt class=&#34;docutils literal&#34;&gt;isSaleable()&lt;/tt&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://docs.littleman.co/magento/module/Observer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -352,6 +489,31 @@ Bullet list ends without a blank line; unexpected unindent.&lt;/div&gt;
 
 &lt;p&gt;An observer is designed to interface with Magento&amp;rsquo;s event&amp;rsquo;s system. It should be minimally written out, with methods that don&amp;rsquo;t get beyond 5 lines or so. There&amp;rsquo;s a large amount of business logic, put it in a helper.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://docs.littleman.co/magento/ShippingMethod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.littleman.co/magento/ShippingMethod/</guid>
+      <description>&lt;div class=&#34;document&#34; id=&#34;tests&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Tests&lt;/h1&gt;
+
+&lt;div class=&#34;section&#34; id=&#34;unit&#34;&gt;
+&lt;h1&gt;Unit&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;collectRates() method implements a check to see whether the shipping method is enabled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;system&#34;&gt;
+&lt;h1&gt;System&lt;/h1&gt;
+&lt;ul class=&#34;simple&#34;&gt;
+&lt;li&gt;The method is shown when it is enabled&lt;/li&gt;
+&lt;li&gt;The method is hidden when it is disabled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
   </channel>

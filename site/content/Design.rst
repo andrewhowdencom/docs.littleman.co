@@ -8,8 +8,20 @@ descriptor         A qualifier for the psuedoelement structure (eg. title)
 psuedoelement      The semantic name for the page structure (eg. navbar)
 ================== ==================================================================
 
+Elements
+--------
+In the order they appear on the page (top - bottom, left to right)
+
+================= ========================================================
+QuickNav          Single line to bar with links to My Account, etc.
+================= ========================================================
+
 Overview
 ---------
+
+Responsive
+``````````
+-Any element that requires responsive aspect should be developed with the same approach the framework has taken. If in doubt, design an element for mobile, and scale it up to desktop.
 
 Pertinent Data
 ``````````````
@@ -17,8 +29,7 @@ Pertinent Data
 
 Process
 ````````
-#. Develop a kitchen sink of elements that will be used throughout the site. Some common ones are
-
+1. Develop a kitchen sink of elements that will be used throughout the site. Some common ones are
   - Buttons
   - Loading Indicators
   - Headings
@@ -34,7 +45,19 @@ Where possible, use the materials design icon set.
 Term
 ==================== ========================================
 Search               Magnifying Glass
+Favourites           Heart
 ==================== ========================================
+
+Common Libraries
+----------------
+==================== =================================================
+Mega Menu            Yamm
+Offcanvas            Jasny Offcanvas
+==================== =================================================
+
+Interactive Elements
+--------------------
+- Interactive elements that are not guaranteed to work should start disabled, and once a health check has taken place, be enabled.
 
 SCSS
 ----
@@ -59,11 +82,10 @@ Width Variable          {psuedoelement}-width-{thin(er|est)|base|thick(er|est)}
 Canonical name
 ```````````````
 
-====================== ===============================================================
-Name                   Alternatives
----------------------- ---------------------------------------------------------------
-largest                x-large, extra-large
-====================== ===============================================================
+| Name                 | Alternatives                                                |
+|:--------------------:|:-----------------------------------------------------------:|
+| largest              | x-large, extra-large                                        |
+| smallest             | x-small, tiny                                               |
 
 Reserved Words
 ```````````````
@@ -73,12 +95,10 @@ Modifiers
 
 Modifiers are selectors that only modify the look of the page when combined with another selector. They should not have any styles applied to them directly, and ideally should only be used as placeholders. 
 
-=========== =========================================================
-Word         Description
------------ ---------------------------------------------------------
-left        Move the element to the left side of its parent         
-right       Move the element to the right side of its parent
-=========== ========================================================= 
+| Word     | Description                                             |
+|:--------:|:-------------------------------------------------------:|
+| left     | Move the element to the left side of its parent         |
+| right    | Move the element to the right side of its parent        | 
 
 Whitespace
 ```````````
@@ -122,6 +142,11 @@ Directory Structure
 |      |             |       | _wells.scss     |
 |      |             |       |                 |
 
+Tables
+------
+- Ensure they are sortable
+- https://techblog.livingsocial.com/blog/2015/04/06/responsive-tables-in-pure-css/
+
 Typography
 ----------
 
@@ -130,6 +155,7 @@ Use        Inherits From  Additional Styles
 ========== ============== ==========================
 Main Text                 1em
 Link       Main Text      Underline, Color: #0B0080
+
 
 Useful Links
 -------------

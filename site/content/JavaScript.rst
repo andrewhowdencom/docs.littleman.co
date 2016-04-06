@@ -3,12 +3,13 @@ Canonical JavaScript Stacks
 
 - Dependency Management
   - [Core] http://requirejs.org/
+- Disabling double tap on mobile
+  - Modify the viewport, wrap in feature detection
+  - [Polyfill] Fastclick
 - Form Validation
-  - None. Use HTML5 form validation
+  - None. Use HTML5 form validation.
 - [if] jQuery
   - https://github.com/wilsonpage/jquery-fastdom
-
-Todo: Convert the below to be alphabetical
 - Logging
   - [Core] https://github.com/pimterry/loglevel
   - [Core] https://github.com/miguelmota/Navigator.sendBeacon
@@ -17,9 +18,21 @@ Todo: Convert the below to be alphabetical
 - Carousel 
   - Don't use a carousel
   - http://kenwheeler.github.io/slick/
+- Click to copy
+  https://zenorocha.github.io/clipboard.js/
 
 Developing a plugin
 -------------------
 - Use events rather than method handles to provide methods to "hook into" the plugin
 - Allow default configurations to be overwritten with the data-{whatever} flags
 - Make compatible as AMD or Browserify module (the jQuery mousewheel has a good example for this)
+
+Polyfills
+---------
+
+========================== =======================================
+Action                     Polyfill
+-------------------------- ---------------------------------------
+Navigator.sendBeacon       https://github.com/miguelmota/Navigator.sendBeacon
+Promise                    https://github.com/jakearchibald/ES6-Promises
+========================== =======================================

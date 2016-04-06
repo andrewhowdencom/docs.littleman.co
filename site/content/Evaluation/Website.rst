@@ -1,4 +1,4 @@
-This page should be in alphabetical order. It's not, but I'm slowly tidying that. That's why it's such a mess!
+ This page should be in alphabetical order. It's not, but I'm slowly tidying that. That's why it's such a mess!
 
 Reading the Article
 -------------------
@@ -28,6 +28,10 @@ Accessibility
 -------------
 - Can your users accomplish the main goal of your site by using a screen reader?
 - Are your users able to print a given page and see a reasonable representation of the content?
+
+Analytics
+---------
+- Do all aspects (including administrative aspects) provide analytics feedback? (Google Analytics)
 
 Categories
 ----------
@@ -68,6 +72,9 @@ Social
 ``````
 - Are users able to share any given page to their preferred content-stream?
 
+Urls
+````
+- See the APIs docs article
 **Content after this is unordered**
 
 Content
@@ -158,6 +165,9 @@ Build Files
 - composer.json
 - composer.lock
 
+- Does your website include the following security headers?
+  - HSTS
+  - CSP
 
 Metadata
 `````````
@@ -171,6 +181,9 @@ Metadata
 - [M] Does your website have a /humans.txt file
 - [H] Does your website have a malicious crawler honeypot?
 
+Stores
+------
+make sure stores have a directions link for mobile devices
 
 Appropriate Data
 """"""""""""""""

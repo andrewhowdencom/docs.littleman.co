@@ -2,10 +2,19 @@
 Documentation
 =============
 
-This articles intention is to provide information about how to properly structure both markdown and restructured text documentation. 
+The preferred documentation syntax is ReST, as is quite a bit richer.
 
-Titles 
+Contribution
+------------
+
+Amending existing content
+`````````````````````````
+- Discuss with the previous content author prior to 
+Schema
 ------
+
+Titles
+´´´´´´
 
 +--------------+---------------------------------------+----------------------------------+
 | Structure    |  RST Syntax                           |  Markdown Syntax                 |
@@ -37,7 +46,8 @@ Titles
 +--------------+---------------------------------------+----------------------------------+
 
 References
-----------
+``````````
+- Use Harvard style in-text and article referencing
 
 +--------------+---------------------------------------+----------------------------------+
 | Structure    |  RST Syntax                           |  Markdown Syntax                 |
@@ -54,7 +64,7 @@ References
 +--------------+---------------------------------------+----------------------------------+  
 
 Examples
---------
+,,,,,,,,
 
 +--------------+---------------------------------------+----------------------------------+
 | Structure    |  RST Syntax                           |  Markdown Syntax                 |

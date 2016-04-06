@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.15" />
+
+  <title> &middot; Some developer documentation</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <link rel="alternate" type="application/rss+xml" title="Some developer documentation" href="http://docs.littleman.co/index.xml" />
+
+  
+
+  <link rel="shortcut icon" href="http://docs.littleman.co/img/favicon.ico" type="image/x-icon" />
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="http://docs.littleman.co/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+    </li>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div class="pure-g">
+  <div class="small-print pure-u-1 pure-u-md-1-1">
+    <small></small>
+  </div>
+  <div class="small-print pure-u-1 pure-u-md-1-1">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1></h1>
+  <h2></h2>
+</div>
+<div class="content">
+  
+
+<h1 id="monitoring:7eae574de37890585781363c1ecc3c61">Monitoring</h1>
+
+<h2 id="performance-monitoring:7eae574de37890585781363c1ecc3c61">Performance Monitoring</h2>
+
+<ul>
+<li>Check for metric absense as well as metric thresholds. Communication errors is not a good excuse for no alerts!</li>
+</ul>
+
+<h2 id="event-logging:7eae574de37890585781363c1ecc3c61">Event Logging</h2>
+
+<p>Always include all fields with the appropriate logs. Even if the information isn&rsquo;t there, it&rsquo;s helpful to know that it&rsquo;s not there so we might fill it in future.</p>
+
+<h3 id="style:7eae574de37890585781363c1ecc3c61">Style</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">Structure</th>
+<th align="center">Guideline</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">Case</td>
+<td align="center"><code>snake_case</code></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="base-log-information:7eae574de37890585781363c1ecc3c61">Base Log Information</h3>
+
+<p>CURRENT VERSION: 1.1.0</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">Field</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><code>environment</code></td>
+<td align="center">&ldquo;development&rdquo;, &ldquo;staging&rdquo; or &ldquo;production&rdquo;</td>
+</tr>
+
+<tr>
+<td align="center"><code>type</code></td>
+<td align="center">event, error, performance, user</td>
+</tr>
+
+<tr>
+<td align="center"><code>format</code></td>
+<td align="center">json, string, xml</td>
+</tr>
+
+<tr>
+<td align="center"><code>domain</code></td>
+<td align="center">howden.io, andrewhowden.com</td>
+</tr>
+
+<tr>
+<td align="center"><code>code</code></td>
+<td align="center">200</td>
+</tr>
+
+<tr>
+<td align="center"><code>severity</code></td>
+<td align="center">EMERG, ALERT, CRIT, WARNING, NOTICE, INFO, DEBUG</td>
+</tr>
+
+<tr>
+<td align="center"><code>payload</code></td>
+<td align="center">&ldquo;This is an event&rdquo;</td>
+</tr>
+
+<tr>
+<td align="center"><code>service</code></td>
+<td align="center">&ldquo;Nginx&rdquo;, &ldquo;Magento&rdquo;</td>
+</tr>
+
+<tr>
+<td align="center"><code>user_id</code></td>
+<td align="center">58</td>
+</tr>
+
+<tr>
+<td align="center"><code>time</code></td>
+<td align="center">2015-05-01 15:00:00 (common log format)</td>
+</tr>
+
+<tr>
+<td align="center"><code>version</code></td>
+<td align="center">1.0.8 &ndash; The current version of log info.</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="web-event:7eae574de37890585781363c1ecc3c61">Web Event</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">Field</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><code>url</code></td>
+<td align="center"><a href="http://howden.io/en/derp">http://howden.io/en/derp</a></td>
+</tr>
+
+<tr>
+<td align="center"><code>request_id</code></td>
+<td align="center"><code>16fd2706-8baf-433b-82eb-8c7fada847da</code></td>
+</tr>
+
+<tr>
+<td align="center"><code>remote_addr</code></td>
+<td align="center">127.0.0.1</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="error-event:7eae574de37890585781363c1ecc3c61">Error Event</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">Field</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><code>file</code></td>
+<td align="center">The path to the file in which the error occured</td>
+</tr>
+
+<tr>
+<td align="center"><code>line</code></td>
+<td align="center">Line number</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="user-interaction-event:7eae574de37890585781363c1ecc3c61">User Interaction Event</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">Field</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+
+<tbody>
+</tbody>
+</table>
+
+<h4 id="standard-events:7eae574de37890585781363c1ecc3c61">Standard Events</h4>
+
+<p>#. Form Submission
+  #. Form Validation Failure
+  #. Button Click</p>
+
+<h4 id="canonical-tags:7eae574de37890585781363c1ecc3c61">Canonical Tags</h4>
+
+<table>
+<thead>
+<tr>
+<th align="center">Tag</th>
+<th align="center">Alternatives</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">ECMAScript</td>
+<td align="center">Javascript, JS</td>
+</tr>
+
+<tr>
+<td align="center">Magento</td>
+<td align="center">Mage, Varien</td>
+</tr>
+
+<tr>
+<td align="center">PHP</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="performance-logging-information:7eae574de37890585781363c1ecc3c61">Performance Logging Information</h2>
+
+<h3 id="service-usage-information-sup-1-sup:7eae574de37890585781363c1ecc3c61">Service Usage Information <sup>[1]</sup></h3>
+
+<ul>
+<li>Saturation (or queue)</li>
+<li>Utilisation (or % usage)</li>
+
+<li><p>Error Count</p></li>
+
+<li><p>Wikipedia, (2016). Syslog. [online] Available at: <a href="https://en.wikipedia.org/wiki/Syslog#Severity_level">https://en.wikipedia.org/wiki/Syslog#Severity_level</a> [Accessed 18 Jan. 2016].</p></li>
+
+<li><p>[2] - Michael Bouvy, (2013). Ship logs to Logstash with Lumberjack / Logstash Forwarder. [online] Available at: <a href="http://michael.bouvy.net/blog/en/2013/12/06/use-lumberjack-logstash-forwarder-to-forward-logs-logstash/">http://michael.bouvy.net/blog/en/2013/12/06/use-lumberjack-logstash-forwarder-to-forward-logs-logstash/</a> [Accessed 2 May 2015].</p></li>
+</ul>
+
+</div>
+
+</div>
+</div>
+<script src="http://docs.littleman.co/js/ui.js"></script>
+
+
+
+
+</body>
+</html>
+

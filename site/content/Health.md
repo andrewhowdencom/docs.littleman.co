@@ -11,6 +11,8 @@ A service has three health statuses:
 | ● [green] | ok       | Everythings OK!                                 |
 
 ## Sensu Configuration
+- Use google cloud logging + monitoring. May come back to this if it gets too expensive. 
+
 ### Naming Standards
 | Name          | Example                    | Guideline                                           |
 |:-------------:|:--------------------------:|:---------------------------------------------------:|

@@ -1,0 +1,2 @@
+- Should be piped into a message aggregator
+- Zoom events are usually bad. 

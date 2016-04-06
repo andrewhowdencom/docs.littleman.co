@@ -1,3 +1,12 @@
+======
+Markup
+======
+
+Interactive elements
+--------------------
+This includes anything the user might interact with, such as buttons, forms, links, videos etc.
+- When offline, indicate they are disabled (presuming they require a connection)
+
 Semantic element guidelines
 ----------------------------
 

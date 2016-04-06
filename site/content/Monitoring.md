@@ -1,24 +1,32 @@
-# Logging
+# Monitoring
+
+## Performance Monitoring
+- Check for metric absense as well as metric thresholds. Communication errors is not a good excuse for no alerts!
 
 ## Event Logging
+Always include all fields with the appropriate logs. Even if the information isn't there, it's helpful to know that it's not there so we might fill it in future.
+
 ### Style
 | Structure | Guideline        |
 |:---------:|:----------------:|
 | Case      | ```snake_case``` |
 
 ### Base Log Information
+CURRENT VERSION: 1.1.0
+
 | Field       | Description                                                                  |
 |:-----------:|:----------------------------------------------------------------------------:|
 | ```environment``` | "development", "staging" or "production"                               |
 | ```type```        | event, error, performance, user                                        |
 | ```format```      | json, string, xml                                                      |
-| ```service```     | howden.io, andrewhowden.com                                            |
+| ```domain```      | howden.io, andrewhowden.com                                            |
 | ```code```        | 200                                                                    |
-| ```level```       | emergency, alert, critical, error, warning, notice, information, debug |
+| ```severity```    | EMERG, ALERT, CRIT, WARNING, NOTICE, INFO, DEBUG                       |
 | ```payload```     | "This is an event"                                                     |
-| ```package```     | "Nginx", "Magento"                                                     | 
+| ```service```     | "Nginx", "Magento"                                                     | 
 | ```user_id```     | 58                                                                     |
-| ```timestamp```   | 2015-05-01 15:00:00                                                    |
+| ```time```        | 2015-05-01 15:00:00 (common log format)                                |
+| ```version```     | 1.0.8 -- The current version of log info.                              | 
 
 ### Web Event
 | Field            | Description                                                            |
@@ -30,10 +38,13 @@
 ### Error Event
 | Field       | Description                                                            |
 |:-----------:|:----------------------------------------------------------------------:|
+| ```file```  | The path to the file in which the error occured                        |
+| ```line```  | Line number
 
 ### User Interaction Event
 | Field       | Description                                                            |
 |:-----------:|:----------------------------------------------------------------------:|
+
 #### Standard Events
   #. Form Submission
   #. Form Validation Failure
@@ -53,19 +64,5 @@
  - Utilisation (or % usage)
  - Error Count
 
-## Code Samples
-
-### Nginx
-```
-    log_format json '{ "time": "$time_local", '
-        '"remote_addr": "$remote_addr", '
-        '"request_time": "$request_time", '
-        '"code": "$status", '
-        '"file": "$request_uri", '
-        '"level": "info", '
-        '"payload": "$request", '
-        '"request_method": "$request_method", '
-        '"http_user_agent": "$http_user_agent" }';
-```
-
+- Wikipedia, (2016). Syslog. [online] Available at: https://en.wikipedia.org/wiki/Syslog#Severity_level [Accessed 18 Jan. 2016].
 - [2] - Michael Bouvy, (2013). Ship logs to Logstash with Lumberjack / Logstash Forwarder. [online] Available at: http://michael.bouvy.net/blog/en/2013/12/06/use-lumberjack-logstash-forwarder-to-forward-logs-logstash/ [Accessed 2 May 2015].
