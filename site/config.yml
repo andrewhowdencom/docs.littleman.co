@@ -1,7 +1,7 @@
 baseurl: http://docs.littleman.co/
 languageCode: en-us
 
-title: Some developer documentation
+title: docs.littleman.co
 theme: blackburn
 
 buildDrafts: true
