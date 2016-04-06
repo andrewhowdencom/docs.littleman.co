@@ -18,6 +18,9 @@ mkdir bin
 # Also needs additional libraries: http://urllib3.readthedocs.org/en/latest/security.html#openssl-pyopenssl
 sudo pip install --upgrade pyopenssl ndg-httpsclient pyasn1
 
+# Hugo needs pygments for code highlighting
+sudo pip install --upgrade pygments
+
 wget "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz"
 tar -xvf google-cloud-sdk-${GOOGLE_CLOUD_VERSION}-linux-x86_64.tar.gz
 
