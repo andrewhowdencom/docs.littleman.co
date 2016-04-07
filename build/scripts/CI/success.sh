@@ -21,7 +21,7 @@ git tag -a "${BUILD_TAG}" -m "${BUILD_MSG}"
 git push origin "refs/tags/${BUILD_TAG}"
 
 # Push the notes to origin
-git push origin /refs/notes/*
+git push origin refs/notes/*
 >&2 echo "$TRAVIS_BUILD_NUMBER"
 >&2 echo "$TRAVIS_JOB_NUMBER"
 >&2 echo "$TRAVIS_JOB_ID"
