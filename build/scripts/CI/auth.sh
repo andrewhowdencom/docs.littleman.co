@@ -31,6 +31,6 @@ docker login -e ${GCR_SERVICE_ACCOUNT} -u _token -p "$(google-cloud-sdk/bin/gclo
 
 # Reset the github URL so we can use the privkey
 REPO_URL=$(git config --get remote.origin.url)
-SSH_URL=echo "$REPO_URL" | sed 's/https:\/\/github.com\//git@github.com:/' | sed 's/git\//git/'
+SSH_URL=$(echo "$REPO_URL" | sed 's/https:\/\/github.com\//git@github.com:/' | sed 's/git\//git/')
 
 git remote set-url origin "$SSH_URL"
