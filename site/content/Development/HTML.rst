@@ -27,6 +27,11 @@ Order of elements:
 #. The single CSS file [(Grigorik 2015)]
 #. Everything else
 
+
+Loading
+-------
+#. During load, add "aria-busy". Remove it with dom ready.
+
 Markup
 ------
 #. Keep the markup simple. This makes it less conceptually complex, janky and it renders faster.
