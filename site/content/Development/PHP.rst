@@ -27,16 +27,16 @@ Default Stack
 -------------
 Require
   - Monolog
-  
-Require Dev 
+
+Require Dev
   - Whoops
-  
+
 Exceptions
 ----------
-- Do methods implement exceptions appropriately? That is, 
+- Do methods implement exceptions appropriately? That is,
   - Throw an error when an assumption is violated by calling code instead of handling the error
   - Implement the most accurate exception, subclassing if necessary
- 
+
 Tests
 -----
 

@@ -15,7 +15,7 @@ Todo: Convert the below to be alphabetical
   - [Core] https://github.com/miguelmota/Navigator.sendBeacon
 - Dom Manipulation
   - [Core] https://github.com/wilsonpage/fastdom
-- Carousel 
+- Carousel
   - Don't use a carousel
   - http://kenwheeler.github.io/slick/
 
@@ -29,7 +29,7 @@ Developing a plugin
 
 DOM Selectors
 -------------
-- A DOM selector should have only one responsibility. Usually, this means that you'll have separate JS and CSS selectors. The exception to this rule is if you have DOM selectors that must be structured in a given fashion to invoke a JS DOM api, it's probably OK to use in CSS (presuming that API is stable).   
+- A DOM selector should have only one responsibility. Usually, this means that you'll have separate JS and CSS selectors. The exception to this rule is if you have DOM selectors that must be structured in a given fashion to invoke a JS DOM api, it's probably OK to use in CSS (presuming that API is stable).
 - Ideally, DOM selectors used expressly in JS should have the prefix "js"
 - Below is a table of the responsibilities of different selectors
 

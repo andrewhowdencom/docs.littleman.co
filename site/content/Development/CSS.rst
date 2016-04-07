@@ -4,8 +4,8 @@ CSS
 
 Selectors
 ---------
-- Should be named for a semantic purpose, rather than imply some visual property. 
-  .. Code:: 
+- Should be named for a semantic purpose, rather than imply some visual property.
+  .. Code::
     // Good
     .btn-checkout
 
