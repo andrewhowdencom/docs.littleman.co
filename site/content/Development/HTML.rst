@@ -27,6 +27,10 @@ Order of elements:
 #. The single CSS file [(Grigorik 2015)]
 #. Everything else
 
+Markup
+------
+#. Keep the markup simple. This makes it less conceptually complex, janky and it renders faster.
+
 Server Side Content
 -------------------
 #. Ensure all data from an external source (that is, data not constructed in the application) is sanitized
