@@ -40,6 +40,16 @@ Virtual Machines
 Server
 -------
 
+Types
+`````
+============= ================================================================
+Type          Purpose
+------------- ----------------------------------------------------------------
+Application   Runs the application. No user supplied content (even logs!)
+User Content  A service that holds used supplied content
+============= ================================================================
+
+
 Health Checks
 `````````````
 
