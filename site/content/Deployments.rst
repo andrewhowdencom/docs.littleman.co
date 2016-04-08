@@ -1,1 +1,0 @@
-- Deployments should be single command (or entirely automated) and revertable (with a single command)
