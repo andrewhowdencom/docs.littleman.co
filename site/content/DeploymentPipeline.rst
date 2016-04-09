@@ -2,11 +2,33 @@
 Deployment Pipeline
 ===================
 
-There is only one supported deployment pipeline. All projects must use it! Deployments are to be fully automated. 
+There is only one supported deployment pipeline. All projects must use it! Deployments are to be fully automated.
 
 Build
 -----
 - Build an immutable, disposable docker container.
+
+Terminology
+```````````
+
+========================== ========================================================= ===================================
+Word                       Definition                                                Example
+-------------------------- --------------------------------------------------------- -----------------------------------
+Container Namespace        The vendor name all containers are part of                littleman-co
+Project Namespace          A unique name for the application. Usually the FQDN.      docs-littleman-co
+Container Name             The name unique to this container in the project          nginx
+Git Hash                   The (short) git SHA-1 hash of the commit                  a4945f8
+========================== ========================================================= ===================================
+
+Naming
+``````
+The containers should be tagged in the following format:
+
+  {container-namespace}/{project-namespace}-{container-name}:{git-hash}
+
+for example,
+
+  littleman-co/git-littleman-co-nginx:a4945f8
 
 Analysis
 --------
