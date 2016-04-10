@@ -10,6 +10,16 @@ Below is the readme template!
 
     This project is intended to cover the gap found during {foo}
 
+    Alerting Policies
+    `````````````````
+
+    ======================= ===============================================
+    Policy                  Description
+    ----------------------- -----------------------------------------------
+    GET / (https) not 200   Check whether the HTTPS homepage is working
+    GET / (http) not 302    Check whether the site is redirecting from HTTP
+    ======================= ===============================================
+
     Summary
     ```````
     ============= ============ ==============
