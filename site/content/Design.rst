@@ -13,6 +13,9 @@ Elements
 In the order they appear on the page (top - bottom, left to right)
 
 ================= ========================================================
+Title             Description
+----------------- --------------------------------------------------------
+Masthead          Top, fixed bar with logo, quick-nav and so on.[1]
 QuickNav          Single line to bar with links to My Account, etc.
 ================= ========================================================
 
@@ -65,7 +68,7 @@ SCSS
 Headings
 `````````
 
-Heading styles should not be coupled with their tag counterparts. h1 - h5 are used for determining the importants of the content that follows, the class for describing further information about that section. 
+Heading styles should not be coupled with their tag counterparts. h1 - h5 are used for determining the importants of the content that follows, the class for describing further information about that section.
 
 Naming
 ``````
@@ -93,12 +96,12 @@ Reserved Words
 Modifiers
 """""""""
 
-Modifiers are selectors that only modify the look of the page when combined with another selector. They should not have any styles applied to them directly, and ideally should only be used as placeholders. 
+Modifiers are selectors that only modify the look of the page when combined with another selector. They should not have any styles applied to them directly, and ideally should only be used as placeholders.
 
 | Word     | Description                                             |
 |:--------:|:-------------------------------------------------------:|
 | left     | Move the element to the left side of its parent         |
-| right    | Move the element to the right side of its parent        | 
+| right    | Move the element to the right side of its parent        |
 
 Whitespace
 ```````````
@@ -109,7 +112,7 @@ Naming Standard
 ````````````````
 | Structure    | Standard                                                  | Example        |
 |:------------:|:---------------------------------------------------------:|:--------------:|
-| placeholders | Singular, describing it's semantic purpose. One word only | ```%heading``` | 
+| placeholders | Singular, describing it's semantic purpose. One word only | ```%heading``` |
 
 Drop down menus
 ---------------
@@ -131,7 +134,7 @@ Directory Structure
 |      |             | core/ |                 |
 |      |             |       | _buttons.scss   |
 |      |             |       | _carousels.scss |
-|      |             |       | _collapse.scss  | 
+|      |             |       | _collapse.scss  |
 |      |             |       | _forms.scss     |
 |      |             |       | _loading.scss   |
 |      |             |       | _messages.scss  |
@@ -161,4 +164,8 @@ Useful Links
 -------------
 
 - [Sassline - Print style typography on the web](https://github.com/designbyjake/sassline)
-- [Bootstrap - Materials Design](http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html)
+- [Bootstrap - Materials Design](http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html
+
+References
+----------
+[1] - The bootstrap 4 cover template: http://v4-alpha.getbootstrap.com/examples/cover/
