@@ -30,6 +30,11 @@ for example,
 
   littleman-co/git-littleman-co-nginx:a4945f8
 
+Steps
+`````
+- Compile static resources into a cache busted static asset
+- Mark cache busted state in config
+
 Analysis
 --------
 
