@@ -27,6 +27,10 @@ Order of elements:
 #. The single CSS file [(Grigorik 2015)]
 #. Everything else
 
+Cache Busting
+`````````````
+
+#. Current thinking is files should be generated and committed to the repository, rather then generated on the fly. Further, the cache bust should only increment when an update to a given file has changed, rather than just when theres a new deployment (there are those all the time!)
 
 Loading
 -------
