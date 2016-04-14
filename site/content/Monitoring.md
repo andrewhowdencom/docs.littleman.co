@@ -68,9 +68,19 @@ CURRENT VERSION: 1.1.0
 
 
 ### Sensu Scripts
-- TLS certificate expiry in 14 days
+
+#### 5 Minutes
 - 200 on / via HTTPS
+
+#### Hourly
 - 301 on / via HTTP
+
+#### Daily
+- TLS certificate expiry in 14 days
+- Files Exist
+  - robots.txt
+  - humans.txt
+  - sitemap.xml
 
 - Wikipedia, (2016). Syslog. [online] Available at: https://en.wikipedia.org/wiki/Syslog#Severity_level [Accessed 18 Jan. 2016].
 - [2] - Michael Bouvy, (2013). Ship logs to Logstash with Lumberjack / Logstash Forwarder. [online] Available at: http://michael.bouvy.net/blog/en/2013/12/06/use-lumberjack-logstash-forwarder-to-forward-logs-logstash/ [Accessed 2 May 2015].
