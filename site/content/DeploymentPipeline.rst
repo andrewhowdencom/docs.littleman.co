@@ -30,6 +30,14 @@ for example,
 
   littleman-co/git-littleman-co-nginx:a4945f8
 
+Environment
+```````````
+- Any variable informations should be specified in environment variables in a single file, sourced at the start of the build
+
+Software
+````````
+- Software versions should be specified in the environment variables file
+
 Steps
 `````
 - Compile static resources into a cache busted static asset
