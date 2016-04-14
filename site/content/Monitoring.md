@@ -64,5 +64,13 @@ CURRENT VERSION: 1.1.0
  - Utilisation (or % usage)
  - Error Count
 
+## Website Monitoring
+
+
+### Sensu Scripts
+- TLS certificate expiry in 14 days
+- 200 on / via HTTPS
+- 301 on / via HTTP
+
 - Wikipedia, (2016). Syslog. [online] Available at: https://en.wikipedia.org/wiki/Syslog#Severity_level [Accessed 18 Jan. 2016].
 - [2] - Michael Bouvy, (2013). Ship logs to Logstash with Lumberjack / Logstash Forwarder. [online] Available at: http://michael.bouvy.net/blog/en/2013/12/06/use-lumberjack-logstash-forwarder-to-forward-logs-logstash/ [Accessed 2 May 2015].
