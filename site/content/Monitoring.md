@@ -64,8 +64,15 @@ CURRENT VERSION: 1.1.0
  - Utilisation (or % usage)
  - Error Count
 
-## Website Monitoring
+## Account Monitoring
 
+### Sensu Scripts
+
+##### Daily
+- Cost per day
+- Projected cost per month
+
+## Website Monitoring
 
 ### Sensu Scripts
 
