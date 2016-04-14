@@ -64,6 +64,11 @@ CURRENT VERSION: 1.1.0
  - Utilisation (or % usage)
  - Error Count
 
+## Package Monitoring
+- NGINX
+- Sensu
+- PHP
+
 ## Account Monitoring
 
 ### Sensu Scripts
