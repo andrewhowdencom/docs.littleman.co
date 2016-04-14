@@ -62,6 +62,12 @@ Below is the readme template!
         // This is an example code
         <?php echo $foo; ?>
 
+    Thanks
+    ------
+    - Company A (https://www.littleman.co/)
+    - Software B (https://software.com/)
+    - Person C (https://personalwebsite.com) @twitterHandle
+
     Contributing
     ------------
     Contributions are always welcome! I mirror my work on GitHub, however, if you'd like to [open an issue](http://link.com)
