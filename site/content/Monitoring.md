@@ -85,5 +85,11 @@ CURRENT VERSION: 1.1.0
   - robots.txt
   - humans.txt
   - sitemap.xml
+- Crawl Sitemap
+  - Valid XML
+  - Every page should be a 200
+- Email
+  - SPF, DKIF & Valid IPs for both
+
 - Wikipedia, (2016). Syslog. [online] Available at: https://en.wikipedia.org/wiki/Syslog#Severity_level [Accessed 18 Jan. 2016].
 - [2] - Michael Bouvy, (2013). Ship logs to Logstash with Lumberjack / Logstash Forwarder. [online] Available at: http://michael.bouvy.net/blog/en/2013/12/06/use-lumberjack-logstash-forwarder-to-forward-logs-logstash/ [Accessed 2 May 2015].
