@@ -119,6 +119,7 @@ Daily
 - TLS
   - Certifcate expiry (14 days out)
   - Depreciated cipher suites
+  - HSTS is enabled
 - Connection
   - HTTP/2 is enabled
 
