@@ -1,21 +1,30 @@
-# Monitoring
+==========
+Monitoring
+==========
 
-## Performance Monitoring
+Performance Monitoring
+----------------------
 - Check for metric absense as well as metric thresholds. Communication errors is not a good excuse for no alerts!
 
-## Event Logging
+Event Logging
+----------------
 Always include all fields with the appropriate logs. Even if the information isn't there, it's helpful to know that it's not there so we might fill it in future.
 
-### Style
-| Structure | Guideline        |
-|:---------:|:----------------:|
-| Case      | ```snake_case``` |
+Style
+`````
+============ ===================
+Structure    Guideline
+------------ -------------------
+Case         ```snake_case```
+================================
 
-### Base Log Information
+Base Log Information
+````````````````````
 CURRENT VERSION: 1.1.0
 
-| Field       | Description                                                                  |
-|:-----------:|:----------------------------------------------------------------------------:|
+=============== ===============================================================================
+Field           Description
+--------------- -------------------------------------------------------------------------------
 | ```environment``` | "development", "staging" or "production"                               |
 | ```type```        | event, error, performance, user                                        |
 | ```format```      | json, string, xml                                                      |
@@ -27,6 +36,7 @@ CURRENT VERSION: 1.1.0
 | ```user_id```     | 58                                                                     |
 | ```time```        | 2015-05-01 15:00:00 (common log format)                                |
 | ```version```     | 1.0.8 -- The current version of log info.                              | 
+================ =============================================================================
 
 ### Web Event
 | Field            | Description                                                            |
@@ -69,7 +79,8 @@ CURRENT VERSION: 1.1.0
 - Sensu
 - PHP
 
-## Account Monitoring
+Account Monitoring
+------------------
 
 ### Sensu Scripts
 
@@ -77,22 +88,25 @@ CURRENT VERSION: 1.1.0
 - Cost per day
 - Projected cost per month
 
-## Website Monitoring
+Website Monitoring
+------------------
 
-### Sensu Scripts
+Use Sensu
 
-#### 5 Minutes
+5 Minutes
+`````````
 - 200 on / via HTTPS
 
-#### Hourly
+Hourly
+``````
 - 301 on / via HTTP
 - APIs the site might use such as 
   - Mailchimp
   - Google Address Autocomplete
   - Payment Gateways
 
-#### Daily
-- TLS certificate expiry in 14 days
+Daily
+`````
 - Files Exist
   - robots.txt
   - humans.txt
@@ -102,6 +116,11 @@ CURRENT VERSION: 1.1.0
   - Every page should be a 200
 - Email
   - SPF, DKIF & Valid IPs for both
+- TLS
+  - Certifcate expiry (14 days out)
+  - Depreciated cipher suites
+- Connection
+  - HTTP/2 is enabled
 
 - Wikipedia, (2016). Syslog. [online] Available at: https://en.wikipedia.org/wiki/Syslog#Severity_level [Accessed 18 Jan. 2016].
 - [2] - Michael Bouvy, (2013). Ship logs to Logstash with Lumberjack / Logstash Forwarder. [online] Available at: http://michael.bouvy.net/blog/en/2013/12/06/use-lumberjack-logstash-forwarder-to-forward-logs-logstash/ [Accessed 2 May 2015].
