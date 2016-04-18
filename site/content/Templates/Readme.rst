@@ -4,11 +4,18 @@ Below is the readme template!
 
     Project Outline
     ----------------
+
     Project Goals
     `````````````
     1. This is a project goal
 
     This project is intended to cover the gap found during {foo}
+
+    Similar Work
+    ````````````
+
+    Justification
+    `````````````
 
     Alerting Policies
     `````````````````
