@@ -1,0 +1,49 @@
+{
+  "transport": {
+    "name": "rabbitmq",
+    "reconnect_on_error": false
+  },
+  "client": {
+    "name": "docs-littleman-co",
+    "address": "docs-littleman-co",
+    "safe_mode": true,
+    "redact": [
+        "password",
+        "passwd",
+        "pass",
+        "api_key",
+        "api_token",
+        "access_key",
+        "secret_key",
+        "private_key",
+        "secret"
+    ],
+    "subscriptions": ["docs-littleman-co"],
+    "keepalive": {
+      "handlers": ["default", "registry"],
+      "thresholds": {
+        "warning": 180,
+        "critical": 300
+      }
+    },
+    "socket": {
+      "bind": "0.0.0.0",
+      "port": 3030
+    }
+  },
+  "rabbitmq": {
+    "host": "rabbitmq.sensu-littleman-co.svc.cluster.local",
+    "port": 5672,
+    "user": "guest",
+    "password": "guest",
+    "vhost": "/",
+    "prefetch": 1
+  },
+  "redis": {
+    "host": "redis.sensu-littleman-co.svc.cluster.local",
+    "port": 6379,
+    "db": 0,
+    "auto_reconnect": false,
+    "reconnect_on_error": false
+  }
+}

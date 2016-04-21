@@ -1,0 +1,14 @@
+{
+    "checks": {
+        "docs-https-status": {
+            "standalone": true,
+            "interval": 60,
+            "command": "check-http.rb --url https://docs.littleman.co"
+        },
+        "docs-http-redirect": {
+            "standalone": true,
+            "interval": 300,
+            "command": "check-http.rb --url http://docs.littleman.co --response-code 301 -r"
+        }
+    }
+}

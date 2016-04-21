@@ -57,3 +57,11 @@ deploy-container-%: build-container-% push-container-% ## Pushes a container to 
 
 preview: ## Starts a hugo server that watches build changes
 	cd site && hugo server
+
+build-config-%: ## Builds the sensu config from a path
+	-rm build/kubernetes/$*-conf-d.yml
+	kubectl create configmap "$*-etc-conf-d" \
+		--dry-run \
+		--from-file="etc/$*/conf.d" \
+		--output="yaml" \
+		--namespace=sensu-littleman-co > "build/kubernetes/$*-etc-conf-d.yml"
