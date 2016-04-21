@@ -21,6 +21,24 @@ Canonical JavaScript Stacks
 - Click to copy
   https://zenorocha.github.io/clipboard.js/
 
+Naming
+------
+
+================ ============================================ =======================================
+Topic            Standard                                     Example
+---------------- -------------------------------------------- ---------------------------------------
+Events           {action}.{vendor_initials}.{plugin}          show.bs.modal, start.lm.postcode
+================ ============================================ =======================================
+
+Canonical Terms
+---------------
+
+=========== ============================ ===============================
+Term        Alternatives                 Notes
+----------- ---------------------------- -------------------------------
+start       dispatch, request            Ajax query dispatch
+=========== ============================ ===============================
+
 Developing a plugin
 -------------------
 - Use events rather than method handles to provide methods to "hook into" the plugin
