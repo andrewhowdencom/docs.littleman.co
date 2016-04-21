@@ -11,7 +11,8 @@ Todo
 - Allow conditional loading of plugin. Like, if you have no artifacts with the DOM API (for example), don't bother loading all the dependencies. For jQuery API's might need to implement some sort of lazy load
 
 .. code:: JavaScript
-    **
+
+   /**
     * Copyright (c) 2015 littleman.co
     *
     * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -33,7 +34,7 @@ Todo
     * THE SOFTWARE.
     */
 
-    **
+   /**
     * A skeleton function for defining a JS module. Benefits
     *
     * - It's dependency manager friendly
