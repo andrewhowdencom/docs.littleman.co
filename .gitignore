@@ -9,3 +9,6 @@
 
 ## Secrets, but encrypted.
 !/.secrets.tar.gz.enc
+
+# Generated Files 
+site/public
