@@ -9,7 +9,8 @@ Todo
 - Implement and test the common.js dependency pattern. https://raw.githubusercontent.com/antennaio/jquery-bar-rating/master/jquery.barrating.js
 - I think the jQuery requirement is incorrect.
 - Allow conditional loading of plugin. Like, if you have no artifacts with the DOM API (for example), don't bother loading all the dependencies. For jQuery API's might need to implement some sort of lazy load
-..code::
+
+.. code:: JavaScript
     **
     * Copyright (c) 2015 littleman.co
     *
