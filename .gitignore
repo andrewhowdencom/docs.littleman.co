@@ -1,14 +1,17 @@
-# Ignore dotfiles (.foo), as they're sometimes used for secret inforamtion. 
+# Ignore dotfiles (.foo), as they're sometimes used for secret inforamtion.
 
 .*
 *.pem
 
 # These dotfiles are OK
-!/.travis.yml 
+!/.travis.yml
 !/.gitignore
 
 ## Secrets, but encrypted.
 !/.secrets.tar.gz.enc
 
-# Generated Files 
+# Generated Files
 site/public
+
+# Vendor Dependencies
+site/static/components
