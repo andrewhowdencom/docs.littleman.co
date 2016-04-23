@@ -6,7 +6,7 @@
 # These dotfiles are OK
 !/.travis.yml
 !/.gitignore
-
+!/.bowerrc
 ## Secrets, but encrypted.
 !/.secrets.tar.gz.enc
 
