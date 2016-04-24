@@ -29,7 +29,7 @@ SECRET_CERT       := $(shell base64 -w 0 etc/ssl/cert.pem)
 SECRET_FULL_CHAIN := $(shell base64 -w 0 etc/ssl/fullchain.pem)
 SECRET_PRIVKEY    := $(shell base64 -w 0 etc/ssl/privkey.pem)
 
-help: ## Show this menu 
+help: ## Show this menu
 	@echo -e $(ANSI_TITLE)docs.littleman.co$(ANSI_OFF)$(ANSI_SUBTITLE)" - Development documentation that is handy\n"$(ANSI_OFF)
 	@echo -e $(ANSI_TITLE)Commands:$(ANSI_OFF)
 	@grep -E '^[a-zA-Z_-%]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "    \033[32m%-30s\033[0m %s\n", $$1, $$2}'
@@ -44,7 +44,7 @@ push-container-%: ## Tags and pushes a container to the repo
 push-tls-certificates:
 	sed "s/{{CERT}}/${SECRET_CERT}/" build/kubernetes/tls.yml | sed -e "s/{{FULL_CHAIN}}/${SECRET_FULL_CHAIN}/" | sed -e "s/{{PRIVKEY}}/${SECRET_PRIVKEY}/" | kubectl create -f -
 
-build-container-%: ## Builds the $* (gollum) container, and tags it with the git hash. 
+build-container-%: ## Builds the $* (gollum) container, and tags it with the git hash.
 	docker build -t ${CONTAINER_NS}/$*:${GIT_HASH} -f build/docker/$*/Dockerfile .
 
 deploy: ## Push an update to Kube for the current build
@@ -57,6 +57,9 @@ deploy-container-%: build-container-% push-container-% ## Pushes a container to 
 
 preview: ## Starts a hugo server that watches build changes
 	cd site && hugo server
+
+css:
+	sassc site/static/scss/styles.scss site/static/css/styles.css
 
 build-config-%: ## Builds the sensu config from a path
 	-rm build/kubernetes/$*-conf-d.yml

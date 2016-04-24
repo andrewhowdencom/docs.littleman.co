@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  paper-card {
+    width: 100%; } }
+
+@media (min-width: 768px) {
+  paper-card {
+    width: 50%; } }
+
+@media (min-width: 992px) {
+  paper-card {
+    width: 33%; } }
+
+@media (min-width: 1200px) {
+  paper-card {
+    width: 24.5%; } }

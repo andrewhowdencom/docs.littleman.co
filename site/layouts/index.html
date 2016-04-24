@@ -16,26 +16,33 @@
                 <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
             </paper-toolbar>
             <div class="content">
-              <script>
-              (function() {
-                var cx = '010510947978542680455:zll9zofjxww';
-                var gcse = document.createElement('script');
-                gcse.type = 'text/javascript';
-                gcse.async = true;
-                gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                    '//cse.google.com/cse.js?cx=' + cx;
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(gcse, s);
-              })();
-            </script>
-            <gcse:search></gcse:search>
-              <ul id="list">
+                <script>
+                    (function() {
+                        var cx = '010510947978542680455:zll9zofjxww';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                            '//cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                    })();
+                </script>
+                <gcse:search></gcse:search>
                 {{ range .Data.Pages }}
-                  {{ .Render "li"}}
+                    <!-- Todo: Convert into summary -->
+                    <paper-card heading="{{ .RelPermalink }}">
+                        <div class="card-content">
+                            {{ .Summary }}
+                        </div>
+                        <div class="card-actions">
+                            <a href="{{ .RelPermalink }}">
+                                <paper-button>Read more</paper-button>
+                            </a>
+                        </div>
+                    </paper-card>
                 {{ end }}
-              </ul>
-              {{ partial "pagination.html" . }}
             </div>
-            {{ partial "footer.html" . }}
         </paper-header-panel>
     </paper-drawer-panel>
+{{ partial "footer.html" . }}
