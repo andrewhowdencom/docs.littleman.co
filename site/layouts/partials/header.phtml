@@ -4,7 +4,17 @@
         <paper-toolbar>
             <div>{{ .Site.Title }}</div>
         </paper-toolbar>
-        <div>Coming Soon.</div>
+        <style>
+            paper-header-panel a {
+                display: block;
+                line-height: 40px;
+                background-color: transparent;
+                border: none;
+                font-size: 14px;
+                margin: 20px;
+            }
+        </style>
+        <a tabindex="0" href="/">Home</a>
     </paper-header-panel>
     <paper-header-panel main>
         <paper-toolbar>
