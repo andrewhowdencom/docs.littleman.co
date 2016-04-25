@@ -45,7 +45,7 @@ Steps
 
 Usage
 -----
-- Visit docs.littleman.
+- Visit docs.littleman.co 
 - ???
 - Profit
 
