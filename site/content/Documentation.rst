@@ -8,13 +8,12 @@ Contribution
 ------------
 
 Amending existing content
-`````````````````````````
-- Discuss with the previous content author prior to 
-Schema
-------
+'''''''''''''''''''''''''
+
+- Discuss with the previous content author prior to Schema
 
 Titles
-´´´´´´
+''''''
 
 +--------------+---------------------------------------+----------------------------------+
 | Structure    |  RST Syntax                           |  Markdown Syntax                 |
@@ -35,7 +34,7 @@ Titles
 | h3           | .. code:: ReST                        | .. code::                        |
 |              |                                       |                                  |
 |              |     Heading 3                         |     ### Heading 3                |
-|              |     `````````                         |                                  | 
+|              |     '''''''''                         |                                  | 
 |              |                                       |                                  | 
 +--------------+---------------------------------------+----------------------------------+
 | h4           | .. code:: ReST                        | .. code::                        |
@@ -64,7 +63,7 @@ References
 +--------------+---------------------------------------+----------------------------------+  
 
 Examples
-,,,,,,,,
+''''''''
 
 +--------------+---------------------------------------+----------------------------------+
 | Structure    |  RST Syntax                           |  Markdown Syntax                 |
