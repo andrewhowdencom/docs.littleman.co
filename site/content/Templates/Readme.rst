@@ -6,19 +6,20 @@ Below is the readme template!
     ----------------
 
     Project Goals
-    `````````````
+    '''''''''''''
+    
     1. This is a project goal
 
     This project is intended to cover the gap found during {foo}
 
     Similar Work
-    ````````````
+    ''''''''''''
 
     Justification
-    `````````````
+    '''''''''''''
 
     Alerting Policies
-    `````````````````
+    '''''''''''''''''
 
     ======================= ===============================================
     Policy                  Description
@@ -28,7 +29,8 @@ Below is the readme template!
     ======================= ===============================================
 
     Summary
-    ```````
+    '''''''
+    
     ============= ============ ==============
     License       Code Style   Code Locale
     ------------- ------------ --------------
@@ -36,7 +38,8 @@ Below is the readme template!
     ============= ============ ==============
 
     Compatibility
-    `````````````
+    '''''''''''''
+
     Magento  Compatibility
     
     ===== ===== ===== ===== ===== =====
@@ -62,8 +65,10 @@ Below is the readme template!
 
     Usage
     -----
+    
     Example A
-    ``````````
+    '''''''''
+    
     This is an example.
     .. code::
         // This is an example code
@@ -71,17 +76,20 @@ Below is the readme template!
 
     Thanks
     ------
+    
     - Company A (https://www.littleman.co/)
     - Software B (https://software.com/)
     - Person C (https://personalwebsite.com) @twitterHandle
 
     Contributing
     ------------
+    
     Contributions are always welcome! I mirror my work on GitHub, however, if you'd like to [open an issue](http://link.com)
     i'd love the feedback!
 
     References
     -----------
+    
     .. [lang] Lingoes.net,. (2015). Language Code Table. Retrieved 4 June 2015, from http://www.lingoes.net/en/translator/langcode.htm
 
 Conclude readme template
