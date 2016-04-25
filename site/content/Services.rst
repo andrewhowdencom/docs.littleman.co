@@ -1,6 +1,9 @@
-====
-Apis
-====
+========
+Services
+========
+
+Notes on the development and usage of various consumable services, usually through a REST API
+<!--more-->
 
 Development
 -----------
