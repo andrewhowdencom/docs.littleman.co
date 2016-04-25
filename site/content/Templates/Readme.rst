@@ -18,6 +18,13 @@ Below is the readme template!
     Justification
     '''''''''''''
 
+    Limitations
+    '''''''''''
+    
+    Note: This list also constitutes a "Todo"
+    
+    - Alerting policies not yet implemented.
+
     Alerting Policies
     '''''''''''''''''
 
