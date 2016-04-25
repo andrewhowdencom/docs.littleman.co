@@ -22,6 +22,7 @@ Proposal Outline
 ----------------
 
 How your proposed solution will resolve or lessen the described problem. 
+
   - "Side" benefits (or "opportunities") are fine, but much less important than the solution to the problem. Rate each side benefit on a colour coded likert scale (very useful -> detrimental)
   - Address each concern in description.
   - Outline any other things that have undertaken this proposal and their results.
@@ -35,6 +36,7 @@ Problems (& resolutions)
 ------------------------
 
 Any new problems that may arise as a result of the proposal, as well as how they can be solved or why it is acceptable to introduce a new problem.
+
   - List problems that don't yet have a solution. It should be avoided if possible, however sometimes its good to open it for discussion.
   - Rate each problem on a likert scale (noted earlier)
     
@@ -42,6 +44,7 @@ Risks
 -----
 
 Any new risks that may be introduced as a result of the proposal. 
+
   - Rate each of these risks on a likert scale (dangerous - safe).
   
 Estimated costs
