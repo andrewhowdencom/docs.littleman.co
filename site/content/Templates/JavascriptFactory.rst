@@ -66,7 +66,50 @@ Todo
        'use strict';
 
        var noop = function() {};
-       var obj = {};
+
+       /**
+        * Blurb indicating what this plugin is supposed to be used for.
+        *
+        * @param {String} action
+        * @param {Object} options
+        * @constructor
+        */
+       var Plugin = function(action, options) {
+            this.options = this.mergeObject(Plugin.DEFAULTS, options);
+       }
+
+       Plugin.DEFAULTS = {
+           optionA: 'foo',
+           optionB: 'bar'
+       }
+
+       /**
+        * Does a shallow merge of two objects 
+        *
+        * @param {Object} obj1 The object to combine with
+        * @param {Object} obj2 The object to overwrite obj1
+        * @return {Object} The amended object
+        */
+       Plugin.prototype.mergeObject = function(obj1, obj2) {
+           // Todo: Type checking of both objects
+           var returnObj = {};
+
+           // Repeat merge
+           for (var attrName in obj1) {
+               returnObj[attrName] = obj1[attrName];
+           }
+
+           for (var attrName in obj2) {
+               returnObj[attrName] = obj2[attrName];
+           }
+       }
+
+       /**
+        * @param {String} arg
+        * @return {Void}
+        */
+       Plugin.prototype.method = function(arg) {
+       }
 
        // Check if the dependency has loaded. A dependency will exist within whatever scope it's defined (currently,
        // my understanding is the "best" method is within an AMD closure).
@@ -74,7 +117,7 @@ Todo
            return noop;
        }
 
-       return obj;
+       return Plugin;
     ));
 
     **
