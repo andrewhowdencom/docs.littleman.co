@@ -20,6 +20,8 @@ Canonical JavaScript Stacks
   - http://kenwheeler.github.io/slick/
 - Click to copy
   https://zenorocha.github.io/clipboard.js/
+- Slide shows
+  https://github.com/hakimel/reveal.js/
 
 Naming
 ------
