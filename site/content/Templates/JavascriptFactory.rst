@@ -137,10 +137,9 @@ Todo
        'use strict';
     )(this, function($) {
        'use strict';
-       var noop = function() {};
 
        if (typeof $ === 'undefined') {
-           return noop();
+           return $.noop;
        }
 
        // This isn't very good yet, as there's nothing here! Shock horror. Later, there'll be some jQuery specific stuff. 
