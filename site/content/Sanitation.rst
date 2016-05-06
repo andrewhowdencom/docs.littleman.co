@@ -26,3 +26,7 @@ Things that you shouldn't talk about
   - Address
   - Credit Card
 
+Transporting Sensitive Content
+------------------------------
+  - Use PGP
+  - If the user doesn't understand PGP, use "https://github.com/whitesmith/hawkpost"
