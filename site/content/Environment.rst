@@ -2,21 +2,40 @@
 Machine Types
 =============
 
-Development
------------
-
-Hardware
-````````
-
-Main Machines
-"""""""""""""
-Hardware
+Development Machine
+-------------------
 
 ============= ============= =========================
 Part          Description   Notes
 ============= ============= =========================
-HDD           2x SSD 256GB  1x OS, Packages. 1x Data
+HDD           2x SSD 256GB  1x Windows, 1x Linux
 ============= ============= =========================
+
+Design
+''''''
+
+Boot (GRUB 2)
+"""""""""""""
+
+Managed by a script. Script as follows::
+
+    # Todo: Write that script
+    # Should have hostname
+    # Should have instructions on where to get help
+    # Should have the company website
+    # Should have a reminder that machines are disposable, and will be overwritten without warning.
+
+
+Desktop Environment
+"""""""""""""""""""
+
+Users can do whatever they like. If they fuck the machine up, reflash it.
+
+Security
+--------
+
+- Disable root login
+- All users must have a Yubikey, and must log in with it with HMAC-SHA1 challenge-response
 
 Software
 --------
@@ -26,22 +45,24 @@ Try and use open source as much as possible.
 ============ =============================================
 Part         Description
 ------------ ---------------------------------------------
-OS           Arch Linux
+OS           Debian Linux
+Desktop      GNOME 3
 CLI          jq (https://github.com/stedolan/jq/releases)
 ============ =============================================
 
 Backups
 """"""""
-- Development environments need to be disposable; Any permanent data should be in another system, with a managed backup. 
+- Development environments need to be disposable; Any permanent data should be in another system, with a managed backup. Git usually serves a good purpose here. 
 
-Virtual Machines
-````````````````
 
 Server
 -------
 
 Types
-`````
+"""""
+
+Largely, the different services should be managed as Kubernetes structures, rather then assigning a service to a given Machine.
+
 ============= ================================================================
 Type          Purpose
 ------------- ----------------------------------------------------------------
@@ -51,7 +72,7 @@ User Content  A service that holds used supplied content
 
 
 Health Checks
-`````````````
+"""""""""""""
 
 ==================== ================================ ==========================
 Metric               Alerting Criteria                Condition Time
@@ -63,6 +84,7 @@ CPU Usage metric     > 85% full                       30 seconds
 
 Software
 """"""""
+
 Software health checks verify that software is in an expected state, and allows the user make invalid an old version of software so that box can be scheduled for decommission, and a new box created with the updated package.
 
 ================== ==================
@@ -70,20 +92,11 @@ Purpose            Software
 ================== ==================
 Web Server         Nginx
 Log Forwarder      logstash-forwarder
+Metrics / Health   Sensu
 ================== ==================
 
 Software Repositories
 """""""""""""""""""""
-
-Debian
-^^^^^^
-
-================== ===============================================================================
-Software           URL
-================== ===============================================================================
-Nginx              deb http://pkg.howden.io/ ./
-Sensu              https://sensuapp.org/docs/latest/install-repositories
-================== ===============================================================================
 
 References
 ----------
