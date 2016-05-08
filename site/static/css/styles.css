@@ -13,3 +13,9 @@
 @media (min-width: 1200px) {
   paper-card {
     width: 24.5%; } }
+
+body {
+  font-family: sans-serif; }
+
+.content {
+  padding: 6px 10px; }

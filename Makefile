@@ -58,7 +58,7 @@ deploy-container-%: build-container-% push-container-% ## Pushes a container to 
 preview: ## Starts a hugo server that watches build changes
 	cd site && hugo server
 
-css:
+css: ## Build the CSS
 	sassc site/static/scss/styles.scss site/static/css/styles.css
 
 build-config-%: ## Builds the sensu config from a path
