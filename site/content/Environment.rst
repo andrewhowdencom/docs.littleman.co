@@ -52,8 +52,8 @@ CLI          jq (https://github.com/stedolan/jq/releases)
 
 Backups
 """"""""
-- Development environments need to be disposable; Any permanent data should be in another system, with a managed backup. Git usually serves a good purpose here. 
 
+- Development environments need to be disposable; Any permanent data should be in another system, with a managed backup. Git usually serves a good purpose here.
 
 Server
 -------
