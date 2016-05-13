@@ -26,6 +26,17 @@ Factory method type hinting: https://github.com/Vinai/phpstorm-magento-mapper
 
 Try not to use the folder. Magento related stuff should go in here.
 
+Hosting
+-------
+
+Sessions
+''''''''
+
+- A separate redis or elasticache instance.
+
+.. container:: tip
+
+    It's tempting to use the same Redis instance for both the cache and the sessions to save on cost. However, becuase the redis instance evicts volatile keys by round robin and there are far less sessiosn then cache entries, you're liable to terminate peoples sessions when your cache starts filling up[redis_sessions]_
 Templates
 ---------
 See HTML.rst
@@ -42,3 +53,9 @@ Where                                                        What               
 ------------------------------------------------------------ ------------------------------------------------------------ ---------------------------------------------------
 https://github.com/ericthehacker/magento-phpnativepasswords  PHP Native password hashing                                  Magento uses MD5 natively (It's insecure)
 ============================================================ ============================================================ ===================================================
+
+References
+----------
+
+.. [redis_sesissions] https://github.com/antirez/redis/issues/1674
+
