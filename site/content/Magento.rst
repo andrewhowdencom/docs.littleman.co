@@ -34,9 +34,10 @@ Sessions
 
 - A separate redis or elasticache instance.
 
-.. container:: tip
+.. tip::
 
     It's tempting to use the same Redis instance for both the cache and the sessions to save on cost. However, becuase the redis instance evicts volatile keys by round robin and there are far less sessiosn then cache entries, you're liable to terminate peoples sessions when your cache starts filling up[redis_sessions]_
+
 Templates
 ---------
 See HTML.rst
