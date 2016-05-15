@@ -1,2 +1,15 @@
 $padding-base-vertical: 6px;
 $padding-base-horizontal: 10px;
+
+$color-grey: #e8e8e8;
+$color-blue: #6bbfff;
+
+// Breakpoint sizes taken from the bootstrap alpha.
+// See http://v4-alpha.getbootstrap.com/layout/overview/
+$screen-sm: 34em;
+$screen-md: 48em;
+$screen-lg: 62em;
+$screen-xl: 75em;
+
+$table-background-color: $color-grey;
+$table-header-background-color: $color-blue;

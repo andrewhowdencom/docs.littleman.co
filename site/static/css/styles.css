@@ -17,5 +17,27 @@
 body {
   font-family: sans-serif; }
 
+table {
+  border-collapse: collapse; }
+
+td {
+  padding: 6px 10px; }
+
+tr:first-of-type td,
+tr:first-of-type th {
+  background-color: #6bbfff; }
+
+tr:last-of-type td,
+tr:last-of-type th {
+  background-color: transparent; }
+
+tr:nth-of-type(2n) td {
+  background: #e8e8e8; }
+
 .content {
   padding: 6px 10px; }
+  @media (min-width: 62em) {
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      width: 62em; } }
