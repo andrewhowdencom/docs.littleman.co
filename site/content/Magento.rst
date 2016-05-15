@@ -34,7 +34,7 @@ Sessions
 
 - A separate redis or elasticache instance.
 
-.. tip::
+.. container:: tip idea
 
     It's tempting to use the same Redis instance for both the cache and the sessions to save on cost. However, becuase the redis instance evicts volatile keys by round robin and there are far less sessiosn then cache entries, you're liable to terminate peoples sessions when your cache starts filling up [redis_sessions]_
 
@@ -58,13 +58,16 @@ https://github.com/ericthehacker/magento-phpnativepasswords  PHP Native password
 Security
 --------
 Do the following folders return standard 404 code?
+
 - /app
 
 Are the following files accessible?
+
 - /var/log/system.log
 - /app/etc/local.xml
 
 Are the following folders indexable?
+
 - /var
 - /customer
 

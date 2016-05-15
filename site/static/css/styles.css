@@ -14,8 +14,22 @@
   paper-card {
     width: 24.5%; } }
 
+.citation-reference {
+  display: inline-block;
+  font-size: small;
+  margin: 0;
+  vertical-align: super; }
+
 body {
   font-family: sans-serif; }
+
+.content {
+  padding: 6px 10px; }
+  @media (min-width: 62em) {
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      width: 62em; } }
 
 table {
   border-collapse: collapse; }
@@ -34,10 +48,10 @@ tr:last-of-type th {
 tr:nth-of-type(2n) td {
   background: #e8e8e8; }
 
-.content {
+.tip {
+  border: solid 1px;
+  border-top: solid 20px;
   padding: 6px 10px; }
-  @media (min-width: 62em) {
-    .content {
-      margin-left: auto;
-      margin-right: auto;
-      width: 62em; } }
+  .tip.idea {
+    background: rgba(46, 255, 15, 0.2);
+    border-color: #16a800; }

@@ -2,36 +2,6 @@ body {
   font-family: sans-serif;
 }
 
-table {
-  border-collapse: collapse;
-}
-
-td {
-  padding: $padding-base-vertical $padding-base-horizontal;
-}
-
-tr {
-  &:first-of-type {
-    td,
-    th {
-      background-color: $table-header-background-color;
-    }
-  }
-
-  &:last-of-type {
-    td,
-    th {
-      background-color: transparent;
-    }
-  }
-
-  &:nth-of-type(2n) {
-    td {
-      background: $table-background-color;
-    }
-  }
-}
-
 .content {
   padding: $padding-base-vertical $padding-base-horizontal;
 

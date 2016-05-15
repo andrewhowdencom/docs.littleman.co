@@ -1,8 +1,11 @@
 $padding-base-vertical: 6px;
 $padding-base-horizontal: 10px;
 
+$color-green: #16a800;
 $color-grey: #e8e8e8;
 $color-blue: #6bbfff;
+
+$font-size-small: small;
 
 // Breakpoint sizes taken from the bootstrap alpha.
 // See http://v4-alpha.getbootstrap.com/layout/overview/
@@ -13,3 +16,6 @@ $screen-xl: 75em;
 
 $table-background-color: $color-grey;
 $table-header-background-color: $color-blue;
+
+$tip-idea-border-color: $color-green;
+$tip-idea-background-color: rgba(lighten($color-green, 20), .2);

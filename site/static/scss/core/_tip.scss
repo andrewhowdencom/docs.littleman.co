@@ -1,0 +1,10 @@
+.tip {
+  border: solid 1px;
+  border-top: solid 20px;
+  padding: $padding-base-vertical $padding-base-horizontal;
+
+  &.idea {
+    background: $tip-idea-background-color;
+    border-color: $tip-idea-border-color;
+  }
+}
