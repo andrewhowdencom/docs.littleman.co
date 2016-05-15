@@ -4,3 +4,11 @@
   margin: 0;
   vertical-align: super;
 }
+
+// Awful hacks to make this work with Polymer.
+.content {
+  a {
+    display: inline;
+    margin: 0;
+  }
+}

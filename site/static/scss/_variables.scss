@@ -1,9 +1,11 @@
 $padding-base-vertical: 6px;
 $padding-base-horizontal: 10px;
 
-$color-green: #16a800;
-$color-grey: #e8e8e8;
 $color-blue: #6bbfff;
+$color-green: #4caf50;
+$color-grey: #e8e8e8;
+$color-orange: #ff5722;
+$color-red: #f44336;
 
 $font-size-small: small;
 
@@ -19,3 +21,12 @@ $table-header-background-color: $color-blue;
 
 $tip-idea-border-color: $color-green;
 $tip-idea-background-color: rgba(lighten($color-green, 20), .2);
+
+$tip-warning-border-color: $color-orange;
+$tip-warning-background-color: rgba(lighten($color-orange, 20), .2);
+
+$tip-error-border-color: $color-red;
+$tip-error-background-color: rgba(lighten($color-red, 20), .2);
+
+$tip-info-border-color: $color-blue;
+$tip-info-background-color: rgba(lighten($color-blue, 20), .2);

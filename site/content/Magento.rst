@@ -71,7 +71,6 @@ Are the following folders indexable?
 - /var
 - /customer
 
-
 References
 ----------
 
