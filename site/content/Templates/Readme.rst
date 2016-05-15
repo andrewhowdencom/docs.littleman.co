@@ -35,6 +35,12 @@ Below is the readme template!
     GET / (http) not 302    Check whether the site is redirecting from HTTP
     ======================= ===============================================
 
+    Security Alerts
+    '''''''''''''''
+
+    CVRFv1.1 ATOM Feed: https://feeds.littleman.co/security/{project}.atom _[FIG9]
+    JSON: https://feeds.littleman.co/security/{project}.json _[FIG9]
+
     Summary
     '''''''
     
@@ -98,5 +104,6 @@ Below is the readme template!
     -----------
     
     .. [lang] Lingoes.net,. (2015). Language Code Table. Retrieved 4 June 2015, from http://www.lingoes.net/en/translator/langcode.htm
+    .. [FIG9] GitHub, (2015). Proposed: security disclosure publication. Retrieved 15 May 2016, from https://github.com/php-fig/fig-standards/blob/master/proposed/security-disclosure-publication.md
 
 Conclude readme template
