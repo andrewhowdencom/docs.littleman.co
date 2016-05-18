@@ -19,11 +19,12 @@ Standard Layout
 .. Code:: 
 
   .arclint               # [ALWAYS] Lint runner. Always in the repo
-  _output/               # Output for binary files, if there are any.
-  .scss-lint             # scss-linter. If the repo contains scss
-  ./build/               # Used to hold build requirements
+  _output/               # [BINARY] Output for binary files
+  .scss-lint             # [SCSS] scss-linter.
+  ./build/               # [ALWAYS] Used to hold build requirements
   ./CHANGELOG.rst        # [ALWAYS]
-  ./deploy/              # Used to hold deployment configuration
+  ./composer.json        # [PHP]
+  ./deploy/              # [DEPLOYABLE] Used to hold deployment configuration
   ./LICENSE.txt          # [ALWAYS]
   ./README.rst           # [ALWAYS]
   ./tests/               # [ALWAYS]
