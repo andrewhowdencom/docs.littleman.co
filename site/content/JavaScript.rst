@@ -22,6 +22,7 @@ Canonical JavaScript Stacks
   https://zenorocha.github.io/clipboard.js/
 - Slide shows
   https://github.com/hakimel/reveal.js/
+- GPG https://github.com/openpgpjs/openpgpjs/releases
 
 Naming
 ------
