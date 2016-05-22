@@ -22,6 +22,7 @@ Git Hash                   The (short) git SHA-1 hash of the commit             
 
 Naming
 ``````
+
 The containers should be tagged in the following format:
 
   {container-namespace}/{project-namespace}-{container-name}:{git-hash}
@@ -32,14 +33,17 @@ for example,
 
 Environment
 ```````````
+
 - Any variable informations should be specified in environment variables in a single file, sourced at the start of the build
 
 Software
 ````````
+
 - Software versions should be specified in the environment variables file
 
 Steps
 `````
+
 - Compile static resources into a cache busted static asset
 - Mark cache busted state in config
 
@@ -48,13 +52,21 @@ Analysis
 
 Security
 ````````
+
 Analyse the container with: https://github.com/coreos/clair
+
+Performance
+```````````
+
+- sitespeedio/coach
+- GoogleChrome/lighthouse
 
 Deployment
 ----------
 
 States
 ``````
+
 A refspec can be in (only) one of the following states:
 
 ====================== ==================================================================
@@ -75,6 +87,7 @@ Deployments go out into a Kubernetes stack, somewhere.
 
 Scripts
 ```````
+
 - Each script should be set to fail on the first command fail. In bash, this is done with::
 
     #!/bin/bash
@@ -83,6 +96,7 @@ Scripts
 
 Deployment Process
 ```````````````````
+
 - Tag each deployed commit with a deployment number (deployment-0001)
 - Annotate each deployment with "Successfully Deployed" or "Failed Deployment"
 
