@@ -24,6 +24,11 @@ Canonical JavaScript Stacks
   https://github.com/hakimel/reveal.js/
 - GPG https://github.com/openpgpjs/openpgpjs/releases
 
+Experimental JavaScript libraries
+---------------------------------
+- ES6 Module loading: https://github.com/ModuleLoader/es6-module-loader
+
+
 Naming
 ------
 
