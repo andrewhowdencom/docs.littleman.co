@@ -49,6 +49,7 @@ Mainditory machine software
 Authentication Failure
 ``````````````````````
 - Fail2Ban (for SSH) http://www.fail2ban.org/wiki/index.php/Main_Page
+- SSHGuard http://www.sshguard.net/
 
 Security Auditing / Forensics
 `````````````````````````````
