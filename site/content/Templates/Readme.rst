@@ -97,8 +97,7 @@ Below is the readme template!
     Contributing
     ------------
     
-    Contributions are always welcome! I mirror my work on GitHub, however, if you'd like to [open an issue](http://link.com)
-    i'd love the feedback!
+    Contributions are always welcome! Nothing is too small, and the best place to start is to open an issue.
 
     References
     -----------
