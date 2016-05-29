@@ -45,7 +45,7 @@ Below is the readme template!
     '''''''
     
     ============= ============ ==============
-    License       Code Style   Code Locale
+    License       Code Style   Locale
     ------------- ------------ --------------
     Apache-2      Zend         en-AU [lang]_
     ============= ============ ==============
