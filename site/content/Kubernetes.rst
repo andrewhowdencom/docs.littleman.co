@@ -11,7 +11,7 @@ Naming Standards
 Name                     Standard                               Example
 ------------------------ -------------------------------------- -------------------------------------------------
 Secrets                  {app}-{filepath}
-Files                    {load-order}-{service}-{resource-type} 01-kube-system.ns.yaml, 02-skydns.rc.yaml
+Files                    {load-order}-{service}-{resource-type} 01-kube-system.ns.yml, 02-skydns.rc.yml
 ======================== ====================================== =================================================
 
 Tagging Standards
