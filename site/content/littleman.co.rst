@@ -8,6 +8,7 @@ Brand Colours
 =============== ===========
 Color           Hex
 --------------- -----------
-Primary Blue    #6bbfff
+Blue            #6bbfff
+Dark Blue       #243746
 =============== ===========
 
