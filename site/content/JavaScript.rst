@@ -26,8 +26,21 @@ Canonical JavaScript Stacks
 
 Experimental JavaScript libraries
 ---------------------------------
-- ES6 Module loading: https://github.com/ModuleLoader/es6-module-loader
 
+Docblocks
+---------
+
+Use the JSDoc standard, with a few differences:
+
+Additional Tags
+"""""""""""""""
+
+
+================== ========================================= =========================
+Tag                Purpose                                   Example
+------------------ ----------------------------------------- -------------------------
+@depends           Show which objects are required           @depends jQuery.affix
+================== ========================================= =========================
 
 Naming
 ------
