@@ -69,7 +69,7 @@ Developing a plugin
 Directory Structure
 -------------------
 
-.. Code::bash
+.. code:: bash
 
   # / = docroot
   /js/sw.js
@@ -91,7 +91,7 @@ Promise                    https://github.com/jakearchibald/ES6-Promises
 CustomEvent
 """""""""""
 
-.. Code::JavScript
+.. Code:: JavaScript
 
     (function () {
       if ( typeof window.CustomEvent === "function" ) return false;
