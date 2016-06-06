@@ -35,7 +35,6 @@ Use the JSDoc standard, with a few differences:
 Additional Tags
 """""""""""""""
 
-
 ================== ========================================= =============================================================
 Tag                Purpose                                   Example
 ------------------ ----------------------------------------- -------------------------------------------------------------
@@ -62,9 +61,22 @@ start       dispatch, request            Ajax query dispatch
 
 Developing a plugin
 -------------------
+
 - Use events rather than method handles to provide methods to "hook into" the plugin
 - Allow default configurations to be overwritten with the data-{whatever} flags
 - Make compatible as AMD or Browserify module (the jQuery mousewheel has a good example for this)
+
+Directory Structure
+-------------------
+
+.. Code::bash
+
+  # / = docroot
+  /sw.js
+  /sw-init.js
+  /polyfills/{}
+  /globals/{}
+  /modules/{}
 
 Polyfills
 ---------
