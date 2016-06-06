@@ -72,11 +72,11 @@ Directory Structure
 .. Code::bash
 
   # / = docroot
-  /sw.js
-  /sw-init.js
-  /polyfills/{}
-  /globals/{}
-  /modules/{}
+  /js/sw.js
+  /js/sw-init.js
+  /js/polyfills/{}
+  /js/globals/{}
+  /js/modules/{}
 
 Polyfills
 ---------
