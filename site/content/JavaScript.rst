@@ -69,9 +69,28 @@ Developing a plugin
 Polyfills
 ---------
 
-========================== =======================================
+========================== =========================================================
 Action                     Polyfill
--------------------------- ---------------------------------------
+-------------------------- ---------------------------------------------------------
 Navigator.sendBeacon       https://github.com/miguelmota/Navigator.sendBeacon
 Promise                    https://github.com/jakearchibald/ES6-Promises
-========================== =======================================
+========================== =========================================================
+
+CustomEvent
+"""""""""""
+
+.. Code::JavScript
+
+    (function () {
+      if ( typeof window.CustomEvent === "function" ) return false;
+        function CustomEvent ( event, params ) {
+          params = params || { bubbles: false, cancelable: false, detail: undefined };
+          var evt = document.createEvent( 'CustomEvent' );
+          evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+          return evt;
+       }
+
+       CustomEvent.prototype = window.Event.prototype;
+
+       window.CustomEvent = CustomEvent;
+    })();
