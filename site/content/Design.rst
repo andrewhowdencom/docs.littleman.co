@@ -20,6 +20,7 @@ In the order they appear on the page (top - bottom, left to right)
 ================= ========================================================
 Title             Description
 ----------------- --------------------------------------------------------
+Controls          Some series of interactive elements that prompt action.
 Masthead          Top, fixed bar with logo, quick-nav and so on.[1]
 QuickNav          Single line to bar with links to My Account, etc.
 ================= ========================================================
