@@ -1,4 +1,8 @@
-Below is the readme template!
+Some Nice "Readme":
+
+- https://github.com/tmrts/boilr
+
+Code (deprecated -- Use a boilr template)
 
 ..code::  
 
