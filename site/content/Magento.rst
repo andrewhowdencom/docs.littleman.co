@@ -7,6 +7,23 @@ Events
 
 Magento seems to handle the firing of events pretty intelligently, dispatching a new event after events that manipulate an objects data.
 
+Extensions
+----------
+
+Naming Standard
+'''''''''''''''
+
+The naming standard applies both to the system configuration
+
+========================= ================================================
+Name                      Usage
+------------------------- ------------------------------------------------
+Littlemanco_Extension     A released extension
+{Client}_Extension        A client specific extension or override
+========================= ================================================
+
+The naming standards also apply to system configuration. For example, the "vendor" bit should be the top level menu item in the left hand side of the system configuration.
+
 Naming Standard
 ---------------
 
@@ -21,10 +38,8 @@ After a validation            {prefix}_validate_after                           
 
 Tools
 -----
+
 Factory method type hinting: https://github.com/Vinai/phpstorm-magento-mapper
-
-
-Try not to use the folder. Magento related stuff should go in here.
 
 Hosting
 -------
@@ -38,12 +53,9 @@ Sessions
 
     It's tempting to use the same Redis instance for both the cache and the sessions to save on cost. However, becuase the redis instance evicts volatile keys by round robin and there are far less sessiosn then cache entries, you're liable to terminate peoples sessions when your cache starts filling up [redis_sessions]_
 
-Templates
----------
-See HTML.rst
-
 Product Collections
 -------------------
+
 - Should the products be filtered by the current store scope?
 
 Suggested Modules
@@ -57,7 +69,8 @@ https://github.com/ericthehacker/magento-phpnativepasswords  PHP Native password
 
 Security
 --------
-Do the following folders return standard 404 code?
+
+Do the following folders return a HTTP 404 response?
 
 - /app
 
