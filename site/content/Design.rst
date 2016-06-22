@@ -25,6 +25,14 @@ Masthead          Top, fixed bar with logo, quick-nav and so on.[1]
 QuickNav          Single line to bar with links to My Account, etc.
 ================= ========================================================
 
+Fonts
+-----
+
+Blacklist
+"""""""""
+
+- Futura Bold (shitty kerning)
+
 Overview
 ---------
 
