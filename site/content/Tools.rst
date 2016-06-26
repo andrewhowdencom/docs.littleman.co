@@ -2,6 +2,10 @@
 Tools
 =====
 
+<foo-bar>
+    <p>I wonder what happens to this text?</p>
+</foo-bar>
+
 Git
 ---
 
@@ -30,6 +34,16 @@ PHP
 | http://gordalina.github.io/cachetool/ | all                  | Allows manipulating the APC Cache used by FPM via CLI           |
 | http://magerun.net/                   | all                  | Allows manipulating various Magento functions via the CLI       |
 +---------------------------------------+----------------------+-----------------------------------------------------------------+
+
+Search
+------
+
+===================================== ==================================================== =============================================================================
+Name                                  URL                                                  Description
+------------------------------------- ---------------------------------------------------- -----------------------------------------------------------------------------
+ag                                    https://github.com/ggreer/the_silver_searcher
+tag                                   https://github.com/aykamko/tag                       Instantly jump to your ag matches
+===================================== ==================================================== =============================================================================
 
 TLS
 ---
