@@ -2,6 +2,15 @@
 Monitoring
 ==========
 
+Alerting
+--------
+
+Alerts should be SAR, where SAR is:
+
+-[S]ignal - The metric should be precise, timely and accurate
+-[A]ctionable - There should be an immediate thing you can do to resolve this alert (aside from ACK)
+-[R]elevancy - Give as much information you can from each given alarm
+
 Performance Monitoring
 ----------------------
 
