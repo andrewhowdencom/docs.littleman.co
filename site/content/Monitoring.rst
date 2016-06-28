@@ -6,6 +6,7 @@ Performance Monitoring
 ----------------------
 
 - Check for metric absense as well as metric thresholds. Communication errors is not a good excuse for no alerts!
+- Metrics should be described everywhere, in a few sentences. If there's no description, or if the description is ambiguous, there's a good chance it's a crap check.
 
 Event Logging
 ----------------
@@ -36,17 +37,17 @@ Field           Description
 | ```code```        | 200                                                                    |
 | ```severity```    | EMERG, ALERT, CRIT, WARNING, NOTICE, INFO, DEBUG                       |
 | ```payload```     | "This is an event"                                                     |
-| ```service```     | "Nginx", "Magento"                                                     | 
+| ```service```     | "Nginx", "Magento"                                                     |
 | ```user_id```     | 58                                                                     |
 | ```time```        | 2015-05-01 15:00:00 (common log format)                                |
-| ```version```     | 1.0.8 -- The current version of log info.                              | 
+| ```version```     | 1.0.8 -- The current version of log info.                              |
 ================ =============================================================================
 
 ### Web Event
 
 | Field            | Description                                                            |
 |:----------------:|:----------------------------------------------------------------------:|
-| ```url```        | http://howden.io/en/derp                                               | 
+| ```url```        | http://howden.io/en/derp                                               |
 | ```request_id``` | ```16fd2706-8baf-433b-82eb-8c7fada847da```                             |
 | ```remote_addr```| 127.0.0.1                                                              |
 
@@ -121,7 +122,7 @@ Hourly
 ''''''
 
 - 301 on / via HTTP
-- APIs the site might use such as 
+- APIs the site might use such as
   - Mailchimp
   - Google Address Autocomplete
   - Payment Gateways
