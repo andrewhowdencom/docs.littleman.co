@@ -27,6 +27,22 @@ Prompted Reporting
 
 Provide a form to submit for any other error codes.
 
+Tracking
+--------
+
+Use labels to indicate a ticket status, and a binary ticket state -- "open" being needs attention, and "closed" being "will not be revisited unless it's not resolved".
+
+Labels could be "Needs Triage", "Mitigated", "Needs Rca" etc.
+
+Assigned Labels
+"""""""""""""""
+
+=========================== ==========================
+Label                       Meaning
+--------------------------- --------------------------
+Needs triage                Hasn't been looked at yet
+=========================== ==========================
+
 Communication
 -------------
 
