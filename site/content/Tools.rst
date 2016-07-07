@@ -28,6 +28,7 @@ Image Optimisation
 ------------------
 
 https://github.com/imazen/imageflow
+https://github.com/rflynn/imgmin
 
 Magento
 -------
