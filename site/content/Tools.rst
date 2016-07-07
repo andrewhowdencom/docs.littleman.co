@@ -24,6 +24,11 @@ Name                                  URL                                       
 lgtm                                  https://github.com/lgtmco/lgtm                       Prevents the merging of branches until a reviewer marks the request with LGTM
 ===================================== ==================================================== =============================================================================
 
+Image Optimisation
+------------------
+
+https://github.com/imazen/imageflow
+
 Magento
 -------
 
