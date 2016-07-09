@@ -15,5 +15,5 @@ data:
          valid_status_codes: [ 200 ]
          method: GET
          headers:
-           Host: docs.littlman.co 
+           Host: docs.littleman.co 
          no_follow_redirects: false
