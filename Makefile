@@ -56,6 +56,7 @@ apply-%:
 	cat deploy/all/kubernetes/* | sed 's/{{GIT_HASH}}/${GIT_HASH}/'
 
 deploy-container-%: build-container-% push-container-% apply-%## Pushes a container to GCR. Will eventually update Kubernetes
+	echo "Deployed" # Dirty hax to make this make target work
 
 preview: ## Starts a hugo server that watches build changes
 	cd site && hugo server
