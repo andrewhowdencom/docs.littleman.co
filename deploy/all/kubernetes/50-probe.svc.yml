@@ -9,11 +9,11 @@ metadata:
     prometheus.io/scrape: "true"
     prometheus.io/path: "/probe?target=docs.littleman.co&module=http_2xx"
   labels:
-    application: "blackbox-exporter"
+    application: "blackbox"
     role: "probe"
 spec:
   selector:
-    application: "blackbox-exporter"
+    application: "blackbox"
     role: "probe"
   ports:
     - protocol: "TCP"
