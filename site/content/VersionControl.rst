@@ -17,17 +17,18 @@ Standard Layout
 ---------------
 
 .. Code:: 
-
-  .arclint               # [ALWAYS] Lint runner. Always in the repo
-  _output/               # [BINARY] Output for binary files
-  .scss-lint             # [SCSS] scss-linter.
-  ./build/               # [ALWAYS] Used to hold build requirements
-  ./CHANGELOG.rst        # [ALWAYS]
-  ./composer.json        # [PHP]
-  ./deploy/              # [DEPLOYABLE] Used to hold deployment configuration
-  ./LICENSE.txt          # [ALWAYS]
-  ./README.rst           # [ALWAYS]
-  ./tests/               # [ALWAYS]
+  .arclint                                               # [ALWAYS] Lint runner. Always in the repo
+  _output/                                               # [BINARY] Output for binary files
+  .scss-lint                                             # [SCSS] scss-linter.
+  ./build/                                               # [ALWAYS] Used to hold build requirements
+  ./CHANGELOG.rst                                        # [ALWAYS]
+  ./composer.json                                        # [PHP]
+  ./deploy/                                              # [DEPLOYABLE] Used to hold deployment configuration
+    ./(all|prd|stg|lcl)/                                 #
+      ./kubernetes                                       #
+  ./LICENSE.txt                                          # [ALWAYS]
+  ./README.rst                                           # [ALWAYS]
+  ./tests/                                               # [ALWAYS]
 
 Links
 -----
