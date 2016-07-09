@@ -43,7 +43,7 @@ spec:
         volumeMounts:
         - name: "etcssl"
           readOnly: true
-          mountPath: "/etc/ssl"
+          mountPath: "/etc/tls"
         livenessProbe:
           httpGet:
             # Path to probe; should be cheap, but representative of typical behavior
