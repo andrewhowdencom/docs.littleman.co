@@ -96,7 +96,8 @@ Scripts
 
 Deployment Process
 ```````````````````
-
+- Create new resources
+- Delete old resources - This might stay in the process for a while.
 - Tag each deployed commit with a deployment number (deployment-0001)
 - Annotate each deployment with "Successfully Deployed" or "Failed Deployment"
 
