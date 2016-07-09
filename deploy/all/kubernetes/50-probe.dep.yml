@@ -38,6 +38,7 @@ spec:
         - containerPort: 9115
           protocol: "TCP"
           name: "http"
+	volueMounts:
         - name: "probe-config"
           readOnly: false
           mountPath: "/config"
