@@ -51,6 +51,11 @@ Any new problems that may arise as a result of the proposal, as well as how they
   - List problems that don't yet have a solution. It should be avoided if possible, however sometimes its good to open it for discussion.
   - Rate each problem on a likert scale (noted earlier)
 
+Other examples where this proposal has succeeded outside this domain
+--------------------------------------------------------------------
+
+Things like SIG => Kubernetes, Hugo => ... shitloads of stuff.
+
 Risks
 -----
 
