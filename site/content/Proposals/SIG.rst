@@ -31,28 +31,49 @@ Some concrete examples of this are:
 Proposal
 --------
 
+Members of the business team form Special Interest Groups (SIGs) that are responsible for deciding the policy and 
+building the tools to allow implementation of policy or technology that concerns the SIG. SIGs would be the primary
+vehicle through which new policy was decided in an area that concerned the SIG, and members of the team would be
+able to freely join any SIG they please.
+
 Design
 ------
 
+Responsibilities
+````````````````
+
+The SIG would be responsible for the 
+
+Decision Making Process
+```````````````````````
+
+- Mirror existing decision making process
 - Proposals
 - Decisions stored in GIT
 
 Problems
 --------
 
+SIG members stalemate on a vote
+```````````````````````````````
+
+Given that all decisions are made by vote, it's possible that an even number of members (such as 2) will disagree with
+each other, leading to blocked policy and rendering the SIG ineffective.
+
+To resolve this issue, there must be an uneven number of voting members for all SIGs (1, 3). If a new member joins a SIG
+and makes the number even, that member will not have voting power until an additional member joins.
+
 Managers cannot influence decisions
 ```````````````````````````````````
 
 Sometimes managers need to, for entirely reasonable reason that are out of scope for the SIG (perhaps monetary or
-contractual). However, the nature of the SIG means that no single person, including a manager can have any more 
-than a single vote to deside the outcomes.
+contractual) prevent certain actions. However, the nature of the SIG means that no single person, including a manager,
+can have any more than a single vote to decide the outcomes.
 
-Resolution
-``````````
-
-The SIG is designed to provide the framework and tools required to make the SIG specified policy trivial to implement. 
-The manager can halt this implementation, at which time the SIG will be required to revisit it's policy and decide
-whether to continue with this line of inquiry
+To resolve this issue, we limit the SIG responsibility to build the framework and tools required to make the SIG 
+specified policy trivial to implement. The manager can halt this implementation (but not the development of the tools 
+or policy), at which time the SIG will be required to revisit it's policy and decide whether to continue with this line 
+of inquiry
 
 Example SIGs
 - Social Events
