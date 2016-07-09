@@ -7,7 +7,7 @@ metadata:
     application: "letsencrypt"
     role: "webserver"
   name: "tls"
-  namespace: "letsencrypt-littleman-co"
+  namespace: "docs-littleman-co"
 spec:
   replicas: 1
   selector:
@@ -25,35 +25,25 @@ spec:
         application: "letsencrypt"
         role: "webserver"
     spec:
-      # volumes:
-      # - name: "tls-etc-conf-d"
-      # configMap:
-      #   name: "tls-etc-conf-d"
-      # - name: "tls-data"
-      #   hostPath:
-      #     path: /data/tls/
       containers:
       - name: "letsencrypt"
-        # env:
-        # - name: "FOO"
-        #   value: "BAR"
-        image: "ployst/letsencrypt:latest" # Todo: Update this
+        env:
+        - name: "EMAIL"
+          value: "hello@andrewhowden.com"
+        - name: "DOMAINS"
+          value: "docs.littleman.co"
+        - name: "DEPLOYMENTS"
+          value: "webserver"
+        - name: "SECRET_NAME"
+          value: "tls-certificates"
+        - name: "NAMESPACE"
+          value: "docs-littleman-co"
+        image: "ployst/letsencrypt:latest"
         imagePullPolicy: "Always"
-        # args:
-        #   - "command"
-        #   - "line" 
-        #   - "arguments"
         ports:
         - containerPort: 80
           protocol: "TCP"
           name: "http"
-        # volumeMounts:
-        # - name: "tls-etc-conf-d"
-        #   readOnly: true
-        #   mountPath: "/etc/tls/conf.d"
-        # - name: "tls-data
-        #   readOnly: false
-        #   mountPath: "/data"
         livenessProbe:
           tcpSocket:
             port: 80          
