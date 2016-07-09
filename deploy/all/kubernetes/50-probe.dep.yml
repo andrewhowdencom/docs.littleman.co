@@ -26,7 +26,6 @@ spec:
         role: "probe"
     spec:
       volumes:
-      configMap:
       - name: "probe-config"
         configMap:
           name: "config"
@@ -38,10 +37,10 @@ spec:
         - containerPort: 9115
           protocol: "TCP"
           name: "http"
-        volueMounts:
-          - name: "probe-config"
-            readOnly: false
-            mountPath: "/config"
+        volumeMounts:
+        - name: "probe-config"
+          readOnly: false
+          mountPath: "/config"
         livenessProbe:
           httpGet:
             # Path to probe; should be cheap, but representative of typical behavior
