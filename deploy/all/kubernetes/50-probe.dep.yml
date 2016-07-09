@@ -31,7 +31,7 @@ spec:
           name: "config"
       containers:
       - name: "blackbox"
-        image: "prom/blackbox:latest" # Todo: Update this
+        image: "prom/blackbox-exporter:latest" # Todo: Update this
         imagePullPolicy: "Always"
         args:
         - "-config.file=/config/blackbox.yml"
