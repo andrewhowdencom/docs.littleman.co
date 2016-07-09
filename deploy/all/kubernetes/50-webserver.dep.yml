@@ -31,7 +31,7 @@ spec:
             secretName: tls-certificates
       containers:
       - name: "nginx"
-        image: "gcr.io/littlemanco/webserver:{{GIT_HASH}}" 
+        image: "gcr.io/littleman-co/webserver:{{GIT_HASH}}" 
         imagePullPolicy: "IfNotPresent"
         ports:
         - containerPort: 80
