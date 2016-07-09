@@ -39,9 +39,9 @@ spec:
           protocol: "TCP"
           name: "http"
         volueMounts:
-        - name: "probe-config"
-          readOnly: false
-          mountPath: "/config"
+          - name: "probe-config"
+            readOnly: false
+            mountPath: "/config"
         livenessProbe:
           httpGet:
             # Path to probe; should be cheap, but representative of typical behavior
