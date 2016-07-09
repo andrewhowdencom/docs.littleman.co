@@ -7,6 +7,17 @@ A summary of the proposal, including description, benefits, risks and estimated 
   - Keep this short.
   - Pique Interest.
 
+Probably better to write this last.
+
+Definitions
+-----------
+
+================ ======================================================================================
+Word             Description
+---------------- --------------------------------------------------------------------------------------
+Software         Something that runs on a computer, that accomplishes some task in a deterministic way.
+================ ======================================================================================
+
 Problem Description
 -------------------
 
