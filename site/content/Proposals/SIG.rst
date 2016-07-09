@@ -28,6 +28,32 @@ Some concrete examples of this are:
   - The planning of social activities in a business environment
   - The undertaking of changes to business process
 
+Proposal
+--------
+
+Design
+------
+
+- Proposals
+- Decisions stored in GIT
+
+Problems
+--------
+
+Managers cannot influence decisions
+```````````````````````````````````
+
+Sometimes managers need to, for entirely reasonable reason that are out of scope for the SIG (perhaps monetary or
+contractual). However, the nature of the SIG means that no single person, including a manager can have any more 
+than a single vote to deside the outcomes.
+
+Resolution
+``````````
+
+The SIG is designed to provide the framework and tools required to make the SIG specified policy trivial to implement. 
+The manager can halt this implementation, at which time the SIG will be required to revisit it's policy and decide
+whether to continue with this line of inquiry
+
 Example SIGs
 - Social Events
 - Monitoring and Logging
