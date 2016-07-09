@@ -96,9 +96,16 @@ Scripts
 
 Deployment Process
 ```````````````````
+
+..Tip:: 
+ 
+    Things are created before they are deleted as Kubernetes can "adopt" pods that were previously matched under one deployment, but that also match under the new deployment.
+    Deleting things first might mean we delete good services, only to recreate them shortly after.
+
 - Create new resources
 - Delete old resources - This might stay in the process for a while.
 - Tag each deployed commit with a deployment number (deployment-0001)
 - Annotate each deployment with "Successfully Deployed" or "Failed Deployment"
+
 
 
