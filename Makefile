@@ -53,7 +53,7 @@ deploy: ## Push an update to Kube for the current build
 	kubectl rolling-update webserver --image=gcr.io/${GCR_PROJECT}/nginx:${GIT_HASH}
 
 apply-%:
-	cat deploy/all/kubernetes/* | sed 's/{{GIT_HASH}}/${GIT_HASH}/'
+	cat deploy/all/kubernetes/* | sed 's/{{GIT_HASH}}/${GIT_HASH}/' | kubectl apply -f - 
 
 deploy-container-%: build-container-% push-container-% apply-%## Pushes a container to GCR. Will eventually update Kubernetes
 	echo "Deployed" # Dirty hax to make this make target work
