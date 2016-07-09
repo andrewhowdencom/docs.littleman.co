@@ -39,10 +39,21 @@ able to freely join any SIG they please.
 Design
 ------
 
+Charter
+```````
+
+A SIG will have a charter that outlines a limited set of things it's responsible for. Changes in responsiblity should be 
+coordinated with other SIGs, management and other concerned parties.
+
 Responsibilities
 ````````````````
 
-The SIG would be responsible for the 
+The SIG would be responsible for the following:
+
+- Investigating policy changes in it's concerned area
+- Creating proposals that affect general business process
+- Approving those processes 
+- 
 
 Decision Making Process
 ```````````````````````
