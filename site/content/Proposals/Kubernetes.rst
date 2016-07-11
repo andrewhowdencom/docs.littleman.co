@@ -16,3 +16,6 @@ Nice things that Kubernetes is
 
 - Supported by Google
 - Built in support from lots of other people (Prometheus, CoreOS)
+
+Nice things that Kubernetes does locally
+- Doesn't need crazy proxying through NGINX to make life easier
