@@ -24,6 +24,10 @@ spec:
       labels:
         application: "blackbox"
         role: "probe"
+      annotations:
+        prometheus.io/blackbox: "true"
+        prometheus.io/target: "docs.littleman.co"
+        prometheus.io/module: "http_2xx"
     spec:
       volumes:
       - name: "probe-config"
