@@ -28,6 +28,7 @@ spec:
         prometheus.io/blackbox: "true"
         prometheus.io/target: "docs.littleman.co"
         prometheus.io/module: "http_2xx"
+        prometheus.io/port: "9115"
     spec:
       volumes:
       - name: "probe-config"
