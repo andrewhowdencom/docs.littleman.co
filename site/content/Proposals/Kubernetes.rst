@@ -2,6 +2,10 @@
 Adopt Kubernetes as the infrastructure management tool
 ======================================================
 
+Breif Overview into why containers
+- Sealed environments, the same from dev to prod
+- Introspectable, we can automatically scan for various vulnerabilities through something like clair
+
 Nice things that Kubernetes does:
 
 - Handles resource requirements & scheduling
@@ -35,3 +39,6 @@ Problems that Kubernetes makes easier?
 - Automated, end to end deployments with smoke-screen testing.
 - Canary deployments through multiple release tracks (multiple deployments)
 - How do we know what's running in production? (if everything runs on Kubernetes, we can just ask it)
+
+References:
+- http://queue.acm.org/detail.cfm?id=2898444
