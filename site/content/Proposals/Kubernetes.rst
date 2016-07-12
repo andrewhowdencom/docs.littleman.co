@@ -34,3 +34,4 @@ Problems that Kubernetes makes easier?
 - Monitoring, more generally
 - Automated, end to end deployments with smoke-screen testing.
 - Canary deployments through multiple release tracks (multiple deployments)
+- How do we know what's running in production? (if everything runs on Kubernetes, we can just ask it)
