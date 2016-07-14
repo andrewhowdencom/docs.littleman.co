@@ -44,6 +44,11 @@ Problems that Kubernetes makes easier?
 - Canary deployments through multiple release tracks (multiple deployments)
 - How do we know what's running in production? (if everything runs on Kubernetes, we can just ask it)
 
+Ready to go solutions
+---------------------
+
+Selenium-  https://github.com/kubernetes/kubernetes/tree/master/examples/selenium
+
 Overcoming Objections
 ---------------------
 
