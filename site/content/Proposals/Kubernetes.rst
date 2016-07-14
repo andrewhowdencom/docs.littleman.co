@@ -8,6 +8,7 @@ Breif Overview into why containers
 
 Nice things that Kubernetes does:
 
+- Discovery
 - Handles resource requirements & scheduling
 - Complex, but not much more so for 1000 machines vs 1
 - Handles service registration, node readyness check and trivial load balancing
@@ -15,6 +16,7 @@ Nice things that Kubernetes does:
 - Container first. 
   - Same runtime from dev to prod
 - Open Source
+- Supports multiple Availablity zones (http://kubernetes.io/docs/admin/multiple-zones/) and schedules pods to mitigate loss of one zone.
 
 Nice things that Kubernetes is
 
@@ -23,6 +25,7 @@ Nice things that Kubernetes is
 - Has an excellent API. Because it appears easy to instrument around and is very well document, it's likely to get first class support from third party applications.
 - Has service discovery which can be built on top of (Prometheus does this, for example)
 - Has labels, which are a nice abstraction around service discovery
+- Almost stateless (all state is in etcd, everything else queries the apiserver)
 
 Nice things that Kubernetes does locally
 - Doesn't need crazy proxying through NGINX to make life easier
