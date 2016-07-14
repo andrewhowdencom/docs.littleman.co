@@ -43,5 +43,16 @@ Problems that Kubernetes makes easier?
 - Canary deployments through multiple release tracks (multiple deployments)
 - How do we know what's running in production? (if everything runs on Kubernetes, we can just ask it)
 
+Overcoming Objections
+---------------------
+
+"We're not that big"
+""""""""""""""""""""
+
+No, probably not. However, introducing Docker makes life more complex already. We must either hand solve problems such as babysitting containers (service monitoring), routing and the rest or we can use a solution that, while initially complex, scales as easily from 1 node to a few hundred. 
+
+Plus, multi application deployment means that we're on the cusp of it being justified. As soon as more then one application is deployed (Ecommerce + product management) we get to reuse the same compute, which immediately drops the price (or allows us to buy larger compute), and mitigate risk.
+
+
 References:
 - http://queue.acm.org/detail.cfm?id=2898444
