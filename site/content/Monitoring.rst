@@ -2,6 +2,8 @@
 Monitoring
 ==========
 
+NOTE: This should only provide a general overview of logging. Specific logging guidelines should go in the related application page.
+
 Alerting
 --------
 
@@ -29,7 +31,7 @@ Style
 Structure    Guideline
 ------------ -------------------
 Case         ```snake_case```
-================================
+============ ===================
 
 Base Log Information
 ''''''''''''''''''''
@@ -107,6 +109,10 @@ Service Usage Information <sup>[1]</sup>
 - NGINX
 - Sensu
 - PHP
+
+Tools
+-----
+https://github.com/google/mtail - Generate metrics from logs
 
 Account Monitoring
 ------------------
