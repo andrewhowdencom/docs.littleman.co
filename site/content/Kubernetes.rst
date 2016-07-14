@@ -4,6 +4,12 @@ Kubernetes
 
 Consistently use the abbreviations, where they're provided.
 
+Monitoring
+----------
+
+num_unscheduled_pods // Todo: See if this exists already in prometheus
+num_nodes
+
 Naming Standards
 ----------------
 
