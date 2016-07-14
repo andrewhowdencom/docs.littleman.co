@@ -26,6 +26,7 @@ Nice things that Kubernetes is
 - Has service discovery which can be built on top of (Prometheus does this, for example)
 - Has labels, which are a nice abstraction around service discovery
 - Almost stateless (all state is in etcd, everything else queries the apiserver)
+- Design for handling transient workloads that can be registered as services (think: Selenium standalone containers running in parallel)
 
 Nice things that Kubernetes does locally
 - Doesn't need crazy proxying through NGINX to make life easier
