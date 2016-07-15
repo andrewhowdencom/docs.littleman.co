@@ -36,6 +36,19 @@ Prior to a validation         {prefix}_validate_before                          
 After a validation            {prefix}_validate_after                                       `array('object' => ${Validation Object}, 'isValid' => {bool})`
 ============================= ============================================================= ==============================================================
 
+Upgrade Process
+---------------
+
+Notification
+""""""""""""
+
+- Create a notice that indicates a new version is available, with a link to the release notes.
+
+Post
+""""
+
+- Create a notice that indicates an upgrade has taken place, with a link to release notes.
+
 Tools
 -----
 
