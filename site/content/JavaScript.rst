@@ -81,6 +81,8 @@ Directory Structure
 Polyfills
 ---------
 
+https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills
+
 ========================== =========================================================
 Action                     Polyfill
 -------------------------- ---------------------------------------------------------
@@ -106,3 +108,34 @@ CustomEvent
 
        window.CustomEvent = CustomEvent;
     })();
+
+Reviewing
+---------
+
+Feature Detection
+"""""""""""""""""
+
+Specifically, is graceful degradation in place for APIs that the user:
+
+- Might not have
+- Might deny
+
+Some common ones are: [a]_
+
+- geolocation
+- notifications
+- push
+- midi
+- camera
+- microphone
+- speaker
+- device-info
+- background-sync
+- bluetooth
+- persistent storage
+
+References
+----------
+
+.. [a]: https://w3c.github.io/permissions/#permission-registry
+
