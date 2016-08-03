@@ -1,6 +1,11 @@
 Inputs
 ------
 
+Summary
+-------
+
+Linter: https://validator.github.io/validator/#usage
+
 Can that input be replaced with a simpler version? (text with select, select with radio etc)
 
 Forms
