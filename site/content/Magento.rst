@@ -77,8 +77,8 @@ Suggested Modules
 ============================================================================== ============================================================ ===================================================
 Where                                                                          What                                                         Why
 ------------------------------------------------------------------------------ ------------------------------------------------------------ ---------------------------------------------------
-https://github.com/ericthehacker/magento-phpnativepasswords  PHP Native password hashing                                  Magento uses MD5 natively (It's insecure)
-https://github.com/nexcess/magento-sentry-two-factor-authentication 2 Factor Auth
+https://github.com/ericthehacker/magento-phpnativepasswords                    PHP Native password hashing                                  Magento uses MD5 natively (It's insecure)
+https://github.com/nexcess/magento-sentry-two-factor-authentication            2 Factor Auth
 ============================================================================== ============================================================ ===================================================
 
 Security
