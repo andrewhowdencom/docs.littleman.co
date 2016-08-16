@@ -2,6 +2,11 @@
 Documentation
 =============
 
+Notice
+------
+
+People getting to documentation is essentially a kind of failure - the application wasn't simple or clear enough that they could intuitively work it out. We want to avoid such failures - make a notice at the top of all documentation that says "We're sorry you had to come here. Please, help us work out how to avoid having to consult the docs"
+
 The preferred documentation syntax is ReST, as is quite a bit richer.
 
 Contribution
