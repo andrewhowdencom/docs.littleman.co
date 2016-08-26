@@ -5,6 +5,7 @@ Factory Pattern JavaScript file
 Todo
 ----
 - Allow disabling whatever plgin (just provide a method that's like obj.disable());
+- Add a no conflict to both factory methods
 - It would be nice to introduce a soft dependency on FastDom (or just include the requestAnimationFrame API). See http://xion.io/post/code/requirejs-optional.html
 - Implement and test the common.js dependency pattern. https://raw.githubusercontent.com/antennaio/jquery-bar-rating/master/jquery.barrating.js
 - I think the jQuery requirement is incorrect.
