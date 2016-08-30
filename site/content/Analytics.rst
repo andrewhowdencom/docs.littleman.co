@@ -11,6 +11,13 @@ Build Time
 - https://github.com/sitespeedio/coach (Site Speed)
 - https://github.com/GoogleChrome/lighthouse (Progressiveness)
 
+Usage
+'''''
+
+- Google Analytics
+  - Set the user ID
+  - Set the HTTP status code
+
 User
 ----
 
