@@ -24,8 +24,24 @@ Canonical JavaScript Stacks
   https://github.com/hakimel/reveal.js/
 - GPG https://github.com/openpgpjs/openpgpjs/releases
 
-Experimental JavaScript libraries
----------------------------------
+Console
+-------
+
+The JavaScript console is an extremely useful debugging tool for the browser. Further, it's rarely viewed by end-users unless they have a developer bent. So, as standard fare, a hiring notice should be displayed as part of the console. An example notice is below:
+
+.. Code:: 
+
+  ============
+  We're hiring
+  ============
+
+  Hey, you've found the console! That's pretty cool. Are you seeing anything weird going on here? Help us fix it! 
+  We're always looking for new engineers to help us improve our services. You can find more information on the 
+  positions we have available at the URL below:
+
+  https://www.littleman.co/careers/
+
+  (Protip: This notice is pretty weird. That qualifies - so, apply!)
 
 Docblocks
 ---------
