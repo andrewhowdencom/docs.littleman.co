@@ -1,0 +1,28 @@
+==========
+Humans.txt
+==========
+
+This is quite a niche file, almost like a tongue and cheek ribbing of robots.txt.
+
+Format
+------
+
+.. Code:: 
+
+  This site was made with <3 by the team at littleman.co. Those who have contributed include (but are not limited to):
+
+  - John Citizen
+  - Jane Citizen
+  - Joseph Citizen
+
+  This site uses a number of open source technologies and we're infinitely grateful to the maintainers of that software.
+
+  *** We're Hiring ***
+
+  Join us! We're passionate about making fast, secure, beautiful websites that are focused on the user. If you'd also like to do that, check out the URL below:
+
+  https://www.littleman.co/careers/
+
+
+
+
