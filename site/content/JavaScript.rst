@@ -3,6 +3,7 @@ Canonical JavaScript Stacks
 
 - Dependency Management
   - [Core] http://requirejs.org/
+  - [Core] https://github.com/requirejs/alameda-prim
 - Disabling double tap on mobile
   - Modify the viewport, wrap in feature detection
   - [Polyfill] Fastclick
