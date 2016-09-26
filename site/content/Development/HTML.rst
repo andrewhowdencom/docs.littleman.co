@@ -5,6 +5,7 @@ Summary
 -------
 
 Linter: https://validator.github.io/validator/#usage
+Linter: https://github.com/htmllint/htmllint
 
 Can that input be replaced with a simpler version? (text with select, select with radio etc)
 
