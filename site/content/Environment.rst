@@ -49,6 +49,12 @@ OS           Debian Linux
 Desktop      GNOME 3
 CLI          jq (https://github.com/stedolan/jq/releases)
 CLI          git scmpuff (https://github.com/mroth/scmpuff)
+--
+boilr
+httpstat
+git
+vim
+PHPStorm
 ============ =====================================================================
 
 Backups
