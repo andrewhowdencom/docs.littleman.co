@@ -26,9 +26,9 @@ spec:
         role: "webserver"
     spec:
       volumes:
-        - name: "etcssl"
+        - name: "tls-docs-littleman-co"
           secret:
-            secretName: tls-certificates
+            secretName: "tls-docs-littleman-co"
       containers:
       - name: "nginx"
         image: "gcr.io/littleman-co/webserver:{{GIT_HASH}}" 
@@ -41,9 +41,9 @@ spec:
           protocol: "TCP"
           name: "https"
         volumeMounts:
-        - name: "etcssl"
+        - name: "tls-docs-littleman-co"
           readOnly: true
-          mountPath: "/etc/tls"
+          mountPath: "/etc/tls/docs-littleman-co"
         livenessProbe:
           httpGet:
             # Path to probe; should be cheap, but representative of typical behavior
