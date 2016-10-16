@@ -49,6 +49,7 @@ OS           Debian Linux
 Desktop      GNOME 3
 CLI          jq (https://github.com/stedolan/jq/releases)
 CLI          git scmpuff (https://github.com/mroth/scmpuff)
+CLI          lego (https://github.com/xenolf/lego)
 --
 boilr
 httpstat
