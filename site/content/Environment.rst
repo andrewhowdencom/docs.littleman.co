@@ -56,6 +56,8 @@ httpstat
 git
 vim
 PHPStorm
+eslint
+yamllint
 ============ =====================================================================
 
 Backups
