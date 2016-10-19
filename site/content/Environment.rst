@@ -37,6 +37,15 @@ Security
 - Disable root login
 - All users must have a Yubikey, and must log in with it with HMAC-SHA1 challenge-response
 
+SSH
+"""
+
+Disable password SSH::
+
+    ChallengeResponseAuthentication no
+    PasswordAuthentication no
+    UsePAM no
+
 Software
 --------
 
