@@ -42,9 +42,9 @@ SSH
 
 Disable password SSH::
 
+    # /etc/sshd/ssh_config
     ChallengeResponseAuthentication no
     PasswordAuthentication no
-    UsePAM no
 
 Software
 --------
